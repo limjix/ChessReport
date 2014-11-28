@@ -68,11 +68,11 @@ The FOVEROS Chess Engine project is an engine built in MATLAB that encompasses t
 \setlength{\parindent}{6ex}
 \indent\indent The history of chess spans several centuries back to India, where it is believed to have originated in the 6th century. Chess in its current form came into being around the early 1500’s. With the rise of modern technology, chess is naturally the game of choice to demonstrate the implications of increased processing power in computers. 
 
-Chess has fascinated game theorists because it is deterministic which means that there can only be 1 winning side. It is also a game of perfect information, meaning that all the information is available to the player to make the best decision to move. This adversarial game also has well defined and rigid rules which limit movements to a relatively small number making it ideal for modelling.\cite{chess1}
+Chess has fascinated game theorists because it is deterministic which means that there can only be 1 winning side. It is also a game of perfect information, meaning that all the information is available to the player to make the best move. This adversarial game also has well defined and rigid rules which limit movements to a relatively small number making it ideal for modelling.\cite{chess1}
  
 With the development of early computers in 1950’s, the race was on to develop the ultimate chess engine that would never be beaten by a human player. Alan Turing wrote the first ever computer chess game in 1950. In 1996, Deep Blue won a match against Garry Kasparov. It was the first time a chess engine had beaten a reigning world champion.
  
-Chess engines adopt a brute for approach. Therefore, development of chess engines tie together a broad range of topics, improve the understanding of tree searching algorithms and its optimisations, logical thought processes behind the game as well as a deeper understanding of computational thought and Artificial Intelligence(AI).
+Chess engines adopt a brute force approach. Therefore, development of chess engines tie together a broad range of topics, improve the understanding of tree searching algorithms and its optimisations, logical thought processes behind the game as well as a deeper understanding of computational thought and Artificial Intelligence(AI).
 
 
 
@@ -96,21 +96,21 @@ Chess engines adopt a brute for approach. Therefore, development of chess engine
 
 \newpage
 \section{Overview}
-\indent\indent The architecture of the system is split into 2 parts, the frontend and the backend. The frontend consists of the Mdp\_Chessboard package provided to us which is the basis for the board graphics that is displayed. The frontend initialises a structured variable called B which contains info about the game as well as a 16 by 16 matrix that portrays the location of the chessboard pieces as the game progresses. 
+\indent\indent The architecture of the system is split into 2 parts, the frontend and the backend. The frontend consists of the Mdp\_Chessboard package which is the basis for the board graphics that is displayed. The frontend initialises a structured variable called $B$ which contains info about the game as well as a 16 by 16 matrix that portrays the location of the chessboard pieces as the game progresses. 
 \\*\\
 \indent The backend consists of 3 important variables that are initialised at the start of the game which are $chessboard$, $piece\_colour$, $num\_moves$. These are all 8 by 8 matrices that display the pieces as numbers and their relevant information. All manipulation and board calculations are carried out on the backend. The calculations of possible moves that can be made are also done in the backend.
 \\*\\
-\indent Communication between the backend and frontend occurs through a function called $readchessboard$. This function interprets the backend variables and creates a new B that represents the backend which is ready to be plotted.
+\indent Communication between the backend and frontend occurs through a function called $readchessboard$. This function interprets the backend variables and creates a new $B$ that represents the backend which is ready to be plotted.
 \\*\\
-\indent The reason why the backend variables was used in calculations rather than $B$ is because B is a structure and contains extra information which would be unnecessary for calculation and would slow the system down.
+\indent The reason why the backend variables were used in calculations rather than $B$ is because $B$ is a structure and contains extra information which would be unnecessary for calculation and would slow the system down.
 \\*\\
-\indent The game control system is linear. The player of the next term, whether it is the user or the AI, is determined by the function called after the end of a move.
+\indent The game control system is linear. The player of the next turn, whether it is the user or the AI, is determined by the function called after the end of a move.
 \subsection{Starting The Chess Engine}
 \indent \indent In order to run the game, type in "ChessGame" into the MATLAB console.
 \\*\\
-\indent During gameplay, it is possible to change Player Choice. In shifting to an AI player, a move must be made in order to activate the AI's move process. There are some known issues with shifting players midway. It is also possible to change the AI settings midway and see a different characteristic. The gain values Heuristic Analysis file can be changed to give different characteristics.
+\indent During gameplay, it is possible to change Player Choice. In shifting to an AI Vs Player game, a move must be made in order to activate the AI's move process. There are some known issues with shifting player choices midway. It is also possible to change the AI settings midway and see a different characteristic. The gain values Heuristic Analysis employs can be changed to give different characteristics.
 \\*\\
-\indent In AI Vs AI gameplay, to stop the recurring move process, this can be done by selecting the other 2 options that will halt the AI thought.
+\indent In AI Vs AI gameplay, to stop the recurring move process, any of the other 2 options can be selected. This will halt the AI's thought process.
 \newpage
 \section{Back-end}
 
@@ -216,7 +216,7 @@ However in the case of en passant, the move is not restricted to the first oppor
 \begin{subfigure}{0.5\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{Castling1}
-  \caption{Board shows possiblity of castling}
+  \caption{Board shows the possiblity of castling}
   \label{fig:sub1}
 \end{subfigure}%
 \begin{subfigure}{0.5\textwidth}
@@ -235,7 +235,7 @@ However in the case of en passant, the move is not restricted to the first oppor
 \begin{subfigure}{0.5\textwidth}
   \centering
   \includegraphics[width=0.91\linewidth]{Enpassant1}
-  \caption{Board shows possiblity of En passant}
+  \caption{Board shows the possiblity of En passant}
   \label{fig:sub1}
 \end{subfigure}%
 \begin{subfigure}{0.5\textwidth}
@@ -276,7 +276,7 @@ This function lends itself to the $KingCheck$ and $checkmate$ functions.
 The function $KingCheck$ uses the results of $analyseboard$ to determine if the king is in check. The king is in check when its position overlaps with the opponent’s potential moves. This function lends itself to the $checkmate$ function.
 
 \subsubsection{Checkmate Function}
-The function $checkmate$ determines if the current board is a checkmate state for the specified colour. This function generates all the possible moves searching for any legal moves that can be made. Even if one legal move exists, then the board is determined to not be in a state of checkmate.
+The function $checkmate$ determines if the current board is a checkmate state for the specified colour. This function generates all the possible moves while searching for any legal moves that can be made. Even if one legal move exists, then the board is determined to not be in a state of checkmate.
 \newline
 $checkmate$ assumes that the king is already in check and hence must always be paired with the $KingCheck$ function.
 
@@ -322,11 +322,11 @@ Line 8 – 14 : Determines the colour at play
 \\*\\
 Line 17 – 32: Determines the coordinates that player has chosen to move the piece and makes the relevant coordinate conversions for the backend.
 \\*\\
-Line 40 – 60: The move is done on a future board state to validate that the King will not left in check as a result of the move which constitutes and illegal move. This is where the different click functions will have function specific coordinate transformations to facilitate their purpose.
+Line 40 – 60: The move is done on a future board state to validate that the King will not be left in check as a result of the move, which constitutes an illegal move. This is where the different click functions will have function specific coordinate transformations to facilitate their purpose.
 \\*\\
 Line 73 – 75: If the move is valid, the future board state is saved as the accepted board state.
 \\*\\
-Line 77 – 94: Validates if the opposing King is in check as a result of the move and also validates of checkmate or stalemate have taken place.
+Line 77 – 94: Validates if the opposing King is in check as a result of the move and also validates if checkmate or stalemate has taken place.
 \\*\\
 Line 99 – 128: The board is redrawn to reflect the new board state.
 \\*\\
@@ -334,11 +334,11 @@ Line 131 – 138: Based on the user’s player choice, the next move is passed t
 
 
 \subsection{Graphical User Interface}
-The GUI is designed to show the relevant board stats and game messages. The user is able to select from different settings for the GUI. It also plots the scores on the graph to show the progression of both players with each turn.
+The GUI is designed to show the relevant board stats and game messages. The user is able to select from different settings for the GUI. It also plots the scores on a graph to show the progression of both players with each turn.
 \begin{figure}[H]
 \centering
 \includegraphics[width=1\textwidth]{GUI}
-\caption{FOVEROS Chess Engine GUI}
+\caption{The FOVEROS Chess Engine GUI}
 \label{fig:chess1}
 \end{figure}
 
@@ -346,15 +346,15 @@ The GUI is designed to show the relevant board stats and game messages. The user
 \section{Artificial Intelligence}
 
 \subsection{Brute Force Approach}
-\indent\indent The approach to implementing computer thought is through brute force calculations. The strength in computer systems lies in its ability to perform a large amounts of computation in a short period of time. Therefore, it has the ability to generate all future board states up to a certain depth. Depth is the number of turns ahead of the current board state that is generated. 
+\indent\indent The approach to implementing computer thought is through brute force calculations. The strength in computer systems lies in its ability to perform large amounts of computation in a short period of time. Therefore, it has the ability to generate all future board states up to a certain depth. Depth is the number of turns ahead of the current board state that is generated. 
 
 \subsubsection{Minimax Algorithm}
-\indent\indent The generation of board states must be aided by an algorithm to evaluate and save the best board states. This is an adversarial search problem where only 2 players are competing. In order to make the optimal decision for a certain player, the MiniMax strategy is used. The idea is that from a certain player’s perspective, the objective is to maximise the player’s advantage and to minimise the opponent’s advantage. The generation starts from the “Initial State” and branches out until it reaches the “Leaf Nodes” or “Terminal Nodes” where the board is evaluated and the results backed up the tree as the recursion unwinds.\cite{chess1}
+\indent\indent The generation of board states must be aided by an algorithm to evaluate and save the best board states. This is an adversarial search problem where only 2 players are competing. In order to make the optimal decision for a certain player, the MiniMax strategy is used. The idea is that, from a certain player’s perspective, the objective is to maximise his advantage and to minimise the opponent’s advantage. The generation starts from the “Initial State” and branches out until it reaches the “Leaf Nodes” or “Terminal Nodes” where the board is evaluated and the results backed up the tree as the recursion unwinds.\cite{chess1}
 \\*\\
-\indent Generation of board states however is a computationally expensive task especially to deeper depths. The branching factor can be defined as the number of children per node. The average branching factor for chess positions is 35 to 38 moves per position.  Therefore, 38\textsuperscript{2} (1,444) game states need to be evaluated at depth 2, 38\textsuperscript{3} (54,872) game states need to be evaluated at depth 3, 38\textsuperscript{4} (2,085,136) game states need to be evaluated at depth 4. It is clear that the number of game states will continue to grow at an exponential rate.\cite{chess2}
+\indent Generation of board states however is a computationally expensive task especially at greater depths. The branching factor can be defined as the number of children per node. The average branching factor for chess positions is 35 to 38 moves per position.  Therefore, 38\textsuperscript{2} (1,444) game states need to be evaluated at depth 2, 38\textsuperscript{3} (54,872) game states need to be evaluated at depth 3, 38\textsuperscript{4} (2,085,136) game states need to be evaluated at depth 4. It is clear that the number of game states will continue to grow at an exponential rate.\cite{chess2}
 
 \subsubsection{Alpha-Beta Pruning}
-\indent\indent An algorithm that “prunes” the search tree needs to use to eliminate parts of the tree that will have no effect on the final result of the tree. Alpha Beta pruning is a method to prune the search tree. Alpha is the maximum lower bound of the possible solutions and Beta is the minimum upper bound of the possible solutions. The search proceeds down to the first terminal node of the tree, the board score is backed up the tree and becomes either the alpha or beta value of the node above it depending on whether it is a minimum or maximum player. 
+\indent\indent An algorithm that “prunes” the search tree needs to eliminate parts of the tree that  have no effect on the final result of the tree. Alpha Beta pruning is one of the methods used to prune the search tree. Alpha is the maximum lower bound of the possible solutions and Beta is the minimum upper bound of the possible solutions. The search proceeds down to the first terminal node of the tree, the board score is backed up the tree and becomes either the alpha or beta value of the node above it depending on whether it is a minimum or maximum player. 
 
 \begin{figure}[H]
 \centering
@@ -368,7 +368,7 @@ The GUI is designed to show the relevant board stats and game messages. The user
 \indent By implementing Alpha Beta pruning with random move ordering, the average number of nodes to be evaluated will be dropped to $b^{3d/4}$ from $b^d$. This means that Alpha Beta pruning is able to perform a depth 4 calculation at roughly the same speed as a depth 3 without Alpha Beta pruning.\cite{chess4}
 
 \subsection{Generation of Moves}
-\indent\indent The function $AI\_GenerateAllMoves$ generates all nodes up to a certain depth, implements the MiniMax Algorithm and Alpha Beta pruning. The function does this via the recursion method where the function calls itself within its function. This is useful because in the MiniMax algorithm we require the values to be backed up the tree and recursion does that inherently.
+\indent\indent The function $AI\_GenerateAllMoves$ generates all nodes up to a certain depth, implements the MiniMax Algorithm and the Alpha Beta pruning. The function does this via the recursion method where the function calls itself within its body. This is useful because in the MiniMax algorithm we require the values to be backed up the tree and recursion does that inherently.
 \\*\\
 Line 1 – 15: Determines the colour at play
 \\*\\
@@ -388,7 +388,7 @@ Line 63 – 67: The coordinates of the possible moves are randomly permutated
 \\*\\
 Line 70 – 87: The potential future board state is generated.
 \\*\\
-Line 89 – 116: The board is evaluated for legality, if found to be illegal it will be ignored. If it is valid, the function calls itself again. The parameters passed are the new node and the depth is decreased. The alpha-beta pruning condition is also implemented here.
+Line 89 – 116: The board is evaluated for legality, if found to be illegal it will be ignored. If it is valid, the function calls itself again. The new node is passed as a parameter and the depth is decreased. The alpha-beta pruning condition is also implemented here.
 
 \subsection{Heuristic Analysis}
 \indent\indent The function $heuristicanalysis$ examines the board from a given player’s point of view. The goal of this function is to assign a numerical value(boardscore) to each board depending on a given set of conditions. These conditions determine if a move is good or bad.\cite{chess6}\cite{chess7}
@@ -412,11 +412,11 @@ Line 89 – 116: The board is evaluated for legality, if found to be illegal it 
 \item If it leads to its own king being checked or checkmated
 \end{itemize}
 
-Each of these conditions is assigned a specific $gainfactor$. The more important the condition is, the higher the numerical value of the $gainfactor$. Good moves have positive $gainfactor$ which encourage the AI to make those moves, while bad moves have negative $gainfactor$, discouraging the AI.
+Each of these conditions is assigned a specific $gainfactor$. The more important the condition, the higher the numerical value of it's $gainfactor$. Good moves have positive $gainfactor$ which encourages the AI to make those moves, while bad moves have negative $gainfactor$, discouraging the AI.
 \newline
 For example, a move that leads to the opponent king being checkmated is assigned the highest possible score of 99999, while a move that leads to its own checkmate is assigned the lowest possible score of -99999.
 
-The values of the Gain factors depend on the level of difficulty the player has chosen. In a ‘Random’ game the gains are all set to 0 and have no influence on the moves. In an ‘Easy’ game, the gains are such that it’s easy for the player to make threats and capture pieces. In a ‘Hard’ game, the gains ensure that the AI plays aggressively. 
+The values of the $gainfactor$ depend on the level of difficulty the player has chosen. In a ‘Random’ game the gains are all set to 0 and have no influence on the moves. In an ‘Easy’ game, the gains are such that it’s easy for the player to make threats and capture pieces. In a ‘Hard’ game, the gains ensure that the AI plays aggressively. 
 
 
 \subsection{AI Control}
@@ -467,26 +467,26 @@ The values of the Gain factors depend on the level of difficulty the player has 
 \section{Discussions}
 
 \subsection{Tuning}
-\indent\indent Tuning is the process of finding the optimum gains for the different scores in the Heuristics Analysis function. The different gains increase or decrease the effect of different parameters on the board score. Tuning is a difficult process because the values are relative and therefore trial and error is to be used to determine the optimum value. By comparison, the programmers of the legendary Deep Blue machine had made plausible initial guesses for values and there was a lot of uncertainty to what the correct values should be.\cite{chess5}
+\indent\indent Tuning is the process of finding the optimum gains for the different scenarios in the Heuristics Analysis function. The different gains increase or decrease the effect of different parameters on the board score. Tuning is a difficult process because the values are relative and therefore trial and error is to be used to determine the optimum value. By comparison, the programmers of the legendary Deep Blue machine had made plausible initial guesses for values but there still was a lot of uncertainty as to what the correct values should be.\cite{chess5}
 
-	The first objective for optimum tuning was to reach a high level of aggressiveness for the AI as that is most noticeable feature. This would be demonstrated by making captures when the opportunity presents itself.  The second objective was to prevent moves that would jeopardise its own pieces and that also includes encouraging castling to shield the King. The third objective was to increase likelihood of check and checkmate.
+	The first objective for optimum tuning was to reach a high level of aggressiveness for the AI as that is the most noticeable feature. This would be demonstrated by the AI making captures whenever the opportunity presents itself.  The second objective was to prevent moves that would jeopardise its own pieces and that also includes encouraging castling to shield the King. The third objective was to increase the likelihood of checks and checkmate.
 
-	The current gains that are set are based on trial and error. Based on the results, some of the features have demonstrated itself rather obviously. $Fig.$ 19 shows the situation of Player Vs AI and the AI has successfully checkmated the player in a rather creative arrangement that involves 3 different pieces. The graph also shows that the boardscore has been maximised for that colour which is the correct output from the Heuristics Analysis.
+	The current gains are set based on the results of a few trial and error runs. In the results, some of the features have demonstrated itself rather obviously. $Fig.$ 19 shows the situation of Player Vs AI where the AI has successfully checkmated the player in a rather creative arrangement that involves 3 different pieces. The graph also shows that the boardscore has been maximised for that colour which is the correct output from the Heuristics Analysis.
 
-	$Fig.$ 20 also shows the AI using Castling it its advantage in the late game by allowing the rook to come out and the King to seek shelter behind the pawns thus increasing its boardscore as a result of the move. 
+	$Fig.$ 20 shows the AI using Castling to its advantage in the late game by allowing the rook to come out and the King to seek shelter behind the pawns thus increasing its boardscore as a result of the move. 
 
-	A deficiency that is quite common in the AI was that the AI tended to make captures that would lead to its own piece being captured. The pay off would sometimes be less than the value of the piece being sacrificed. The AI would also pass off captures sometimes but it is rare.
+	A deficiency that is quite common in the AI was that the AI tended to make captures that would lead to its own piece being captured. The pay off would sometimes be less than the value of the piece being sacrificed. The AI would also pass off captures sometimes though it is rare.
 
 \subsection{Alpha Beta Pruning Efficiency}
-\indent\indent $Table$ 1 shows the various timings and number of nodes at a certain depth. The results is as expected, the number of nodes that need to be evaluated at a certain depth have an exponential relationship with the depth itself. The Alpha Beta Pruning implementation cuts down the time taken by a very substantial amount. This is also as expected as discussed in the Artificial Intelligence section. It should enable the system to go 1 depth deeper with Alpha Beta Pruning at the same speed as without the Alpha Beta Pruning.
+\indent\indent $Table$ 1 shows the time and number of nodes at a certain depth for different cases. The results is as expected, the number of nodes that need to be evaluated at a certain depth have an exponential relationship with the depth itself. The Alpha Beta Pruning implementation cuts down the time taken by a very substantial amount. This is also expected, as discussed in the Artificial Intelligence section. This enable the system to go 1 depth deeper with Alpha Beta Pruning at the same speed as without the Alpha Beta Pruning.
 
 
 \newpage
 \section{Conclusions}
 
-\indent\indent The FOVEROS Engine which means “Awesome” in Greek employs basic understanding of the tree search algorithm, MiniMax Theory, Alpha Beta pruning optimisation. It has also met the design aim of being a functional chessboard that has inbuilt rules and able to execute all the special moves without problems.
+\indent\indent The FOVEROS Chess Engine which means “Awesome” in Greek employs basic understanding of the tree search algorithm, the MiniMax Theory, and the Alpha Beta pruning optimisation. It has also met the design aim of being a functional chessboard that has inbuilt rules and is able to execute all the special moves without problems.
 
-	There are further improvements that can be made for this engine. The first is the integration of a database of opening moves. This will enable the engine to have greater flexibility in its opening moves and open up more possibilities for the engine. This can be done by setting the AI to respond with predefined moves for the first 3 rounds based on the response of the opponent.
+	There are further improvements that can be made to this engine. The first is the integration of a database of opening moves. This will enable the engine to have greater flexibility in its opening moves and open up more possibilities for the engine. This can be done by setting the AI to respond with predefined moves for the first 3 rounds based on the response of the opponent.
 
 	Further optimisations to the tree-search algorithm can be looked into. The first is Iterative Deepening which encourages deeper searches until the pre-allocated time is exhausted. It is a time management strategy in depth-first searches and has benefits for move ordering and pruning.\cite{chess9}
 
@@ -495,7 +495,7 @@ The values of the Gain factors depend on the level of difficulty the player has 
 
 
 \newpage
-\bibliographystyle{plain}
+\bibliographystyle{ieeetr}
 \bibliography{ChessReport}
 \newpage
 

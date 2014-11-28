@@ -1,10 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.3)  28 NOV 2014 12:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.29)  28 NOV 2014 14:11
 entering extended mode
-**D:/Mechanical*Engineering*(Non-Cloud)/Year*2/CBM/Final*Report/ChessReport/Dra
-ft*Final*1.tex
-
-("D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/Dra
-ft Final 1.tex"
+**C:/Users/Joel-pc/Desktop/Chess*Report/ChessReport/Draft*Final*1.tex
+("C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Draft Final 1.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -361,7 +358,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\todonotes\todonotes.sty"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\todonotes\todonotes.sty
 Package: todonotes 2012/07/25 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
 
@@ -377,7 +374,7 @@ Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 \XKV@depth=\count101
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
@@ -394,39 +391,47 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.te
-x"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.s
+ty
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
+
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-
+common.tex
 \pgfutil@everybye=\toks24
 \pgfutil@tempdima=\dimen115
 \pgfutil@tempdimb=\dimen116
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-li
-sts.tex"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
-"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-
+common-lists.tex))
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-
+latex.def
 \pgfutil@abb=\box28
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.c
+ode.tex
 Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
 ))
 Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
-"
+
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.s
+ty
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.s
+ty
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys
+.code.tex
 Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
-"
+
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.
+code.tex
 \pgfkeys@pathtoks=\toks25
 \pgfkeys@temptoks=\toks26
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.c
-ode.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysf
+iltered.code.tex
 \pgfkeys@tmptoks=\toks27
 ))
 \pgf@x=\dimen117
@@ -447,37 +452,42 @@ ode.tex"
 \t@pgf@tokb=\toks29
 \t@pgf@tokc=\toks30
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cf
+g
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.d
-ef"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys
+-pdftex.def
 File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-p
-df.def"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys
+-common-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.
-code.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys
+softpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count106
 \pgfsyssoftpath@bigbuffer@items=\count107
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.
-code.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys
+protocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
-"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+.code.tex
 Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
-"
+
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.
+tex
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.c
+ode.tex
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.c
+ode.tex)
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser
+.code.tex
 \pgfmath@dimen=\dimen125
 \pgfmath@count=\count108
 \pgfmath@box=\box29
@@ -485,29 +495,30 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 \pgfmath@stack@operand=\toks32
 \pgfmath@stack@operation=\toks33
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.
-tex"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic
-.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigo
-nometric.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.rando
-m.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.compa
-rison.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.
-code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round
-.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.
-code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integ
-erarithmetics.code.tex")))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfuncti
+ons.code.tex
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfuncti
+ons.basic.code.tex)
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfuncti
+ons.trigonometric.code.tex)
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfuncti
+ons.random.code.tex)
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfuncti
+ons.comparison.code.tex)
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfuncti
+ons.base.code.tex)
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfuncti
+ons.round.code.tex)
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfuncti
+ons.misc.code.tex)
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfuncti
+ons.integerarithmetics.code.tex)))
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.
+code.tex
 \c@pgfmathroundto@lastzeros=\count109
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.co
-de.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+points.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen126
 \pgf@picmaxx=\dimen127
@@ -524,121 +535,127 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen138
 \pgf@zy=\dimen139
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconst
-ruct.code.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+pathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen140
 \pgf@path@lasty=\dimen141
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage
-.code.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+pathusage.code.tex
 File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
 \pgf@shorten@end@additional=\dimen142
 \pgf@shorten@start@additional=\dimen143
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.co
-de.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+scopes.code.tex
 File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box30
 \pgf@hbox=\box31
 \pgf@layerbox@main=\box32
 \pgf@picture@serial@count=\count110
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicst
-ate.code.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+graphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
 \pgflinewidth=\dimen144
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransform
-ations.code.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+transformations.code.tex
 File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
 \pgf@pt@x=\dimen145
 \pgf@pt@y=\dimen146
 \pgf@pt@temp=\dimen147
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.cod
-e.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+quick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.c
-ode.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+objects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathproce
-ssing.code.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+pathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.co
-de.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+arrows.code.tex
 File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
 \pgfarrowsep=\dimen148
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.cod
-e.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+shade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen149
 \pgf@sys@shading@range@num=\count111
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.cod
-e.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+image.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.
-code.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+external.code.tex
 File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
 \pgfexternal@startupbox=\box33
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.co
-de.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+layers.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretranspare
-ncy.code.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+transparency.code.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.
-code.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore
+patterns.code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.cod
-e.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodules
+hapes.code.tex
 File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
 \pgfnodeparttextbox=\box34
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.
-tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulep
+lot.code.tex
 File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
--0-65.sty"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcom
+p-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen150
 \pgf@nodesepend=\dimen151
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
--1-18.sty"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcom
+p-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
-)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgffor.sty
+
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfkeys.st
+y
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.
+code.tex))
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\math\pgfmath.sty
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.
+tex))
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.c
+ode.tex
 Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.
+tex)
 \pgffor@iter=\dimen152
 \pgffor@skip=\dimen153
 \pgffor@stack=\toks34
 \pgffor@toks=\toks35
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.cod
-e.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz
+\tikz.code.tex
 Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothan
-dlers.code.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibra
+ryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \pgf@plot@mark@count=\count112
 \pgfplotmarksize=\dimen154
@@ -658,8 +675,8 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \tikznumberofcurrentchild=\count115
 \tikz@fig@count=\count116
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.cod
-e.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulem
+atrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count117
 \pgfmatrixcurrentcolumn=\count118
@@ -667,12 +684,12 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count120
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
-s\tikzlibrarytopaths.code.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz
+\libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 )))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
-s\tikzlibrarypositioning.code.tex"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz
+\libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
@@ -726,7 +743,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks38
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
 \lst@mode=\count129
 \lst@gtempboxa=\box41
 \lst@token=\toks39
@@ -740,29 +757,29 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \lst@lineno=\count134
 \lst@maxwidth=\dimen174
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 \c@lstnumber=\count135
 \lst@skipnumbers=\count136
 \lst@framebox=\box42
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
 File: listings.cfg 2014/03/04 1.5c listings configuration
 ))
 Package: listings 2014/03/04 1.5c (Carsten Heinz)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
-Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\lipsum\lipsum.sty
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count137
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
 \wrapoverhang=\dimen175
 \WF@size=\dimen176
 \c@WF@wrappedlines=\count138
@@ -770,7 +787,7 @@ Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \WF@everypar=\toks40
 Package: wrapfig 2003/01/31  v 3.6
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
 \fancy@headwidth=\skip49
 \f@ncyO@elh=\skip50
 \f@ncyO@erh=\skip51
@@ -781,10 +798,10 @@ Package: wrapfig 2003/01/31  v 3.6
 \f@ncyO@olf=\skip56
 \f@ncyO@orf=\skip57
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen177
@@ -800,7 +817,7 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count140
 \c@subtable=\count141
@@ -808,21 +825,19 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen184
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyphenat\hyphenat.sty"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\latex\hyphenat\hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language69
 LaTeX Info: Redefining \_ on input line 43.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\mcode.sty"
-Package: `mcode' 1.2 <2005/11/17>
-Package: mcode 2005/11/17 1.2
-mcode: settings optimized for display!
-
-Package mcode Warning: Unknown option `autolinebreaks' ! on input line 90.
-
-
-Package mcode Warning: Unknown option `useliterate' ! on input line 90.
-
+("C:\Users\Joel-pc\Desktop\Chess Report\ChessReport\mcode.sty"
+-- Package: `mcode' 2.5 <2014/03/06> --
+Package: mcode 2014/03/06 2.5
+ - settings optimized for display (colour formating)
+ - line numbering enabled
+ - literate programming (character replacements) enabled
+ - automatic line breaking enabled (careful, buggy!)
+ - framed listings
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
@@ -977,9 +992,15 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+\lbreakdots=\box44
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 229.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ))
-("D:\Mechanical Engineering (Non-Cloud)\Year 2\CBM\Final Report\ChessReport\Dra
-ft Final 1.aux"
+("C:\Users\Joel-pc\Desktop\Chess Report\ChessReport\Draft Final 1.aux"
 
 LaTeX Warning: Label `fig:chess1' multiply defined.
 
@@ -1078,11 +1099,11 @@ File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 34.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(C:\Users\Joel-pc\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count142
 \scratchdimen=\dimen185
-\scratchbox=\box44
+\scratchbox=\box45
 \nofMPsegments=\count143
 \nofMParguments=\count144
 \everyMPshowfont=\toks41
@@ -1148,9 +1169,8 @@ Overfull \hbox (11.35704pt too wide) in paragraph at lines 50--54
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-("D:\Mechanical Engineering (Non-Cloud)\Year 2\CBM\Final Report\ChessReport\Dra
-ft Final 1.toc"
+{C:/Users/Joel-pc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+("C:\Users\Joel-pc\Desktop\Chess Report\ChessReport\Draft Final 1.toc"
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1174,11 +1194,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4]
-Overfull \hbox (1.8952pt too wide) in paragraph at lines 75--76
-\OT1/cmr/m/n/10.95 tie to-gether a broad range of top-ics, im-prove the un-der-
-stand-ing of tree search-ing al-go-rithms
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1302,11 +1317,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/P
-ictures/piece_value.jpg> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Fina
-l Report/ChessReport/Pictures/chessboardmatrix.jpg> <D:/Mechanical Engineering 
-(Non-Cloud)/Year 2/CBM/Final Report/ChessReport/Pictures/piece_colour.jpg>]
-<./Pictures/queen_capture.png, id=44, 268.00125pt x 110.66344pt>
+[8 <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/piece_value.jpg>
+ <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/chessboardmatrix.j
+pg> <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/piece_colour.jp
+g>] <./Pictures/queen_capture.png, id=44, 268.00125pt x 110.66344pt>
 File: ./Pictures/queen_capture.png Graphic file (type png)
 
 <use ./Pictures/queen_capture.png>
@@ -1334,11 +1348,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/P
-ictures/random_board.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Fin
-al Report/ChessReport/Pictures/queen_capture.png> <D:/Mechanical Engineering (N
-on-Cloud)/Year 2/CBM/Final Report/ChessReport/Pictures/pawn_movement.png>]
-<./Pictures/bishop_movement.png, id=50, 270.25969pt x 113.67468pt>
+[9 <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/random_board.png
+> <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/queen_capture.png
+> <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/pawn_movement.png
+>] <./Pictures/bishop_movement.png, id=50, 270.25969pt x 113.67468pt>
 File: ./Pictures/bishop_movement.png Graphic file (type png)
 
 <use ./Pictures/bishop_movement.png>
@@ -1366,11 +1379,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
-Pictures/knight_movement.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM
-/Final Report/ChessReport/Pictures/bishop_movement.png> <D:/Mechanical Engineer
-ing (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/Pictures/rook_movement.png>
-] <./Pictures/king_movement.png, id=56, 269.50688pt x 111.41624pt>
+[10 <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/knight_movement
+.png> <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/bishop_moveme
+nt.png> <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/rook_moveme
+nt.png>] <./Pictures/king_movement.png, id=56, 269.50688pt x 111.41624pt>
 File: ./Pictures/king_movement.png Graphic file (type png)
 
 <use ./Pictures/king_movement.png>
@@ -1397,10 +1409,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
-Pictures/queen_movement.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/
-Final Report/ChessReport/Pictures/king_movement.png>]
-<./Pictures/Enpassant1.png, id=62, 435.12563pt x 444.15938pt>
+[11 <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/queen_movement.
+png> <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/king_movement.
+png>] <./Pictures/Enpassant1.png, id=62, 435.12563pt x 444.15938pt>
 File: ./Pictures/Enpassant1.png Graphic file (type png)
 
 <use ./Pictures/Enpassant1.png>
@@ -1434,21 +1445,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
-Pictures/Castling1.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final
- Report/ChessReport/Pictures/Castling2.png> <D:/Mechanical Engineering (Non-Clo
-ud)/Year 2/CBM/Final Report/ChessReport/Pictures/Enpassant1.png> <D:/Mechanical
- Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/Pictures/Enpassant
-2.png>]
+[12 <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/Castling1.png> 
+<C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/Castling2.png> <C:/
+Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/Enpassant1.png> <C:/Use
+rs/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/Enpassant2.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
-Pictures/Pawnpromo1.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Fina
-l Report/ChessReport/Pictures/Pawnpromo2.png>]
+[13 <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/Pawnpromo1.png>
+ <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/Pawnpromo2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 300--311
 
  []
@@ -1539,19 +1547,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
-Pictures/flow_chart.jpg>]
+[15 <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/flow_chart.jpg>
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
-Pictures/GUI.png>]
+[16 <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/GUI.png>]
 Overfull \hbox (0.52634pt too wide) in paragraph at lines 349--350
 []\OT1/cmr/m/n/10.95 The ap-proach to im-ple-ment-ing com-puter thought is thro
 ugh brute force cal-cu-la-tions.
+ []
+
+
+Overfull \hbox (6.30568pt too wide) in paragraph at lines 349--350
+\OT1/cmr/m/n/10.95 The strength in com-puter sys-tems lies in its abil-ity to p
+er-form large amounts of com-pu-ta-tion
  []
 
 
@@ -1576,8 +1589,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
-Pictures/alphabeta.png>]
+[17 <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/alphabeta.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 371--392
 
  []
@@ -1668,9 +1681,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
-Pictures/Queen.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Rep
-ort/ChessReport/Pictures/black_checkmate.png>]
+[20 <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/Queen.png> <C:/
+Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/black_checkmate.png>]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 459.
 
 
@@ -1686,8 +1698,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
-Pictures/AI_castling.png>]
+[21 <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/AI_castling.png
+>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1695,29 +1707,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [22]
-Overfull \hbox (14.37987pt too wide) in paragraph at lines 487--488
-[]\OT1/cmr/m/n/10.95 The FOVEROS En-gine which means \Awe-some" in Greek em-plo
-ys ba-sic un-der-stand-ing
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23]
-("D:\Mechanical Engineering (Non-Cloud)\Year 2\CBM\Final Report\ChessReport\Dra
-ft Final 1.bbl"
-Underfull \hbox (badness 4403) in paragraph at lines 4--8
+[23] ("C:\Users\Joel-pc\Desktop\Chess Report\ChessReport\Draft Final 1.bbl"
+Underfull \hbox (badness 4403) in paragraph at lines 9--13
 []\OT1/cmr/m/it/10.95 Chess Pro-gram-ming\OT1/cmr/m/n/10.95 .  2014.  $\OT1/cmt
 t/m/n/10.95 https : / / chessprogramming . wikispaces . com /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--62
+Underfull \hbox (badness 10000) in paragraph at lines 33--38
 $\OT1/cmtt/m/n/10.95 zaifrun / creating-[]a-[]chess-[]engine-[]part-[]4-[]-[]-[
 ]position-[]evaluation$ \OT1/cmr/m/n/10.95 [On-line;
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 45--49
+[]\OT1/cmr/m/n/10.95 ChessProgramming, \OT1/cmr/m/it/10.95 It-er-a-tive Deep-en
+-ing\OT1/cmr/m/n/10.95 .  2014.  $\OT1/cmtt/m/n/10.95 https : / / chessprogramm
+ing .$
  []
 
 )
@@ -1728,15 +1740,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [24]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 506.
-
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
 LaTeX Font Info:    Try loading font information for OML+pcr on input line 516.
 
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlpcr.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlpcr.fd"
 File: omlpcr.fd 
 )
 LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <9> not available
@@ -1766,13 +1772,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [26]
 Overfull \hbox (30.41576pt too wide) in paragraph at lines 635--636
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][]  
  []
 
 
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 662--663
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][]  
  []
 
 
@@ -1784,7 +1792,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [27]
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 695--697
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -1792,25 +1800,27 @@ Overfull \hbox (138.41685pt too wide) in paragraph at lines 701--702
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (176.21724pt too wide) in paragraph at lines 708--709
+Overfull \hbox (170.81718pt too wide) in paragraph at lines 708--709
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (176.21724pt too wide) in paragraph at lines 714--715
+Overfull \hbox (170.81718pt too wide) in paragraph at lines 714--715
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (30.41576pt too wide) in paragraph at lines 733--734
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 733--734
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -1820,33 +1830,35 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [28]
-Overfull \hbox (30.41576pt too wide) in paragraph at lines 742--743
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 742--743
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (176.21724pt too wide) in paragraph at lines 763--764
+Overfull \hbox (170.81718pt too wide) in paragraph at lines 763--764
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (176.21724pt too wide) in paragraph at lines 769--770
+Overfull \hbox (170.81718pt too wide) in paragraph at lines 769--770
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (30.41576pt too wide) in paragraph at lines 788--789
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 788--789
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (30.41576pt too wide) in paragraph at lines 797--798
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 797--798
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -1865,14 +1877,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [30]
 Overfull \hbox (122.21669pt too wide) in paragraph at lines 914--916
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (52.01598pt too wide) in paragraph at lines 920--921
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -1886,19 +1899,19 @@ Overfull \hbox (52.01598pt too wide) in paragraph at lines 921--923
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (19.61565pt too wide) in paragraph at lines 940--941
+Overfull \hbox (8.81554pt too wide) in paragraph at lines 940--941
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (19.61565pt too wide) in paragraph at lines 951--952
+Overfull \hbox (8.81554pt too wide) in paragraph at lines 951--952
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -1908,15 +1921,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [32]
-Overfull \hbox (19.61565pt too wide) in paragraph at lines 995--996
+Overfull \hbox (8.81554pt too wide) in paragraph at lines 995--996
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (19.61565pt too wide) in paragraph at lines 1006--1007
+Overfull \hbox (8.81554pt too wide) in paragraph at lines 1006--1007
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -1940,24 +1953,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [34]
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 1134--1135
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][]  
+][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (3.41548pt too wide) in paragraph at lines 1144--1145
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 1156--1157
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (30.41576pt too wide) in paragraph at lines 1160--1161
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -1969,145 +1983,152 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [35]
 Overfull \hbox (25.0157pt too wide) in paragraph at lines 1172--1173
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (46.61592pt too wide) in paragraph at lines 1173--1174
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+
  []
 
 
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 1174--1175
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][]  
+][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (19.61565pt too wide) in paragraph at lines 1175--1176
-[][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (25.0157pt too wide) in paragraph at lines 1178--1179
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (30.41576pt too wide) in paragraph at lines 1179--1180
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (25.0157pt too wide) in paragraph at lines 1182--1183
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (46.61592pt too wide) in paragraph at lines 1183--1184
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+
  []
 
 
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 1184--1185
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][]  
+][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (19.61565pt too wide) in paragraph at lines 1185--1186
-[][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (25.0157pt too wide) in paragraph at lines 1188--1189
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (46.61592pt too wide) in paragraph at lines 1189--1190
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+
  []
 
 
 Overfull \hbox (30.41576pt too wide) in paragraph at lines 1190--1191
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][]  
+][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (19.61565pt too wide) in paragraph at lines 1191--1192
-[][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (25.0157pt too wide) in paragraph at lines 1194--1195
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (46.61592pt too wide) in paragraph at lines 1195--1196
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+
  []
 
 
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 1196--1197
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][]  
+][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (30.41576pt too wide) in paragraph at lines 1197--1198
-[][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 1208--1209
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][]  
  []
 
 
 Overfull \hbox (73.6162pt too wide) in paragraph at lines 1212--1213
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (46.61592pt too wide) in paragraph at lines 1214--1215
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][]  
+][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (25.0157pt too wide) in paragraph at lines 1215--1216
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+]  
  []
 
 
 Overfull \hbox (73.6162pt too wide) in paragraph at lines 1218--1219
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (30.41576pt too wide) in paragraph at lines 1220--1221
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][]  
+][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (25.0157pt too wide) in paragraph at lines 1221--1222
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+]  
  []
 
 
@@ -2119,25 +2140,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [36]
 Overfull \hbox (52.01598pt too wide) in paragraph at lines 1224--1225
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (19.61565pt too wide) in paragraph at lines 1227--1228
-[][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (257.21806pt too wide) in paragraph at lines 1243--1244
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (19.61565pt too wide) in paragraph at lines 1265--1266
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2150,24 +2173,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Overfull \hbox (25.0157pt too wide) in paragraph at lines 1300--1301
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][]  
  []
 
 
 Overfull \hbox (73.6162pt too wide) in paragraph at lines 1317--1318
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][]  
+][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (62.81609pt too wide) in paragraph at lines 1318--1319
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 1343--1344
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2179,35 +2204,38 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [38]
 Overfull \hbox (30.41576pt too wide) in paragraph at lines 1347--1348
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 1357--1358
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][]  
  []
 
 
 Overfull \hbox (52.01598pt too wide) in paragraph at lines 1359--1360
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (8.81554pt too wide) in paragraph at lines 1374--1375
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (68.21614pt too wide) in paragraph at lines 1377--1378
-[][][][][][][][][][][]  
+[][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (235.61784pt too wide) in paragraph at lines 1386--1387
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][]  
  []
 
 
@@ -2220,14 +2248,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Overfull \hbox (19.61565pt too wide) in paragraph at lines 1408--1409
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (25.0157pt too wide) in paragraph at lines 1443--1444
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][]  
  []
 
 
@@ -2239,18 +2269,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [40]
 Overfull \hbox (73.6162pt too wide) in paragraph at lines 1502--1503
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][]  
+][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (62.81609pt too wide) in paragraph at lines 1503--1504
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 1528--1529
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2262,35 +2293,38 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [41]
 Overfull \hbox (30.41576pt too wide) in paragraph at lines 1532--1533
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 1542--1543
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][]  
  []
 
 
 Overfull \hbox (52.01598pt too wide) in paragraph at lines 1544--1545
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (8.81554pt too wide) in paragraph at lines 1559--1560
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (68.21614pt too wide) in paragraph at lines 1562--1563
-[][][][][][][][][][][]  
+[][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (241.0179pt too wide) in paragraph at lines 1570--1571
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][]  
  []
 
 
@@ -2303,14 +2337,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Overfull \hbox (19.61565pt too wide) in paragraph at lines 1592--1593
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (25.0157pt too wide) in paragraph at lines 1627--1628
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][]  
  []
 
 
@@ -2322,24 +2358,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [43]
 Overfull \hbox (73.6162pt too wide) in paragraph at lines 1667--1668
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][]  
+][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (62.81609pt too wide) in paragraph at lines 1668--1669
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 1693--1694
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (30.41576pt too wide) in paragraph at lines 1697--1698
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2351,27 +2388,30 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [44]
 Overfull \hbox (241.0179pt too wide) in paragraph at lines 1709--1710
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (14.21559pt too wide) in paragraph at lines 1710--1712
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-]  
+][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (19.61565pt too wide) in paragraph at lines 1731--1732
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (25.0157pt too wide) in paragraph at lines 1766--1767
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][]  
  []
 
 
@@ -2383,12 +2423,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [45]
 Overfull \hbox (73.6162pt too wide) in paragraph at lines 1828--1829
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][]  
+][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (62.81609pt too wide) in paragraph at lines 1829--1830
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][]  
  []
 
 
@@ -2400,25 +2441,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [46]
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 1854--1855
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (30.41576pt too wide) in paragraph at lines 1858--1859
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 1868--1869
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][]  
  []
 
 
 Overfull \hbox (241.0179pt too wide) in paragraph at lines 1877--1878
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][]  
  []
 
 
@@ -2431,25 +2474,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Overfull \hbox (19.61565pt too wide) in paragraph at lines 1899--1900
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (25.0157pt too wide) in paragraph at lines 1934--1935
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][]  
  []
 
 
 Overfull \hbox (73.6162pt too wide) in paragraph at lines 1953--1954
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][]  
+][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (62.81609pt too wide) in paragraph at lines 1954--1956
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][]  
  []
 
 
@@ -2461,30 +2507,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [48]
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 1981--1982
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (30.41576pt too wide) in paragraph at lines 1985--1986
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 1996--1997
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][]  
  []
 
 
 Overfull \hbox (52.01598pt too wide) in paragraph at lines 1998--1999
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (8.81554pt too wide) in paragraph at lines 2013--2014
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2496,24 +2544,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [49]
 Overfull \hbox (165.41713pt too wide) in paragraph at lines 2024--2025
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][]  
  []
 
 
 Overfull \hbox (62.81609pt too wide) in paragraph at lines 2039--2040
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (176.21724pt too wide) in paragraph at lines 2051--2053
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (160.01707pt too wide) in paragraph at lines 2053--2054
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][]  
  []
 
 
@@ -2524,37 +2574,40 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [50]
 Overfull \hbox (79.01625pt too wide) in paragraph at lines 2083--2084
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][]  
  []
 
 
 Overfull \hbox (41.21587pt too wide) in paragraph at lines 2086--2088
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (46.61592pt too wide) in paragraph at lines 2094--2095
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (197.81746pt too wide) in paragraph at lines 2108--2110
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (138.41685pt too wide) in paragraph at lines 2110--2111
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 2134--2135
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2566,31 +2619,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [51]
 Overfull \hbox (30.41576pt too wide) in paragraph at lines 2138--2139
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (35.81581pt too wide) in paragraph at lines 2149--2150
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][]  
  []
 
 
 Overfull \hbox (52.01598pt too wide) in paragraph at lines 2151--2152
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (100.61647pt too wide) in paragraph at lines 2167--2168
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (84.4163pt too wide) in paragraph at lines 2186--2187
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2601,50 +2655,57 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [52]
 Overfull \hbox (14.21559pt too wide) in paragraph at lines 2202--2203
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- 
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (41.21587pt too wide) in paragraph at lines 2210--2211
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+  
  []
 
 
 Overfull \hbox (122.21669pt too wide) in paragraph at lines 2220--2221
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][]  
  []
 
 
 Overfull \hbox (305.81856pt too wide) in paragraph at lines 2237--2238
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (322.01872pt too wide) in paragraph at lines 2240--2241
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (305.81856pt too wide) in paragraph at lines 2243--2244
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (300.4185pt too wide) in paragraph at lines 2246--2247
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (300.4185pt too wide) in paragraph at lines 2249--2250
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][]  
  []
 
 
@@ -2656,32 +2717,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [53]
 Overfull \hbox (197.81746pt too wide) in paragraph at lines 2264--2266
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (84.4163pt too wide) in paragraph at lines 2275--2276
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (14.21559pt too wide) in paragraph at lines 2300--2301
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- 
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (41.21587pt too wide) in paragraph at lines 2308--2309
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+  
  []
 
 
 Overfull \hbox (122.21669pt too wide) in paragraph at lines 2318--2319
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][]  
  []
 
 
@@ -2693,44 +2756,49 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [54]
 Overfull \hbox (305.81856pt too wide) in paragraph at lines 2335--2336
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (322.01872pt too wide) in paragraph at lines 2338--2339
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (305.81856pt too wide) in paragraph at lines 2341--2342
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (300.4185pt too wide) in paragraph at lines 2344--2345
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (300.4185pt too wide) in paragraph at lines 2347--2348
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (197.81746pt too wide) in paragraph at lines 2362--2364
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (19.61565pt too wide) in paragraph at lines 2374--2375
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2742,19 +2810,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [55]
 Overfull \hbox (138.41685pt too wide) in paragraph at lines 2394--2395
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (95.21642pt too wide) in paragraph at lines 2406--2407
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (176.21724pt too wide) in paragraph at lines 2408--2410
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2768,36 +2836,42 @@ Overfull \hbox (3.41548pt too wide) in paragraph at lines 2449--2450
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][]  
  []
 
 
 Overfull \hbox (170.81718pt too wide) in paragraph at lines 2450--2451
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (57.41603pt too wide) in paragraph at lines 2463--2464
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+
  []
 
 
 Overfull \hbox (79.01625pt too wide) in paragraph at lines 2465--2466
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+
  []
 
 
 Overfull \hbox (57.41603pt too wide) in paragraph at lines 2470--2471
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+
  []
 
 
 Overfull \hbox (79.01625pt too wide) in paragraph at lines 2472--2473
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+
  []
 
 
@@ -2805,12 +2879,14 @@ Overfull \hbox (30.41576pt too wide) in paragraph at lines 2478--2479
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][]  
  []
 
 
 Overfull \hbox (52.01598pt too wide) in paragraph at lines 2479--2480
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][]  
  []
 
 
@@ -2818,7 +2894,8 @@ Overfull \hbox (73.6162pt too wide) in paragraph at lines 2486--2487
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2826,7 +2903,8 @@ Overfull \hbox (41.21587pt too wide) in paragraph at lines 2497--2498
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2838,7 +2916,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [57]
 Overfull \hbox (8.81554pt too wide) in paragraph at lines 2507--2508
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][]  
+][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2846,28 +2924,30 @@ Overfull \hbox (165.41713pt too wide) in paragraph at lines 2509--2510
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (46.61592pt too wide) in paragraph at lines 2510--2511
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (3.41548pt too wide) in paragraph at lines 2512--2513
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-  
+[][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (14.21559pt too wide) in paragraph at lines 2513--2514
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2875,7 +2955,7 @@ Overfull \hbox (35.81581pt too wide) in paragraph at lines 2515--2516
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2883,28 +2963,30 @@ Overfull \hbox (165.41713pt too wide) in paragraph at lines 2520--2521
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (46.61592pt too wide) in paragraph at lines 2521--2522
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (8.81554pt too wide) in paragraph at lines 2523--2524
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (8.81554pt too wide) in paragraph at lines 2524--2525
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2912,7 +2994,7 @@ Overfull \hbox (41.21587pt too wide) in paragraph at lines 2526--2527
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2920,21 +3002,23 @@ Overfull \hbox (165.41713pt too wide) in paragraph at lines 2531--2532
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (41.21587pt too wide) in paragraph at lines 2532--2533
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (8.81554pt too wide) in paragraph at lines 2535--2536
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][]  
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2942,7 +3026,7 @@ Overfull \hbox (35.81581pt too wide) in paragraph at lines 2537--2538
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2954,19 +3038,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [58]
 Overfull \hbox (100.61647pt too wide) in paragraph at lines 2577--2579
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (41.21587pt too wide) in paragraph at lines 2592--2593
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+  
  []
 
 
 Overfull \hbox (122.21669pt too wide) in paragraph at lines 2607--2608
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][]  
  []
 
 
@@ -2978,13 +3064,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [59]
 Overfull \hbox (187.01735pt too wide) in paragraph at lines 2636--2638
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][]  
+][][][][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (14.21559pt too wide) in paragraph at lines 2671--2673
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- 
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2996,43 +3082,50 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [60]
 Overfull \hbox (41.21587pt too wide) in paragraph at lines 2679--2680
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+  
  []
 
 
 Overfull \hbox (122.21669pt too wide) in paragraph at lines 2689--2690
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][]  
  []
 
 
 Overfull \hbox (305.81856pt too wide) in paragraph at lines 2702--2703
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (322.01872pt too wide) in paragraph at lines 2705--2706
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (305.81856pt too wide) in paragraph at lines 2708--2709
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (300.4185pt too wide) in paragraph at lines 2711--2712
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
  []
 
 
 Overfull \hbox (300.4185pt too wide) in paragraph at lines 2714--2715
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][]  
  []
 
 
@@ -3048,40 +3141,39 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62]
-("D:\Mechanical Engineering (Non-Cloud)\Year 2\CBM\Final Report\ChessReport\Dra
-ft Final 1.aux")
+[62] ("C:\Users\Joel-pc\Desktop\Chess Report\ChessReport\Draft Final 1.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17389 strings out of 493921
- 319995 string characters out of 3144880
- 789428 words of memory out of 3000000
- 20311 multiletter control sequences out of 15000+200000
- 13559 words of font info for 49 fonts, out of 3000000 for 9000
+ 17396 strings out of 493921
+ 321574 string characters out of 3144870
+ 795748 words of memory out of 3000000
+ 20318 multiletter control sequences out of 15000+200000
+ 13775 words of font info for 50 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,14n,92p,773b,1750s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,14n,92p,739b,1784s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users
-\User\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX
+\Joel-pc\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.p
+k><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/urw/courier/ucrr8a.pfb>
-Output written on "Draft Final 1.pdf" (62 pages, 3957177 bytes).
+Output written on "Draft Final 1.pdf" (62 pages, 3959317 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
+ 308 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
