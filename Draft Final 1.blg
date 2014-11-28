@@ -1,0 +1,41 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Draft Final 1.aux
+The style file: plain.bst
+Database file #1: ChessReport.bib
+I was expecting a `,' or a `}'---line 14 of file ChessReport.bib
+ :   note={\url{https://chessprogramming.wikispaces.com/Branching+Factor} [Online; last accessed 20-Nov-2014]}
+ :                                                                                                            "}
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 20 of file ChessReport.bib
+ :   note={\url{http://cs.ucla.edu/~rosen/161/notes/alphabeta.html} [Online; last accessed 10-Nov-2014]}
+ :                                                                                                      "
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 27 of file ChessReport.bib
+ :   note={\url{http://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning} [Online; last accessed 14-Nov-2014]}
+ :                                                                                                           "
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 41 of file ChessReport.bib
+ :   note={\url{http://www.chesscentral.com/chess_strategy_a/201.htm} [Online; last accessed 20-Nov-2014]}
+ :                                                                                                        "
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 48 of file ChessReport.bib
+ :   note={\url{http://www.chess.com/blog/zaifrun/creating-a-chess-engine-part-4---position-evaluation} [Online; last accessed 12-Nov-2014]}
+ :                                                                                                                                          "
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 55 of file ChessReport.bib
+ :   note={\url{https://www.cs.cornell.edu/courses/cs312/2002sp/lectures/rec21.htm} [Online; last accessed 13-Nov-2014]}
+ :                                                                                                                      "
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 62 of file ChessReport.bib
+ :   note={\url{https://chessprogramming.wikispaces.com/Iterative+Deepening} [Online; last accessed 12-Nov-2014]}
+ :                                                                                                               "
+I'm skipping whatever remains of this entry
+Warning--to sort, need author, editor, or key in chess2
+Warning--empty author and editor in chess2
+Warning--empty publisher in chess2
+Warning--empty publisher in chess6
+Warning--empty publisher in chess9
+Warning--empty publisher in chess8
+Warning--empty publisher in chess3
+Warning--empty publisher in chess4
+Warning--empty publisher in chess7
+(There were 7 error messages)

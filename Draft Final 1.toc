@@ -1,0 +1,60 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{5}
+\contentsline {section}{\numberline {2}Modelling Aims}{6}
+\contentsline {section}{\numberline {3}Overview}{7}
+\contentsline {subsection}{\numberline {3.1}Starting The Chess Engine}{7}
+\contentsline {section}{\numberline {4}Back-end}{8}
+\contentsline {subsection}{\numberline {4.1}Movement files}{8}
+\contentsline {subsubsection}{\numberline {4.1.1}Pawn Movement}{9}
+\contentsline {subsubsection}{\numberline {4.1.2}Knight Movement}{10}
+\contentsline {subsubsection}{\numberline {4.1.3}Bishop Movement}{10}
+\contentsline {subsubsection}{\numberline {4.1.4}Rook Movement}{10}
+\contentsline {subsubsection}{\numberline {4.1.5}Queen Movement}{11}
+\contentsline {subsubsection}{\numberline {4.1.6}King Movement}{11}
+\contentsline {subsection}{\numberline {4.2}Special moves}{11}
+\contentsline {subsubsection}{\numberline {4.2.1}Castling}{12}
+\contentsline {subsubsection}{\numberline {4.2.2}En passant}{12}
+\contentsline {subsubsection}{\numberline {4.2.3}Pawn promotion}{13}
+\contentsline {subsection}{\numberline {4.3}Board Analysis}{13}
+\contentsline {subsubsection}{\numberline {4.3.1}Analyseboard Function}{13}
+\contentsline {subsubsection}{\numberline {4.3.2}KingCheck Function}{13}
+\contentsline {subsubsection}{\numberline {4.3.3}Checkmate Function}{13}
+\contentsline {section}{\numberline {5}Front-end}{14}
+\contentsline {subsection}{\numberline {5.1}Click Series of Functions}{14}
+\contentsline {subsection}{\numberline {5.2}Graphical User Interface}{15}
+\contentsline {section}{\numberline {6}Artificial Intelligence}{17}
+\contentsline {subsection}{\numberline {6.1}Brute Force Approach}{17}
+\contentsline {subsubsection}{\numberline {6.1.1}Minimax Algorithm}{17}
+\contentsline {subsubsection}{\numberline {6.1.2}Alpha-Beta Pruning}{17}
+\contentsline {subsection}{\numberline {6.2}Generation of Moves}{18}
+\contentsline {subsection}{\numberline {6.3}Heuristic Analysis}{19}
+\contentsline {subsection}{\numberline {6.4}AI Control}{19}
+\contentsline {section}{\numberline {7}Results}{20}
+\contentsline {section}{\numberline {8}Discussions}{22}
+\contentsline {subsection}{\numberline {8.1}Tuning}{22}
+\contentsline {subsection}{\numberline {8.2}Alpha Beta Pruning Efficiency}{22}
+\contentsline {section}{\numberline {9}Conclusions}{23}
+\contentsline {section}{\numberline {A}Appendix: The Code}{25}
+\contentsline {subsection}{\numberline {A.1}Back-end}{25}
+\contentsline {subsubsection}{\numberline {A.1.1}MovementRook.m}{25}
+\contentsline {subsubsection}{\numberline {A.1.2}MovementQueen.m}{26}
+\contentsline {subsubsection}{\numberline {A.1.3}MovementPawn.m}{28}
+\contentsline {subsubsection}{\numberline {A.1.4}MovementKnight.m}{30}
+\contentsline {subsubsection}{\numberline {A.1.5}MovementKing.m}{31}
+\contentsline {subsubsection}{\numberline {A.1.6}MovementBishop.m}{33}
+\contentsline {subsection}{\numberline {A.2}Front-end}{34}
+\contentsline {subsubsection}{\numberline {A.2.1}ClickPiece.m}{34}
+\contentsline {subsubsection}{\numberline {A.2.2}ClickCapturePiece.m}{37}
+\contentsline {subsubsection}{\numberline {A.2.3}ClickCastling.m}{39}
+\contentsline {subsubsection}{\numberline {A.2.4}ClickEnpassant.m}{42}
+\contentsline {subsubsection}{\numberline {A.2.5}ClickPawnPromo.m}{44}
+\contentsline {subsubsection}{\numberline {A.2.6}ClickMovePiece.m}{47}
+\contentsline {subsection}{\numberline {A.3}AI}{50}
+\contentsline {subsubsection}{\numberline {A.3.1}AIControl}{50}
+\contentsline {subsubsection}{\numberline {A.3.2}AI\_GenerateAllMoves.m}{52}
+\contentsline {subsubsection}{\numberline {A.3.3}heuristicanalysis.m}{56}
+\contentsline {subsection}{\numberline {A.4}Board analysis}{59}
+\contentsline {subsubsection}{\numberline {A.4.1}analyseboard.m}{59}
+\contentsline {subsubsection}{\numberline {A.4.2}KingCheck.m}{60}
+\contentsline {subsubsection}{\numberline {A.4.3}checkmate.m}{60}
+\contentsline {subsubsection}{\numberline {A.4.4}readchessboard.m}{61}

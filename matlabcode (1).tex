@@ -1,0 +1,2421 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage[top=1.2in, bottom=1.2in, left=1.2in, right=1.2in]{geometry}
+\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+\usepackage{listings}    
+\lstset{
+        language=Matlab,
+        breaklines=true
+    }
+\pagestyle{fancy}
+\lhead{FOVEROS Chess Engine}
+\rhead{\thepage}
+\cfoot{}
+\begin{document}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+\section{Appendix: The Code}
+\newpage
+
+
+
+\appendix
+\section{Appendix: The Code}
+\subsection{Back-end}
+\subsubsection{MovementRook.m}
+\begin{lstlisting}
+
+function [possiblemoves] = MovementRook(chessboard,piece_colour,p_x,p_y)
+
+%Initialisation values --------------------------------------------------
+r_colour = piece_colour(p_x,p_y);
+possiblemoves = zeros(8,8);
+
+%This section allows movement in vertical direction -----------------------
+i = 1;
+while(p_x+i<9)
+    if(piece_colour(p_x+i,p_y)== r_colour)
+        break
+    end
+    if(piece_colour(p_x+i,p_y)~= r_colour && chessboard(p_x+i,p_y)~=0)
+        possiblemoves(p_x+i,p_y) = 2;
+        break
+    end
+    possiblemoves(p_x+i,p_y) = 1;
+    i = i+1;
+end
+            
+i = 1;
+while(p_x-i>0)
+    if(piece_colour(p_x-i,p_y)== r_colour)
+        break
+    end
+     if(piece_colour(p_x-i,p_y)~= r_colour && chessboard(p_x-i,p_y)~=0)
+        possiblemoves(p_x-i,p_y) = 2;
+        break
+    end
+    possiblemoves(p_x-i,p_y) = 1;
+    i = i+1;
+end
+
+%This section allows movement in the horizontal direction
+i = 1;
+while(p_y+i<9)
+    if(piece_colour(p_x,p_y+i)== r_colour)
+        break
+    end
+    if(piece_colour(p_x,p_y+i)~= r_colour && chessboard(p_x,p_y+i)~=0)
+        possiblemoves(p_x,p_y+i) = 2;
+        break
+    end
+    possiblemoves(p_x,p_y+i) = 1;
+    i = i+1;
+end
+
+i = 1;
+while(p_y-i>0)
+    if(piece_colour(p_x,p_y-i)== r_colour)
+        break
+    end
+    if(piece_colour(p_x,p_y-i)~= r_colour && chessboard(p_x,p_y-i)~=0)
+        possiblemoves(p_x,p_y-i) = 2;
+        break
+    end
+    possiblemoves(p_x,p_y-i) = 1;
+    i = i+1;
+end
+
+%-------------------------------------------------------------------------
+
+end
+\end{lstlisting}
+
+\subsubsection{MovementQueen.m}
+\begin{lstlisting}
+function [possiblemoves] = MovementQueen(chessboard,piece_colour,p_x,p_y)
+
+%Initialisation values --------------------------------------------------
+possiblemoves = zeros(8,8);
+r_colour = piece_colour(p_x,p_y);
+
+%This section allows movement in / direction -----------------------------
+i=1;
+while(p_x+i<9 && p_y+i<9)
+    if(piece_colour(p_x+i,p_y+i)== r_colour)
+        break
+    end
+    if(piece_colour(p_x+i,p_y+i)~= r_colour && chessboard(p_x+i,p_y+i)~=0)
+        possiblemoves(p_x+i,p_y+i) = 2;
+        break
+    end
+    possiblemoves(p_x+i,p_y+i) = 1;
+    i = i+1;
+end
+
+i=1;
+while(p_x-i>0 && p_y-i>0)
+    if(piece_colour(p_x-i,p_y-i)== r_colour)
+        break
+    end
+    if(piece_colour(p_x-i,p_y-i)~= r_colour && chessboard(p_x-i,p_y-i)~=0)
+        possiblemoves(p_x-i,p_y-i) = 2;
+        break
+    end
+    possiblemoves(p_x-i,p_y-i) = 1;
+    i = i+1;
+end
+
+%This section allows movement in the \ direction-------------------------
+i=1;
+while(p_x+i<9 && p_y-i>0)
+    if(piece_colour(p_x+i,p_y-i)== r_colour)
+        break
+    end
+    if(piece_colour(p_x+i,p_y-i)~= r_colour && chessboard(p_x+i,p_y-i)~=0)
+        possiblemoves(p_x+i,p_y-i) = 2;
+        break
+    end
+    possiblemoves(p_x+i,p_y-i) = 1;
+    i = i+1;
+end
+
+i=1;
+while(p_x-i>0 && p_y+i<9)
+    if(piece_colour(p_x-i,p_y+i)== r_colour)
+        break
+    end
+    if(piece_colour(p_x-i,p_y+i)~= r_colour && chessboard(p_x-i,p_y+i)~=0)
+        possiblemoves(p_x-i,p_y+i) = 2;
+        break
+    end
+    possiblemoves(p_x-i,p_y+i) = 1;
+    i = i+1;
+end
+
+%This section allows movement in vertical direction -----------------------------
+i = 1;
+while(p_x+i<9)
+    if(piece_colour(p_x+i,p_y)== r_colour)
+        break
+    end
+    if(piece_colour(p_x+i,p_y)~= r_colour && chessboard(p_x+i,p_y)~=0)
+        possiblemoves(p_x+i,p_y) = 2;
+        break
+    end
+    possiblemoves(p_x+i,p_y) = 1;
+    i = i+1;
+end
+            
+i = 1;
+while(p_x-i>0)
+    if(piece_colour(p_x-i,p_y)== r_colour)
+        break
+    end
+     if(piece_colour(p_x-i,p_y)~= r_colour && chessboard(p_x-i,p_y)~=0)
+        possiblemoves(p_x-i,p_y) = 2;
+        break
+    end
+    possiblemoves(p_x-i,p_y) = 1;
+    i = i+1;
+end
+
+%This section allows movement in the horizontal direction-------------------------
+i = 1;
+while(p_y+i<9)
+    if(piece_colour(p_x,p_y+i)== r_colour)
+        break
+    end
+    if(piece_colour(p_x,p_y+i)~= r_colour && chessboard(p_x,p_y+i)~=0)
+        possiblemoves(p_x,p_y+i) = 2;
+        break
+    end
+    possiblemoves(p_x,p_y+i) = 1;
+    i = i+1;
+end
+
+i = 1;
+while(p_y-i>0)
+    if(piece_colour(p_x,p_y-i)== r_colour)
+        break
+    end
+    if(piece_colour(p_x,p_y-i)~= r_colour && chessboard(p_x,p_y-i)~=0)
+        possiblemoves(p_x,p_y-i) = 2;
+        break
+    end
+    possiblemoves(p_x,p_y-i) = 1;
+    i = i+1;
+end
+%-------------------------------------------------------------------------
+
+end
+\end{lstlisting}
+
+\subsubsection{MovementPawn.m}
+\begin{lstlisting}
+function [possiblemoves] = MovementPawn(chessboard,piece_colour,num_moves,p_x,p_y)
+
+%Initialisation values --------------------------------------------------
+r_colour = piece_colour(p_x,p_y);
+possiblemoves = zeros(8,8);
+
+%This section allows all movements after checking whether it exceeds the board or not ---------------
+switch r_colour
+    case 119 %White case
+        %En passant-------------------------------------------------------
+        if (p_x==4)
+            
+            if(p_x-1>0 && p_y-1 >0) %Capture left
+                if(piece_colour(p_x,p_y-1)~=r_colour && chessboard(p_x,p_y-1)==1 && num_moves(p_x,p_y-1)==1)
+                    possiblemoves(p_x-1,p_y-1) = 3;
+                end
+            end
+
+            if(p_x-1>0 && p_y+1<9) %Capture right
+                if(piece_colour(p_x,p_y+1)~=r_colour && chessboard(p_x,p_y+1)==1 && num_moves(p_x,p_y+1)==1)
+                    possiblemoves(p_x-1,p_y+1) = 3;
+                end    
+            end
+        
+        end
+        
+        if(p_x-1>0) %Forward movement
+            if(chessboard(p_x-1,p_y)==0)
+                possiblemoves(p_x-1,p_y) = 1;
+            end
+        end
+        
+        %Initial forward movement
+        if(p_x==7 && chessboard(p_x-2,p_y)==0 && chessboard(p_x-1,p_y)==0)
+        possiblemoves(p_x-2,p_y) = 1;
+        end
+
+        if(p_x-1>0 && p_y-1 >0) %Capture left
+            if(piece_colour(p_x-1,p_y-1)~=r_colour && chessboard(p_x-1,p_y-1)~=0)
+                possiblemoves(p_x-1,p_y-1) = 2;
+                   if(p_x==2) %Capture and pawn promotion
+                      possiblemoves(p_x-1,p_y-1) = 5;
+                   end
+            end
+        end
+
+        if(p_x-1>0 && p_y+1<9) %Capture right
+            if(piece_colour(p_x-1,p_y+1)~=r_colour && chessboard(p_x-1,p_y+1)~=0)
+                possiblemoves(p_x-1,p_y+1) = 2;
+                   if(p_x==2) %Capture and pawn promotion
+                      possiblemoves(p_x-1,p_y+1) = 5;
+                   end
+            end
+        end    
+        
+        %Pawn promotion----------------------------------------------------
+        if(p_x==2) 
+            if(chessboard(p_x-1,p_y)==0)
+                possiblemoves(p_x-1,p_y) = 5;
+            end
+        end
+       
+    case 98 %Black Case
+    
+        %En passant-------------------------------------------------------
+        if (p_x==5)
+            
+            if(p_x-1>0 && p_y-1 >0) %Capture left
+                if(piece_colour(p_x,p_y-1)~=r_colour && chessboard(p_x,p_y-1)==1 && num_moves(p_x,p_y-1)==1)
+                    possiblemoves(p_x+1,p_y-1) = 3;
+                end
+            end
+
+            if(p_x-1>0 && p_y+1<9) %Capture right
+                if(piece_colour(p_x,p_y+1)~=r_colour && chessboard(p_x,p_y+1)==1 && num_moves(p_x,p_y+1)==1)
+                    possiblemoves(p_x+1,p_y+1) = 3;
+                end    
+            end
+        
+        end
+        
+        if(p_x+1<9) %Forward movement
+            if(chessboard(p_x+1,p_y)==0) 
+                possiblemoves(p_x+1,p_y) = 1;
+            end
+        end
+
+        %Initial Forward movement
+        if(p_x==2 && chessboard(p_x+2,p_y)==0 && chessboard(p_x+1,p_y)==0)
+            possiblemoves(p_x+2,p_y) = 1;
+        end
+        
+        if(p_x+1<9 && p_y-1>0) %Capture left
+            if(piece_colour(p_x+1,p_y-1)~=r_colour && chessboard(p_x+1,p_y-1)~=0)
+                possiblemoves(p_x+1,p_y-1) = 2;
+                  if(p_x==7) %Capture and pawn promotion
+                      possiblemoves(p_x+1,p_y-1) = 5;
+                   end
+            end
+        end
+        
+        if(p_x+1<9 && p_y+1<9) %Capture right
+            if(piece_colour(p_x+1,p_y+1)~=r_colour && chessboard(p_x+1,p_y+1)~=0)
+                possiblemoves(p_x+1,p_y+1) = 2;
+                   if(p_x==7) %Capture and pawn promotion
+                      possiblemoves(p_x+1,p_y+1) = 5;
+                   end
+            end   
+        end
+        
+        %Pawn promotion----------------------------------------------------
+        if(p_x==7)
+            if(chessboard(p_x+1,p_y)==0) 
+                possiblemoves(p_x+1,p_y) = 5;
+            end
+        end
+   
+end
+%-------------------------------------------------------------------------
+end
+\end{lstlisting}
+
+\subsubsection{MovementKnight.m}
+\begin{lstlisting}
+function [possiblemoves] = MovementKnight(chessboard,piece_colour,p_x,p_y)
+
+%Initialisation values --------------------------------------------------
+r_colour = piece_colour(p_x,p_y);
+possiblemoves = zeros(8,8);
+
+%This sections allows L shaped movements for knight
+if(p_x-2>0 & p_y-1>0)
+    if (piece_colour(p_x-2,p_y-1)~= r_colour && chessboard(p_x-2,p_y-1)~=0)
+        possiblemoves(p_x-2,p_y-1) = 2;
+    elseif (piece_colour(p_x-2,p_y-1)== r_colour)
+        ;
+    else
+        possiblemoves(p_x-2,p_y-1) = 1;
+    end
+end
+
+if(p_x-2>0 & p_y+1<9)
+    if (piece_colour(p_x-2,p_y+1)~= r_colour && chessboard(p_x-2,p_y+1)~=0)
+        possiblemoves(p_x-2,p_y+1) = 2;
+    elseif (piece_colour(p_x-2,p_y+1)== r_colour)
+        ;
+    else
+        possiblemoves(p_x-2,p_y+1) = 1;
+    end
+end
+
+if(p_x-1>0 & p_y-2>0)
+    if (piece_colour(p_x-1,p_y-2)~= r_colour && chessboard(p_x-1,p_y-2)~=0)
+        possiblemoves(p_x-1,p_y-2) = 2;
+    elseif (piece_colour(p_x-1,p_y-2)== r_colour)
+        ;
+    else
+        possiblemoves(p_x-1,p_y-2) = 1;
+    end
+end
+
+if(p_x-1>0 & p_y+2<9)
+    if (piece_colour(p_x-1,p_y+2)~= r_colour && chessboard(p_x-1,p_y+2)~=0)
+        possiblemoves(p_x-1,p_y+2) = 2;
+    elseif (piece_colour(p_x-1,p_y+2)== r_colour)
+        ;
+    else
+        possiblemoves(p_x-1,p_y+2) = 1;
+    end
+end
+
+if(p_x+1<9 & p_y-2>0)
+    if (piece_colour(p_x+1,p_y-2)~= r_colour && chessboard(p_x+1,p_y-2)~=0)
+        possiblemoves(p_x+1,p_y-2) = 2;
+    elseif (piece_colour(p_x+1,p_y-2)== r_colour)
+        ;
+    else
+        possiblemoves(p_x+1,p_y-2) = 1;
+    end
+end
+
+if(p_x+1<9 & p_y+2<9)
+    if (piece_colour(p_x+1,p_y+2)~= r_colour && chessboard(p_x+1,p_y+2)~=0)
+        possiblemoves(p_x+1,p_y+2) = 2;
+    elseif (piece_colour(p_x+1,p_y+2)== r_colour)
+        ;
+    else
+        possiblemoves(p_x+1,p_y+2) = 1;
+    end
+end
+
+if(p_x+2<9 & p_y-1>0)
+    if (piece_colour(p_x+2,p_y-1)~= r_colour && chessboard(p_x+2,p_y-1)~=0)
+        possiblemoves(p_x+2,p_y-1) = 2;
+    elseif (piece_colour(p_x+2,p_y-1)== r_colour)
+        ;
+    else
+        possiblemoves(p_x+2,p_y-1) = 1;
+    end
+end
+
+if(p_x+2<9 & p_y+1<9)
+    if (piece_colour(p_x+2,p_y+1)~= r_colour && chessboard(p_x+2,p_y+1)~=0)
+        possiblemoves(p_x+2,p_y+1) = 2;
+    elseif (piece_colour(p_x+2,p_y+1)== r_colour)
+        ;
+    else
+        possiblemoves(p_x+2,p_y+1) = 1;
+    end
+end
+
+%-------------------------------------------------------------------------
+
+end
+\end{lstlisting}
+
+\subsubsection{MovementKing.m}
+\begin{lstlisting}
+function [possiblemoves] = MovementKing(chessboard,piece_colour,num_moves,potential_moves,p_x,p_y)
+
+%Initialisation values --------------------------------------------------
+r_colour = piece_colour(p_x,p_y);
+possiblemoves = zeros(8,8);
+
+%This section allows all movements after checking whether it exceeds the board or not 
+%and ensures that the king is not moving into square that is in check ---------------
+
+%------------------------------------------------------------------------
+%                        Movement (8 Directions)
+%------------------------------------------------------------------------
+
+    
+    if(p_x+1<9)
+        if (piece_colour(p_x+1,p_y)~= r_colour && chessboard(p_x+1,p_y)~=0)
+            possiblemoves(p_x+1,p_y) = 2;
+        elseif (piece_colour(p_x+1,p_y)== r_colour)
+            ;
+        else
+            possiblemoves(p_x+1,p_y) = 1;
+        end
+    end
+    
+    
+    if(p_x+1<9 && p_y+1<9)
+        if (piece_colour(p_x+1,p_y+1)~= r_colour && chessboard(p_x+1,p_y+1)~=0)
+            possiblemoves(p_x+1,p_y+1) = 2;
+        elseif (piece_colour(p_x+1,p_y+1)== r_colour)
+            ;
+        else
+            possiblemoves(p_x+1,p_y+1) = 1;
+        end
+    end
+    
+    
+    if(p_x+1<9 && p_y-1>0)
+        if (piece_colour(p_x+1,p_y-1)~= r_colour && chessboard(p_x+1,p_y-1)~=0)
+            possiblemoves(p_x+1,p_y-1) = 2;
+        elseif (piece_colour(p_x+1,p_y-1)== r_colour)
+            ;
+        else
+            possiblemoves(p_x+1,p_y-1) = 1;
+        end
+    end
+    
+    
+    if(p_y+1<9)
+        if (piece_colour(p_x,p_y+1)~= r_colour && chessboard(p_x,p_y+1)~=0)
+            possiblemoves(p_x,p_y+1) = 2;
+        elseif (piece_colour(p_x,p_y+1)== r_colour)
+            ;
+        else
+            possiblemoves(p_x,p_y+1) = 1;
+        end
+    end
+    
+    
+    if(p_y-1>0)
+        if (piece_colour(p_x,p_y-1)~= r_colour && chessboard(p_x,p_y-1)~=0)
+            possiblemoves(p_x,p_y-1) = 2;
+        elseif (piece_colour(p_x,p_y-1)== r_colour)
+            ;
+        else
+            possiblemoves(p_x,p_y-1) = 1;
+        end
+    end
+    
+    
+    if(p_x-1>0)
+        if (piece_colour(p_x-1,p_y)~= r_colour && chessboard(p_x-1,p_y)~=0)
+            possiblemoves(p_x-1,p_y) = 2;
+        elseif (piece_colour(p_x-1,p_y)== r_colour)
+            ;
+        else
+            possiblemoves(p_x-1,p_y) = 1;
+        end
+    end
+    
+    
+    if(p_x-1>0 && p_y+1<9)
+        if (piece_colour(p_x-1,p_y+1)~= r_colour && chessboard(p_x-1,p_y+1)~=0)
+            possiblemoves(p_x-1,p_y+1) = 2;
+        elseif (piece_colour(p_x-1,p_y+1)== r_colour)
+            ;
+        else
+            possiblemoves(p_x-1,p_y+1) = 1;
+        end
+    end
+    
+    
+    if(p_x-1>0 && p_y-1>0)
+        if (piece_colour(p_x-1,p_y-1)~= r_colour && chessboard(p_x-1,p_y-1)~=0)
+            possiblemoves(p_x-1,p_y-1) = 2;
+        elseif (piece_colour(p_x-1,p_y-1)== r_colour)
+            ;
+        else
+            possiblemoves(p_x-1,p_y-1) = 1;
+        end
+    end
+
+%-------------------------------------------------------------------------   
+%                                  Castling 
+%-------------------------------------------------------------------------
+
+
+%---------------------------- For white king -----------------------------
+%Checks to see if traversed squares are in check and if the final square is
+%checked. Also checks if squares in between are empty
+   if (piece_colour(p_x,p_y)==119 && num_moves(p_x,p_y)==0 && num_moves(8,8)==0 .... 
+           && piece_colour(8,6)==0 && piece_colour(8,7)==0 && potential_moves(8,6)==0 ...  
+           && potential_moves(8,7)==0 && chessboard(8,8)==5 && piece_colour(8,8)==119 )
+       possiblemoves(8,7) = 4;  
+   end    
+   if (piece_colour(p_x,p_y)==119 && num_moves(p_x,p_y)==0 && num_moves(8,1)==0 ....
+           && piece_colour(8,2)==0 && piece_colour(8,3)==0 && piece_colour(8,4)==0 ... 
+           && potential_moves(8,3)==0 && potential_moves(8,4)==0 && chessboard(8,1)==5 ...
+           && piece_colour(8,1)==119)
+       possiblemoves(8,3) = 4;
+   end
+   
+%---------------------------- For black king -----------------------------
+%Checks to see if traversed squares are in check and if the final square is
+%checked
+   if (piece_colour(p_x,p_y)==98 && num_moves(p_x,p_y)==0 && num_moves(1,1)==0 .... 
+           && piece_colour(1,2)==0 && piece_colour(1,3)==0 && piece_colour(1,4)==0 .... 
+           && potential_moves(1,3)==0 && potential_moves(1,4)==0 && ...
+           chessboard(1,1)==5 && piece_colour(1,1)==98)
+       possiblemoves(1,3) = 4;
+   end    
+   if (piece_colour(p_x,p_y)==98 && num_moves(p_x,p_y)==0 && num_moves(1,8)==0 .... 
+           && piece_colour(1,6)==0 && piece_colour(1,7)==0 && potential_moves(1,6)==0 .... 
+           && potential_moves(1,7)==0 && chessboard(1,8)==5 && piece_colour(1,8)==98)
+       possiblemoves(1,7) = 4;
+   end 
+   
+   
+possiblemoves(p_x,p_y)=0;
+%-------------------------------------------------------------------------
+end
+\end{lstlisting}
+
+\subsubsection{MovementBishop.m}
+\begin{lstlisting}
+function [possiblemoves] = MovementBishop(chessboard,piece_colour,p_x,p_y)
+
+%Initialisation values --------------------------------------------------
+r_colour = piece_colour(p_x,p_y);
+possiblemoves = zeros(8,8);
+
+%This section allows movement in / direction -----------------------------
+i=1;
+while(p_x+i<9 && p_y+i<9)
+    if(piece_colour(p_x+i,p_y+i)== r_colour)
+        break
+    end
+    if(piece_colour(p_x+i,p_y+i)~= r_colour && chessboard(p_x+i,p_y+i)~=0)
+        possiblemoves(p_x+i,p_y+i) = 2;
+        break
+    end
+    possiblemoves(p_x+i,p_y+i) = 1;
+    i = i+1;
+end
+
+i=1;
+while(p_x-i>0 && p_y-i>0)
+    if(piece_colour(p_x-i,p_y-i)== r_colour)
+        break
+    end
+    if(piece_colour(p_x-i,p_y-i)~= r_colour && chessboard(p_x-i,p_y-i)~=0)
+        possiblemoves(p_x-i,p_y-i) = 2;
+        break
+    end
+    possiblemoves(p_x-i,p_y-i) = 1;
+    i = i+1;
+end
+
+%This section allows movement in the \ direction-------------------------
+i=1;
+while(p_x+i<9 && p_y-i>0)
+    if(piece_colour(p_x+i,p_y-i)== r_colour)
+        break
+    end
+    if(piece_colour(p_x+i,p_y-i)~= r_colour && chessboard(p_x+i,p_y-i)~=0)
+        possiblemoves(p_x+i,p_y-i) = 2;
+        break
+    end
+    possiblemoves(p_x+i,p_y-i) = 1;
+    i = i+1;
+end
+
+i=1;
+while(p_x-i>0 && p_y+i<9)
+    if(piece_colour(p_x-i,p_y+i)== r_colour)
+        break
+    end
+    if(piece_colour(p_x-i,p_y+i)~= r_colour && chessboard(p_x-i,p_y+i)~=0)
+        possiblemoves(p_x-i,p_y+i) = 2;
+        break
+    end
+    possiblemoves(p_x-i,p_y+i) = 1;
+    i = i+1;
+end
+
+%-------------------------------------------------------------------------
+
+end
+\end{lstlisting}
+
+\subsection{Front-end}
+\subsubsection{ClickPiece.m}
+\begin{lstlisting}
+%ClickPiece Obtains all the data from a user's click, highlights possible
+%moves and allows the user to make that move.
+function [varargout]=ClickPiece(var1,var2,B,piece_colour,chessboard,...
+    num_moves,parameters,potentialmoves,handles,varargin )
+
+set(handles.gameconsole,'String','')
+
+%----------Determines which colour is able to be selected------------------
+if(mod(B.info.turn,2)==1)
+    colourturn = 119;
+    oppositecolour = 98;
+else
+    colourturn = 98;
+    oppositecolour = 119;
+end
+
+onlyAIoption = 0;
+%-------------------------------------------------------------------------
+ clickP = get(gca,'CurrentPoint');
+      x = ceil(clickP(1,2));
+      y = ceil(clickP(1,1));
+%---- Conversion from Graph Grid to B.top grid ---------------------------
+      x = 13-x;      
+      y = y + 4;
+%-------------------------------------------------------------------------
+%This is the board
+      piecetype = B.top(x,y).name;
+
+%--------Conversion from B.Top grid to Chessboard grid--------------------
+      p_x = x - 4;
+      p_y = y - 4;
+
+if(piece_colour(p_x,p_y) == colourturn)
+%----------------------Generates Possible Moves---------------------------
+
+switch piecetype
+    case 'pawn'
+        [possiblemoves] = MovementPawn(chessboard,piece_colour,num_moves,p_x,p_y);
+    case 'rook'
+        [possiblemoves] = MovementRook(chessboard,piece_colour,p_x,p_y);
+    case 'knight'
+        [possiblemoves] = MovementKnight(chessboard,piece_colour,p_x,p_y);
+    case 'bishop'
+        [possiblemoves] = MovementBishop(chessboard,piece_colour,p_x,p_y);
+    case 'queen'
+        [possiblemoves] = MovementQueen(chessboard,piece_colour,p_x,p_y);
+    case 'king'
+        [possiblemoves] = MovementKing(chessboard,piece_colour,num_moves,...
+            potentialmoves,p_x,p_y);
+end
+
+%-------------------------------------------------------------------------
+%             REDRAWS THE BOARD BUT HIGHLIGHTS POSSIBLE MOVES
+%-------------------------------------------------------------------------
+%------------------------------Draws Rectangles---------------------------
+icount=0;
+for i=1:71
+         icount=icount+1;
+         if mod(i,2)==1
+             rectangle('Position',[parameters.xx(icount),parameters.yy(icount),...
+                 parameters.dx ,parameters.dx],'Curvature',[0,0],...
+                 'FaceColor',[0.82 0.545 0.278])
+         else
+            rectangle('Position',[parameters.xx(icount),parameters.yy(icount),...
+                parameters.dx ,parameters.dx],...
+                'Curvature',[0,0],'FaceColor',[1 0.808 0.62])             
+         end
+end
+
+%----------- Highlights possible moves------------------------------------
+for r=1:parameters.rows
+    for c=1:parameters.cols
+        switch possiblemoves(r,c)
+%_______________________Highlights movable squares________________________
+            case 1
+             rectangle('Position',[parameters.xx(9-r,c),parameters.yy(9-r,c),...
+                 parameters.dx ,parameters.dx],'Curvature',[0,0],'FaceColor','y',...
+                 'ButtonDownFcn',{@ClickMovePiece,x,y,B,piece_colour,chessboard...
+                 ,num_moves,parameters,possiblemoves,handles,onlyAIoption,0,0})
+%_______________________Highlights capturable squares______________________
+            case 2
+             rectangle('Position',[parameters.xx(9-r,c),parameters.yy(9-r,c),...
+                 parameters.dx ,parameters.dx],'Curvature',[0,0],'FaceColor','r')
+%_______________________Highlights Enpassant Squares_______________________
+            case 3
+             rectangle('Position',[parameters.xx(9-r,c),parameters.yy(9-r,c),...
+                 parameters.dx ,parameters.dx],'Curvature',[0,0],'FaceColor','r',...
+                 'ButtonDownFcn',{@ClickEnpassant,x,y,B,piece_colour,chessboard...
+                 ,num_moves,parameters,possiblemoves,handles,onlyAIoption,0,0})
+%_______________________Highlights Castling Squares________________________
+            case 4
+             rectangle('Position',[parameters.xx(9-r,c),parameters.yy(9-r,c),...
+                 parameters.dx ,parameters.dx],'Curvature',[0,0],'FaceColor','b',...
+                 'ButtonDownFcn',{@ClickCastling,x,y,B,piece_colour,chessboard...
+                 ,num_moves,parameters,possiblemoves,handles,onlyAIoption,0,0})
+%_______________________Highlights Pawn Promotion Square___________________
+            case 5
+             rectangle('Position',[parameters.xx(9-r,c),parameters.yy(9-r,c),...
+                 parameters.dx ,parameters.dx],'Curvature',[0,0],'FaceColor','c',...
+                 'ButtonDownFcn',{@ClickPawnPromo,x,y,B,piece_colour,chessboard...
+                 ,num_moves,parameters,possiblemoves,handles,onlyAIoption,0,0,0})
+         end
+    end
+end
+%--------------------------------------------------------------------------
+%                             Redraws images 
+%--------------------------------------------------------------------------
+for r=1:parameters.rows
+    for c=1:parameters.cols
+        if ~isempty(B.top(r+B.info.pad/2,c+B.info.pad/2).image)
+            % load the image
+            [X, map, alpha]  = imread(B.top(r+B.info.pad/2,c+B.info.pad/2).image);
+            % draw the image
+            %If Statement enables capture move
+            if possiblemoves(r,c) == 2
+                imHdls(r,c) = image(c+[0 1]-1,[parameters.rows-1 parameters.rows]-r+1,...
+                mirrorImage(X),'AlphaData',mirrorImage(alpha),...
+                'ButtonDownFcn',{@ClickCapturePiece,x,y,B,piece_colour,chessboard...
+                 ,num_moves,parameters,possiblemoves,handles,onlyAIoption,0,0});
+             %Enables Pawn Promotion
+            elseif possiblemoves(r,c) == 5 && chessboard(r,c)~=0
+                imHdls(r,c) = image(c+[0 1]-1,[parameters.rows-1 parameters.rows]-r+1,...
+                mirrorImage(X),'AlphaData',mirrorImage(alpha),...
+                'ButtonDownFcn',{@ClickPawnPromo,x,y,B,piece_colour,chessboard...
+                 ,num_moves,parameters,possiblemoves,handles,onlyAIoption,0,0});
+             %Else enable click piece
+            else
+            imHdls(r,c) = image(c+[0 1]-1,[parameters.rows-1 parameters.rows]-r+1,...
+                mirrorImage(X),'AlphaData',mirrorImage(alpha),...
+                'ButtonDownFcn',{@ClickPiece,B,piece_colour,chessboard,...
+                num_moves,parameters,potentialmoves,handles,onlyAIoption,0,0});
+            end
+        end
+    end
+end
+drawnow;
+end
+end
+%-------------------------------------------------------------------------
+%-------------------------------------------------------------------------
+
+\end{lstlisting}
+
+\subsubsection{ClickCapturePiece.m}
+\begin{lstlisting}
+%CapturePiece Part of the Click Series of Functions - Enables capture
+function [chessboard,piece_colour, num_moves,allowscheck]=ClickCapturePiece(v1,v2,x_ori,y_ori,B,piece_colour,chessboard,...
+    num_moves,parameters,PM,handles,onlyAIoption,move_x,move_y,varargin)
+
+%--------------------------------------------------------------------------
+%                  Init values,conversions and click location
+%--------------------------------------------------------------------------
+if(mod(B.info.turn,2)==1)
+    colourturn = 119;
+    oppositecolour = 98;
+else
+    colourturn = 98;
+    oppositecolour = 119;
+end
+
+if onlyAIoption == 0
+clickP = get(gca,'CurrentPoint');
+      x = ceil(clickP(1,2));
+      y = ceil(clickP(1,1));
+%---- Conversion from Graph grid to B.top grid ---------------------------
+      x = 13-x;      
+      y = y + 4;
+%--------Conversion from B.Top grid to Chessboard grid--------------------
+      p_x = x - 4; %p_x is necessary because it is the current clicked position
+      p_y = y - 4;
+      ori_x = x_ori - 4; %The difference is that ori_x is for chessboard,
+      ori_y = y_ori - 4; %x_ori is for B.top
+else
+    p_x = move_x;   %Where is it moving to
+    p_y = move_y;
+    ori_x = x_ori;   %Where was it originally
+    ori_y = y_ori;
+end
+      
+%-------------------------------------------------------------------------
+%            Checks if King is exposed to check in any way
+%-------------------------------------------------------------------------
+%The method used is to create a future chessboard based on the move
+%requested
+
+fboard = chessboard;
+f_p_colour= piece_colour;
+f_num_moves = num_moves;
+%This step officially moves the piece
+fboard(p_x,p_y) = chessboard(ori_x,ori_y);
+f_p_colour(p_x,p_y) = piece_colour(ori_x,ori_y);
+f_num_moves(p_x,p_y) = num_moves(ori_x,ori_y) + 1;
+%This step empties the previous box
+fboard(ori_x,ori_y) = 0;
+f_p_colour(ori_x,ori_y) = 0;
+f_num_moves(ori_x,ori_y) = 0;
+
+%Analyses the future board
+[potentialfuturemoves,capt_index_future] = analyseboard(fboard,...
+    f_p_colour,f_num_moves,oppositecolour);
+[allowscheck]=KingCheck(fboard,f_p_colour,colourturn,...
+    capt_index_future,potentialfuturemoves);
+if allowscheck==1 && onlyAIoption == 0
+    set(handles.gameconsole,'String','King will be left in check, move invalid')
+end
+%-------------------------------------------------------------------------
+%Ensures it can only move legally
+if PM(p_x,p_y)==2 && chessboard(p_x,p_y) ~= 10 && allowscheck==0
+
+B.info.turn = B.info.turn + 1;
+%-------------------------------------------------------------------------
+%              This is to edit the backend chessboard matrix
+%-------------------------------------------------------------------------
+%This step officially moves the piece
+chessboard = fboard;
+piece_colour = f_p_colour; 
+num_moves = f_num_moves;
+
+
+%-------------To Check Opposing Side -------------------------------------
+[potentialmoves,capt_index] = analyseboard(chessboard,piece_colour,num_moves,colourturn);
+[checkopp]=KingCheck(chessboard,piece_colour,oppositecolour,capt_index,potentialmoves);
+if checkopp == 1 && onlyAIoption == 0
+   set(handles.checkstat,'String','Check')
+    [ischeckmate]=checkmate(B,chessboard,piece_colour, num_moves);
+    if ischeckmate
+        set(handles.checkstat,'String','Checkmate, White Wins')
+    end
+elseif checkopp == 0 && onlyAIoption ==0
+    [ischeckmate]=checkmate(B,chessboard,piece_colour, num_moves);
+    if ischeckmate
+        set(handles.checkstat,'String','Stalemate')
+    else
+        set(handles.checkstat,'String','')
+    end
+end
+
+if onlyAIoption == 0
+    [B] = readchessboard(B,chessboard,piece_colour);
+%-------------------------------------------------------------------------
+%                           Redraws the Board
+%-------------------------------------------------------------------------
+icount=0;
+for i=1:71
+         icount=icount+1;
+         if mod(i,2)==1
+             rectangle('Position',[parameters.xx(icount),parameters.yy(icount),...
+                 parameters.dx ,parameters.dx],'Curvature',[0,0],...
+                 'FaceColor',[0.82 0.545 0.278])
+         else
+            rectangle('Position',[parameters.xx(icount),parameters.yy(icount),...
+                parameters.dx ,parameters.dx],...
+                'Curvature',[0,0],'FaceColor',[1 0.808 0.62])             
+         end
+end
+
+for r=1:parameters.rows
+    for c=1:parameters.cols
+        if ~isempty(B.top(r+B.info.pad/2,c+B.info.pad/2).image)
+            % load the image
+            [X, map, alpha]  = imread(B.top(r+B.info.pad/2,c+B.info.pad/2).image);
+            % draw the image
+            imHdls(r,c) = image(c+[0 1]-1,[parameters.rows-1 parameters.rows]-r+1,...
+                mirrorImage(X),'AlphaData',mirrorImage(alpha),...
+                'ButtonDownFcn',{@ClickPiece,B,piece_colour,chessboard,...
+                num_moves,parameters,potentialmoves,handles});
+        end
+    end
+end
+drawnow;
+if(get(handles.choice2,'Value')==1)
+    AIControl(B,piece_colour,chessboard,num_moves,parameters, handles);
+end
+if(get(handles.choice3,'Value')==1)
+    AIvsAI(B,piece_colour,chessboard,num_moves,parameters, handles)
+end
+if(get(handles.choice1,'Value')==1)
+    PlayerVsPlayer( B,piece_colour,chessboard,num_moves,parameters, handles )
+end
+end
+%---------------------------------------------------------------------------------------
+end
+end
+\end{lstlisting}
+
+\subsubsection{ClickCastling.m}
+\begin{lstlisting}
+%Castling Enables frontend implementation of castling
+function [chessboard,piece_colour, num_moves,allowscheck]=ClickCastling(v1,v2,x_ori,y_ori,B,piece_colour,chessboard,...
+    num_moves,parameters,PM,handles,onlyAIoption,move_x,move_y,varargin)
+
+%--------------------------------------------------------------------------
+%                  Init values,conversions and click location
+%--------------------------------------------------------------------------
+if(mod(B.info.turn,2)==1)
+    colourturn = 119;
+    oppositecolour = 98;
+else
+    colourturn = 98;
+    oppositecolour = 119;
+end
+
+if onlyAIoption == 0
+clickP = get(gca,'CurrentPoint');
+      x = ceil(clickP(1,2));
+      y = ceil(clickP(1,1));
+%---- Conversion from Graph grid to B.top grid ---------------------------
+      x = 13-x;      
+      y = y + 4;
+%--------Conversion from B.Top grid to Chessboard grid--------------------
+      p_x = x - 4; %p_x is necessary because it is the current clicked position
+      p_y = y - 4;
+      ori_x = x_ori - 4; %The difference is that ori_x is for chessboard,
+      ori_y = y_ori - 4; %x_ori is for B.top
+else
+    p_x = move_x;   %Where is it moving to
+    p_y = move_y;
+    ori_x = x_ori;   %Where was it originally
+    ori_y = y_ori;
+end  
+
+%-------------------------------------------------------------------------
+%            Checks if King is exposed to check in any way
+%-------------------------------------------------------------------------
+%The method used is to create a future chessboard based on the move
+%requested
+
+fboard = chessboard;
+f_p_colour= piece_colour;
+f_num_moves = num_moves;
+%This step officially moves the piece
+fboard(p_x,p_y) = chessboard(ori_x,ori_y);
+f_p_colour(p_x,p_y) = piece_colour(ori_x,ori_y);
+f_num_moves(p_x,p_y) = num_moves(ori_x,ori_y) + 1;
+%This step empties the previous box
+fboard(ori_x,ori_y) = 0;
+f_p_colour(ori_x,ori_y) = 0;
+f_num_moves(ori_x,ori_y) = 0;
+
+%Analyses the future board
+[potentialfuturemoves,capt_index_future] = analyseboard(fboard,...
+    f_p_colour,f_num_moves,oppositecolour);
+[allowscheck]=KingCheck(fboard,f_p_colour,colourturn,...
+    capt_index_future,potentialfuturemoves);
+if allowscheck ==1 && onlyAIoption == 0
+    set(handles.gameconsole,'String','King will be left in check, move invalid')
+end
+%-------------------------------------------------------------------------
+%Ensures it can only move legally
+if PM(p_x,p_y)==4 && allowscheck==0
+
+%-------------------------------------------------------------------------
+%                   B.top
+%-------------------------------------------------------------------------
+%Coordinate system is X_rook = [B.top Chessboard]
+if ( p_x == 8 && p_y == 7)
+    x_rook = [12 8]; %Initial Rook Position
+    y_rook = [12 8];
+    move_x = [12 8]; %Final Rook Position
+    move_y = [10 6];
+elseif ( p_x == 8 && p_y == 3 )
+    x_rook = [12 8];
+    y_rook = [5 1];
+    move_x = [12 8];
+    move_y = [8 4];
+elseif ( p_x == 1 && p_y == 7)
+    x_rook = [5 1];
+    y_rook = [12 8];
+    move_x = [5 1];
+    move_y = [10 6];
+elseif ( p_x == 1 && p_y == 3)
+    x_rook = [5 1];
+    y_rook = [5 1];
+    move_x = [5 1];
+    move_y = [8 4];
+end
+
+B.info.turn = B.info.turn + 1;
+%-------------------------------------------------------------------------
+%              This is to edit the backend chessboard matrix
+%-------------------------------------------------------------------------
+%--------------------------------King-------------------------------------
+%This step officially moves the piece
+chessboard(p_x,p_y) = chessboard(ori_x,ori_y);
+piece_colour(p_x,p_y) = piece_colour(ori_x,ori_y);
+num_moves(p_x,p_y) = num_moves(ori_x,ori_y) + 1;
+
+%This step empties the previous box
+chessboard(ori_x,ori_y) = 0;
+piece_colour(ori_x,ori_y) = 0;
+num_moves(ori_x,ori_y) = 0;
+
+%-------------------------------Rook--------------------------------------
+%This step officially moves the piece
+chessboard(move_x(2),move_y(2)) = chessboard(x_rook(2),y_rook(2));
+piece_colour(move_x(2),move_y(2)) = piece_colour(x_rook(2),y_rook(2));
+num_moves(move_x(2),move_y(2)) = num_moves(x_rook(2),y_rook(2)) + 1;
+
+%This step empties the previous box
+chessboard(x_rook(2),y_rook(2)) = 0;
+piece_colour(x_rook(2),y_rook(2)) = 0;
+num_moves(x_rook(2),y_rook(2)) = 0;
+
+%-------------Analyses for potential checks & provides game stats---------
+[potentialmoves,capt_index] = analyseboard(chessboard,piece_colour,num_moves,colourturn);
+[checkopp]=KingCheck(chessboard,piece_colour,oppositecolour,capt_index,potentialmoves);
+if checkopp == 1 && onlyAIoption == 0
+    set(handles.checkstat,'String','Check')
+    [ischeckmate]=checkmate(B,chessboard,piece_colour, num_moves);
+    if ischeckmate
+        set(handles.checkstat,'String','Checkmate, White Wins')
+    end
+    elseif checkopp == 0 && onlyAIoption ==0
+    [ischeckmate]=checkmate(B,chessboard,piece_colour, num_moves);
+    if ischeckmate
+        set(handles.checkstat,'String','Stalemate')
+    else
+        set(handles.checkstat,'String','')
+    end
+end
+
+if onlyAIoption ==0
+    [B] = readchessboard(B,chessboard,piece_colour);
+%-------------------------------------------------------------------------
+%                           Redraws the Board
+%-------------------------------------------------------------------------
+icount=0;
+for i=1:71
+         icount=icount+1;
+         if mod(i,2)==1
+             rectangle('Position',[parameters.xx(icount),parameters.yy(icount),...
+                 parameters.dx ,parameters.dx],'Curvature',[0,0],...
+                 'FaceColor',[0.82 0.545 0.278])
+         else
+            rectangle('Position',[parameters.xx(icount),parameters.yy(icount),...
+                parameters.dx ,parameters.dx],...
+                'Curvature',[0,0],'FaceColor',[1 0.808 0.62])             
+         end
+end
+
+for r=1:parameters.rows
+    for c=1:parameters.cols
+        if ~isempty(B.top(r+B.info.pad/2,c+B.info.pad/2).image)
+            % load the image
+            [X, map, alpha]  = imread(B.top(r+B.info.pad/2,c+B.info.pad/2).image);
+            % draw the image
+            imHdls(r,c) = image(c+[0 1]-1,[parameters.rows-1 parameters.rows]-r+1,...
+                mirrorImage(X),'AlphaData',mirrorImage(alpha),...
+                'ButtonDownFcn',{@ClickPiece,B,piece_colour,chessboard,...
+                num_moves,parameters,potentialmoves,handles});
+        end
+    end
+end
+drawnow;
+if(get(handles.choice2,'Value')==1)
+    AIControl(B,piece_colour,chessboard,num_moves,parameters, handles);
+end
+if(get(handles.choice3,'Value')==1)
+    AIvsAI(B,piece_colour,chessboard,num_moves,parameters, handles)
+end
+if(get(handles.choice1,'Value')==1)
+    PlayerVsPlayer( B,piece_colour,chessboard,num_moves,parameters, handles )
+end
+end
+%---------------------------------------------------------------------------------------
+end
+end
+\end{lstlisting}
+
+\subsubsection{ClickEnpassant.m}
+\begin{lstlisting}
+%Enpassant Enables frontend implementation of En Passant
+function [chessboard,piece_colour, num_moves,allowscheck]=ClickEnpassant(v1,v2,x_ori,y_ori,B,piece_colour,chessboard,...
+    num_moves,parameters,PM, handles,onlyAIoption,move_x,move_y,varargin)
+
+%--------------------------------------------------------------------------
+%                  Init values,conversions and click location
+%--------------------------------------------------------------------------
+if(mod(B.info.turn,2)==1)
+    colourturn = 119;
+    oppositecolour = 98;
+else
+    colourturn = 98;
+    oppositecolour = 119;
+end
+
+if onlyAIoption == 0
+clickP = get(gca,'CurrentPoint');
+      x = ceil(clickP(1,2));
+      y = ceil(clickP(1,1));
+%---- Conversion from Graph grid to B.top grid ---------------------------
+      x = 13-x;      
+      y = y + 4;
+%--------Conversion from B.Top grid to Chessboard grid--------------------
+      p_x = x - 4; %p_x is necessary because it is the current clicked position
+      p_y = y - 4;
+      ori_x = x_ori - 4; %The difference is that ori_x is for chessboard,
+      ori_y = y_ori - 4; %x_ori is for B.top
+else
+    p_x = move_x;   %Where is it moving to
+    p_y = move_y;
+    ori_x = x_ori;   %Where was it originally
+    ori_y = y_ori;
+end
+
+%-------------------------------------------------------------------------
+%        Checks if King is exposed to check in any way due to move
+%-------------------------------------------------------------------------
+%The method used is to create a future chessboard based on the move
+%requested
+
+fboard = chessboard;
+f_p_colour= piece_colour;
+f_num_moves = num_moves;
+%This step officially moves the piece
+fboard(p_x,p_y) = chessboard(ori_x,ori_y);
+f_p_colour(p_x,p_y) = piece_colour(ori_x,ori_y);
+f_num_moves(p_x,p_y) = num_moves(ori_x,ori_y) + 1;
+%This step empties the previous box
+fboard(ori_x,ori_y) = 0;
+f_p_colour(ori_x,ori_y) = 0;
+f_num_moves(ori_x,ori_y) = 0;
+
+%Analyses the future board
+[potentialfuturemoves,capt_index_future] = analyseboard(fboard,...
+    f_p_colour,f_num_moves,oppositecolour);
+[allowscheck]=KingCheck(fboard,f_p_colour,colourturn,...
+    capt_index_future,potentialfuturemoves);
+if allowscheck==1 && onlyAIoption == 0
+    set(handles.gameconsole,'String','King will be left in check, move invalid')
+end
+%-------------------------------------------------------------------------
+%Ensures it can only move legally
+if PM(p_x,p_y)==3 && allowscheck==0
+%--------------------------------------------------------------------------
+%                Moves Data in B.TOP & deletes previous cell
+%--------------------------------------------------------------------------
+%Coordinates of the captured piece
+if (piece_colour(ori_x,ori_y)==98)
+   del_x = [p_x+3 p_x-1];
+   del_y = [p_y+4 p_y];
+end
+   
+if (piece_colour(ori_x,ori_y)==119)    
+   del_x = [p_x+5 p_x+1];
+   del_y = [p_y+4 p_y];
+end
+            
+B.info.turn = B.info.turn + 1;
+%-------------------------------------------------------------------------
+%              This is to edit the backend chessboard matrix
+%-------------------------------------------------------------------------
+%This step officially moves the piece
+chessboard(p_x,p_y) = chessboard(ori_x,ori_y);
+piece_colour(p_x,p_y) = piece_colour(ori_x,ori_y);
+num_moves(p_x,p_y) = num_moves(ori_x,ori_y) + 1;
+
+%This step empties the previous box
+chessboard(ori_x,ori_y) = 0;
+piece_colour(ori_x,ori_y) = 0;
+num_moves(ori_x,ori_y) = 0;
+
+%This step deletes the capured piece
+chessboard(del_x(2),del_y(2)) = 0;
+piece_colour(del_x(2),del_y(2)) = 0;
+num_moves(del_x(2),del_y(2)) = 0;
+
+
+%-------------Analyses for potential checks & provides game stats---------
+[potentialmoves,capt_index] = analyseboard(chessboard,piece_colour,num_moves,colourturn);
+[checkopp]=KingCheck(chessboard,piece_colour,oppositecolour,capt_index,potentialmoves);
+if checkopp == 1 && onlyAIoption == 0
+    set(handles.checkstat,'String','Check')
+    [ischeckmate]=checkmate(B,chessboard,piece_colour, num_moves);
+    if ischeckmate
+        set(handles.checkstat,'String','Checkmate, White Wins')
+    end
+    elseif checkopp == 0 && onlyAIoption ==0
+    [ischeckmate]=checkmate(B,chessboard,piece_colour, num_moves);
+    if ischeckmate
+        set(handles.checkstat,'String','Stalemate')
+    else
+        set(handles.checkstat,'String','')
+    end
+end
+
+if onlyAIoption == 0
+    [B] = readchessboard(B,chessboard,piece_colour);
+%-------------------------------------------------------------------------
+%                           Redraws the Board
+%-------------------------------------------------------------------------
+icount=0;
+for i=1:71
+         icount=icount+1;
+         if mod(i,2)==1
+             rectangle('Position',[parameters.xx(icount),parameters.yy(icount),...
+                 parameters.dx ,parameters.dx],'Curvature',[0,0],...
+                 'FaceColor',[0.82 0.545 0.278])
+         else
+            rectangle('Position',[parameters.xx(icount),parameters.yy(icount),...
+                parameters.dx ,parameters.dx],...
+                'Curvature',[0,0],'FaceColor',[1 0.808 0.62])             
+         end
+end
+
+for r=1:parameters.rows
+    for c=1:parameters.cols
+        if ~isempty(B.top(r+B.info.pad/2,c+B.info.pad/2).image)
+            % load the image
+            [X, map, alpha]  = imread(B.top(r+B.info.pad/2,c+B.info.pad/2).image);
+            % draw the image
+            imHdls(r,c) = image(c+[0 1]-1,[parameters.rows-1 parameters.rows]-r+1,...
+                mirrorImage(X),'AlphaData',mirrorImage(alpha),...
+                'ButtonDownFcn',{@ClickPiece,B,piece_colour,chessboard,...
+                num_moves,parameters,potentialmoves,handles});
+        end
+    end
+end
+drawnow;
+if(get(handles.choice2,'Value')==1)
+    AIControl(B,piece_colour,chessboard,num_moves,parameters, handles);
+end
+if(get(handles.choice3,'Value')==1)
+    AIvsAI(B,piece_colour,chessboard,num_moves,parameters, handles)
+end
+if(get(handles.choice1,'Value')==1)
+    PlayerVsPlayer( B,piece_colour,chessboard,num_moves,parameters, handles )
+end
+end
+%---------------------------------------------------------------------------------------
+end
+end
+\end{lstlisting}
+
+\subsubsection{ClickPawnPromo.m}
+\begin{lstlisting}
+%PawnPromo Enables Front End Implementation of Pawn Promo
+function [chessboard,piece_colour, num_moves,allowscheck]=ClickPawnPromo(v1,v2,x_ori,y_ori,B,piece_colour,chessboard,...
+    num_moves,parameters,PM,handles,onlyAIoption,move_x,move_y,promo,varargin)
+
+%--------------------------------------------------------------------------
+%                  Init values,conversions and click location
+%--------------------------------------------------------------------------
+if(mod(B.info.turn,2)==1)
+    colourturn = 119;
+    oppositecolour = 98;
+else
+    colourturn = 98;
+    oppositecolour = 119;
+end
+
+if onlyAIoption == 0
+clickP = get(gca,'CurrentPoint');
+      x = ceil(clickP(1,2));
+      y = ceil(clickP(1,1));
+%---- Conversion from Graph grid to B.top grid ---------------------------
+      x = 13-x;      
+      y = y + 4;
+%--------Conversion from B.Top grid to Chessboard grid--------------------
+      p_x = x - 4; %p_x is necessary because it is the current clicked position
+      p_y = y - 4;
+      ori_x = x_ori - 4; %The difference is that ori_x is for chessboard,
+      ori_y = y_ori - 4; %x_ori is for B.top
+else
+    p_x = move_x;   %Where is it moving to
+    p_y = move_y;
+    ori_x = x_ori;   %Where was it originally
+    ori_y = y_ori;
+end
+
+%-------------------------------------------------------------------------
+%            Checks if King is exposed to check in any way
+%-------------------------------------------------------------------------
+%The method used is to create a future chessboard based on the move
+%requested
+
+fboard = chessboard;
+f_p_colour= piece_colour;
+f_num_moves = num_moves;
+%This step officially moves the piece
+fboard(p_x,p_y) = chessboard(ori_x,ori_y);
+f_p_colour(p_x,p_y) = piece_colour(ori_x,ori_y);
+f_num_moves(p_x,p_y) = num_moves(ori_x,ori_y) + 1;
+%This step empties the previous box
+fboard(ori_x,ori_y) = 0;
+f_p_colour(ori_x,ori_y) = 0;
+f_num_moves(ori_x,ori_y) = 0;
+
+%Analyses the future board
+[potentialfuturemoves,capt_index_future] = analyseboard(fboard,...
+    f_p_colour,f_num_moves,oppositecolour);
+[allowscheck]=KingCheck(fboard,f_p_colour,colourturn,...
+    capt_index_future,potentialfuturemoves);
+if allowscheck==1 && onlyAIoption == 0
+    set(handles.gameconsole,'String','King will be left in check, move invalid')
+end
+%-------------------------------------------------------------------------
+%Ensures it can only move legally
+if PM(p_x,p_y)==5 && allowscheck==0
+%--------------------------------------------------------------------------
+%                Moves Data in B.TOP & deletes previous cell
+%--------------------------------------------------------------------------
+%Allows user to input desired piece. Checks legality.
+if ~onlyAIoption
+set(handles.gameconsole,'String','Pawn has been promoted');
+            flags=0;
+          while(flags==0)
+              flags=1;
+              v=0;
+              while v == 0
+              [pawn_prom,v] = listdlg('PromptString','Select a piece:',...
+                'SelectionMode','single',...
+                'ListString',{'Rook','Queen','Knight','Bishop'});
+              end
+            switch pawn_prom
+                case 1
+                    chessboard(p_x,p_y)= 5;
+                case 2
+                    chessboard(p_x,p_y)= 9;
+                case 3
+                    chessboard(p_x,p_y)= 3;
+                case 4
+                    chessboard(p_x,p_y)= 4;
+                otherwise
+                    disp('Invalid input');
+                    flags=0;
+            end   
+          end
+else
+            switch promo
+                        case 'rook'
+                            chessboard(p_x,p_y)= 5;
+                        case 'queen'
+                            chessboard(p_x,p_y)= 9;
+                        case 'knight'
+                            chessboard(p_x,p_y)= 3;
+                        case 'bishop'
+                            chessboard(p_x,p_y)= 4;
+            end   
+end
+
+B.info.turn = B.info.turn + 1;
+
+%-------------------------------------------------------------------------
+%              This is to edit the backend chessboard matrix
+%-------------------------------------------------------------------------
+%This step officially moves the piece
+num_moves(p_x,p_y) = num_moves(ori_x,ori_y) + 1;
+piece_colour(p_x,p_y)= colourturn;
+ 
+%This step empties the previous box
+chessboard(ori_x,ori_y) = 0;
+piece_colour(ori_x,ori_y) = 0;
+num_moves(ori_x,ori_y) = 0;
+
+%-------------Analyses for potential checks & provides game stats---------
+[potentialmoves,capt_index] = analyseboard(chessboard,piece_colour,num_moves,colourturn);
+[checkopp]=KingCheck(chessboard,piece_colour,oppositecolour,capt_index,potentialmoves);
+if checkopp == 1 && onlyAIoption == 0
+   set(handles.checkstat,'String','Check')
+    [ischeckmate]=checkmate(B,chessboard,piece_colour, num_moves);
+    if ischeckmate
+        set(handles.checkstat,'String','Checkmate, White Wins')
+    end
+elseif checkopp == 0 && onlyAIoption ==0
+    [ischeckmate]=checkmate(B,chessboard,piece_colour, num_moves);
+    if ischeckmate
+        set(handles.checkstat,'String','Stalemate')
+    else
+        set(handles.checkstat,'String','')
+    end
+end
+
+if onlyAIoption == 0
+    [B] = readchessboard(B,chessboard,piece_colour);
+%-------------------------------------------------------------------------
+%                           Redraws the Board
+%-------------------------------------------------------------------------
+icount=0;
+for i=1:71
+         icount=icount+1;
+         if mod(i,2)==1
+             rectangle('Position',[parameters.xx(icount),parameters.yy(icount),...
+                 parameters.dx ,parameters.dx],'Curvature',[0,0],...
+                 'FaceColor',[0.82 0.545 0.278])
+         else
+            rectangle('Position',[parameters.xx(icount),parameters.yy(icount),...
+                parameters.dx ,parameters.dx],...
+                'Curvature',[0,0],'FaceColor',[1 0.808 0.62])             
+         end
+end
+
+for r=1:parameters.rows
+    for c=1:parameters.cols
+        if ~isempty(B.top(r+B.info.pad/2,c+B.info.pad/2).image)
+            % load the image
+            [X, map, alpha]  = imread(B.top(r+B.info.pad/2,c+B.info.pad/2).image);
+            % draw the image
+            imHdls(r,c) = image(c+[0 1]-1,[parameters.rows-1 parameters.rows]-r+1,...
+                mirrorImage(X),'AlphaData',mirrorImage(alpha),...
+                'ButtonDownFcn',{@ClickPiece,B,piece_colour,chessboard,...
+                num_moves,parameters,potentialmoves,handles});
+        end
+    end
+end
+drawnow;
+if(get(handles.choice2,'Value')==1)
+    AIControl(B,piece_colour,chessboard,num_moves,parameters, handles);
+end
+if(get(handles.choice3,'Value')==1)
+    AIvsAI(B,piece_colour,chessboard,num_moves,parameters, handles)
+end
+if(get(handles.choice1,'Value')==1)
+    PlayerVsPlayer( B,piece_colour,chessboard,num_moves,parameters, handles )
+end
+end
+%---------------------------------------------------------------------------------------
+end
+end
+\end{lstlisting}
+
+\subsubsection{ClickMovePiece.m}
+\begin{lstlisting}
+%Movepiece Part of the Click Series of Functions - Enables movement
+function [chessboard,piece_colour, num_moves,allowscheck]=ClickMovePiece(v1,v2,x_ori,y_ori,B,piece_colour,chessboard,...
+    num_moves,parameters,PM,handles,onlyAIoption,move_x,move_y,varargin)
+
+%--------------------------------------------------------------------------
+%                  Init values,conversions and click location
+%--------------------------------------------------------------------------
+if(mod(B.info.turn,2)==1)
+    colourturn = 119;
+    oppositecolour = 98;
+else
+    colourturn = 98;
+    oppositecolour = 119;
+end
+
+if onlyAIoption == 0
+clickP = get(gca,'CurrentPoint');
+      x = ceil(clickP(1,2));
+      y = ceil(clickP(1,1));
+%---- Conversion from Graph grid to B.top grid ---------------------------
+      x = 13-x;      
+      y = y + 4;
+%--------Conversion from B.Top grid to Chessboard grid--------------------
+      p_x = x - 4; %p_x is necessary because it is the current clicked position
+      p_y = y - 4;
+      ori_x = x_ori - 4; %The difference is that ori_x is for chessboard,
+      ori_y = y_ori - 4; %x_ori is for B.top
+else
+    p_x = move_x;   %Where is it moving to
+    p_y = move_y;
+    ori_x = x_ori;   %Where was it originally
+    ori_y = y_ori;
+end
+      
+%-------------------------------------------------------------------------
+%            Checks if King is exposed to check in any way
+%-------------------------------------------------------------------------
+%The method used is to create a future chessboard based on the move
+%requested
+
+fboard = chessboard;
+f_p_colour= piece_colour;
+f_num_moves = num_moves;
+%This step officially moves the piece
+fboard(p_x,p_y) = chessboard(ori_x,ori_y);
+f_p_colour(p_x,p_y) = piece_colour(ori_x,ori_y);
+f_num_moves(p_x,p_y) = num_moves(ori_x,ori_y) + 1;
+%This step empties the previous box
+fboard(ori_x,ori_y) = 0;
+f_p_colour(ori_x,ori_y) = 0;
+f_num_moves(ori_x,ori_y) = 0;
+
+%Analyses the future board
+[potentialfuturemoves,capt_index_future] = analyseboard(fboard,...
+    f_p_colour,f_num_moves,oppositecolour);
+[allowscheck]=KingCheck(fboard,f_p_colour,colourturn,...
+    capt_index_future,potentialfuturemoves);
+if allowscheck ==1 && onlyAIoption == 0
+    set(handles.gameconsole,'String','King will be left in check, move invalid')
+end
+%-------------------------------------------------------------------------
+%------------------------------------------------------------------------
+
+if PM(p_x,p_y)==1 && allowscheck==0 %Ensures it can only move legally
+    
+%Iterates the turn
+B.info.turn = B.info.turn + 1;
+
+%-------------------------------------------------------------------------
+%              This is to edit the backend chessboard matrix
+%-------------------------------------------------------------------------
+%This step officially moves the piece
+chessboard = fboard;
+piece_colour = f_p_colour; 
+num_moves = f_num_moves;
+
+%-------------Analyses for potential checks & provides game stats---------
+[potentialmoves,capt_index] = analyseboard(chessboard,piece_colour,num_moves,colourturn);
+[checkopp]=KingCheck(chessboard,piece_colour,oppositecolour,capt_index,potentialmoves);
+
+if checkopp == 1 && onlyAIoption ==0
+    set(handles.checkstat,'String','Check')
+    [ischeckmate]=checkmate(B,chessboard,piece_colour, num_moves);
+    if ischeckmate
+        set(handles.checkstat,'String','Checkmate, White Wins')
+    end
+elseif checkopp == 0 && onlyAIoption ==0
+    [ischeckmate]=checkmate(B,chessboard,piece_colour, num_moves);
+    if ischeckmate
+        set(handles.checkstat,'String','Stalemate')
+    else
+        set(handles.checkstat,'String','')
+    end
+end
+
+%-------------------------------------------------------------------------
+if onlyAIoption == 0
+    [B] = readchessboard(B,chessboard,piece_colour);
+%-------------------------------------------------------------------------
+%                           Redraws the Board
+%-------------------------------------------------------------------------
+icount=0;
+for i=1:71
+         icount=icount+1;
+         if mod(i,2)==1
+             rectangle('Position',[parameters.xx(icount),parameters.yy(icount),...
+                 parameters.dx ,parameters.dx],'Curvature',[0,0],...
+                 'FaceColor',[0.82 0.545 0.278])
+         else
+            rectangle('Position',[parameters.xx(icount),parameters.yy(icount),...
+                parameters.dx ,parameters.dx],...
+                'Curvature',[0,0],'FaceColor',[1 0.808 0.62])             
+         end
+end
+
+%------------------------------------------------------------------------
+for r=1:parameters.rows
+    for c=1:parameters.cols
+        if ~isempty(B.top(r+B.info.pad/2,c+B.info.pad/2).image)
+            % load the image
+            [X, map, alpha]  = imread(B.top(r+B.info.pad/2,c+B.info.pad/2).image);
+            % draw the image
+            imHdls(r,c) = image(c+[0 1]-1,[parameters.rows-1 parameters.rows]-r+1,...
+                mirrorImage(X),'AlphaData',mirrorImage(alpha),...
+                'ButtonDownFcn',{@ClickPiece,B,piece_colour,chessboard,...
+                num_moves,parameters,potentialmoves,handles});
+        end
+    end
+end
+drawnow;
+if(get(handles.choice2,'Value')==1)
+    AIControl(B,piece_colour,chessboard,num_moves,parameters, handles);
+end
+if(get(handles.choice3,'Value')==1)
+    AIvsAI(B,piece_colour,chessboard,num_moves,parameters, handles)
+end
+if(get(handles.choice1,'Value')==1)
+    PlayerVsPlayer( B,piece_colour,chessboard,num_moves,parameters, handles )
+end
+end
+%-------------------------------------------------------------------------
+end
+end
+\end{lstlisting}
+
+\subsection{AI}
+\subsubsection{AIControl.m}
+\begin{lstlisting}
+function [B,piece_colour,chessboard,num_moves,parameters, handles]=AIControl(B,piece_colour,chessboard,...
+                num_moves,parameters, handles)
+%AIControl Enables AI to be in action
+
+%-------------------------------------------------------------------------
+%                       Init Values
+%-------------------------------------------------------------------------
+if(mod(B.info.turn-1,2)==1)
+    colourturn = 119;
+    oppositecolour = 98;
+else
+    colourturn = 98;
+    oppositecolour = 119;
+end
+
+[userboardscore] = heuristicanalysis(B,chessboard, piece_colour,num_moves,119,handles);
+set(handles.UPS,'String',userboardscore)
+handles.userboardscore = [handles.userboardscore userboardscore];
+depth = 2;
+set(handles.depth,'String',depth)
+
+%------------------ Stops Game Execution if White Wins -------------------
+% [ischeckmate]=checkmate(B,chessboard,piece_colour, num_moves);
+% if ischeckmate
+%     return
+% end
+
+[oppcolourpotentialmoves,oppcolourcapt_index] = analyseboard(chessboard, piece_colour,num_moves,colourturn);
+
+[ischeck]=KingCheck(chessboard,piece_colour,oppositecolour, oppcolourcapt_index,oppcolourpotentialmoves);
+if ischeck == 1
+    set(handles.checkstat,'String','Check')
+    [ischeckmate]=checkmate(B,chessboard,piece_colour, num_moves);
+    if ischeckmate
+        set(handles.checkstat,'String','Checkmate, White Wins')
+    end
+elseif ischeck == 0
+    [ischeckmate]=checkmate(B,chessboard,piece_colour, num_moves);
+    if ischeckmate
+        set(handles.checkstat,'String','Stalemate')
+    else
+        set(handles.checkstat,'String','')
+    end
+end
+%--------------------Plot UserBoardScore-----------------------------------
+
+ handles.turnforwhite = [handles.turnforwhite B.info.turn];
+ plot(handles.graph,handles.turnforwhite,handles.userboardscore,'-b',...
+     handles.turnforblack,handles.AIBoardscore,'-r','LineWidth',2)
+ set(handles.graph,'XColor','w','YColor','w')
+ xlabel(handles.graph,'Turn')
+ ylabel(handles.graph,'Score')
+
+%-------------------------------------------------------------------------
+set(handles.AIMsgs,'String','Thinking Really Hard')
+
+%Produces AI's decision
+tic
+[boardscore,chessboard,piece_colour,num_moves]=...
+    AI_GenerateAllMoves(B,chessboard,piece_colour,num_moves,depth,1,-99999,99999,handles);
+time =toc;
+
+set(handles.AIMsgs,'String',['Time Taken To Think Was: ' num2str(time) ' seconds'])
+
+%Translates the results into B.top
+[B] = readchessboard(B,chessboard,piece_colour);
+%Iterates turn
+B.info.turn = B.info.turn + 1;
+
+%--------------------- Shows AI Board Score-------------------------------
+[AIBoardScore] = heuristicanalysis(B,chessboard, piece_colour,num_moves,98,handles);
+set(handles.APS,'String',AIBoardScore)
+handles.AIBoardscore = [handles.AIBoardscore AIBoardScore];
+
+%---------------------Plots AI Board Score--------------------------------
+
+ handles.turnforblack = [handles.turnforblack B.info.turn];
+ plot(handles.graph,handles.turnforwhite,handles.userboardscore,'-b',...
+     handles.turnforblack,handles.AIBoardscore,'-r','LineWidth',2)
+ set(handles.graph,'XColor','w','YColor','w')
+ xlabel(handles.graph,'Turn')
+ ylabel(handles.graph,'Score')
+
+%------------------------ Checks if AI has checkmated User ---------------
+[oppcolourpotentialmoves,oppcolourcapt_index] = analyseboard(chessboard, piece_colour,num_moves,oppositecolour);
+
+[ischeck]=KingCheck(chessboard,piece_colour,colourturn, oppcolourcapt_index,oppcolourpotentialmoves);
+if ischeck == 1
+    set(handles.checkstat,'String','Check')
+    [ischeckmate]=checkmate(B,chessboard,piece_colour, num_moves);
+    if ischeckmate
+        set(handles.checkstat,'String','Checkmate, Black Wins')
+    end
+elseif ischeck == 0
+    [ischeckmate]=checkmate(B,chessboard,piece_colour, num_moves);
+    if ischeckmate
+        set(handles.checkstat,'String','Stalemate')
+    else
+        set(handles.checkstat,'String','')
+    end
+end
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+%                           Redraws the Board
+%-------------------------------------------------------------------------
+icount=0;
+for i=1:71
+         icount=icount+1;
+         if mod(i,2)==1
+             rectangle('Position',[parameters.xx(icount),parameters.yy(icount),...
+                 parameters.dx ,parameters.dx],'Curvature',[0,0],...
+                 'FaceColor',[0.82 0.545 0.278])
+         else
+            rectangle('Position',[parameters.xx(icount),parameters.yy(icount),...
+                parameters.dx ,parameters.dx],...
+                'Curvature',[0,0],'FaceColor',[1 0.808 0.62])             
+         end
+end
+
+%------------------------------------------------------------------------
+for r=1:parameters.rows
+    for c=1:parameters.cols
+        if ~isempty(B.top(r+B.info.pad/2,c+B.info.pad/2).image)
+            % load the image
+            [X, map, alpha]  = imread(B.top(r+B.info.pad/2,c+B.info.pad/2).image);
+            % draw the image
+            imHdls(r,c) = image(c+[0 1]-1,[parameters.rows-1 parameters.rows]-r+1,...
+                mirrorImage(X),'AlphaData',mirrorImage(alpha),...
+                'ButtonDownFcn',{@ClickPiece,B,piece_colour,chessboard,...
+                num_moves,parameters,oppcolourpotentialmoves,handles});
+        end
+    end
+end
+drawnow;
+%-------------------------------------------------------------------------
+end
+\end{lstlisting}
+
+\subsubsection{AI\_GenerateAllMoves.m}
+\begin{lstlisting}
+%AI - Generates moves and stores them for 1 PLY (Only for DATA Tree)
+function [boardscore,bchessboard,bpiece_colour,bnum_moves,handles]=...
+    AI_GenerateAllMoves(B,chessboard,piece_colour,num_moves,depth,maxormin,alpha,beta,handles)
+%-------------------------------------------------------------------------
+%                           Init Values
+%-------------------------------------------------------------------------
+TmpB = B;
+
+if(mod(TmpB.info.turn,2)==1)
+    colour = 119;
+    oppcolour = 98;
+else
+    colour = 98;
+    oppcolour = 119;
+end
+
+TmpB.info.turn = TmpB.info.turn +1;
+%-------------------------------------------------------------------------
+
+if depth == 0
+   TmpB.info.turn = TmpB.info.turn-1;
+  [boardscore] = heuristicanalysis(TmpB,chessboard, piece_colour,num_moves,colour,handles);
+  bchessboard = chessboard;
+  bpiece_colour = piece_colour;
+  bnum_moves = num_moves;
+else
+
+if maxormin == 1  %Maximizing Player
+%===================== Generates Future Nodes or Leafs ====================
+%-------------------------------------------------------------------------
+%        Loop that generates all possible moves
+%-------------------------------------------------------------------------
+[p_x,p_y] = find(piece_colour == colour);
+perm_index = randperm(length(p_x));
+p_x = p_x(perm_index);
+p_y = p_y(perm_index);
+n_remaining = length(p_x);
+[potentialmoves] = analyseboard(chessboard, piece_colour,num_moves,oppcolour);
+previousboardscore = -99999;
+%In essence, we are going through each piece, looking at it's possible
+%moves, make those possible moves, evaluate, save bestboard.
+for i=1:n_remaining
+    p_type = chessboard(p_x(i),p_y(i));
+    switch p_type
+        case 1
+            [move] = MovementPawn(chessboard,piece_colour,num_moves,p_x(i),p_y(i));
+        case 5
+            [move] = MovementRook(chessboard,piece_colour,p_x(i),p_y(i)); 
+        case 4
+            [move] = MovementBishop(chessboard,piece_colour,p_x(i),p_y(i));
+        case 3
+            [move] = MovementKnight(chessboard,piece_colour,p_x(i),p_y(i));
+        case 9
+            [move] = MovementQueen(chessboard,piece_colour,p_x(i),p_y(i));
+        case 10
+            [move] = MovementKing(chessboard,piece_colour,num_moves,potentialmoves,p_x(i),p_y(i));
+    end
+
+%-------------------------------------------------------------------------
+%            Individual Piece Moves That Generate New Game States
+%                    Recursion is also added in each loop
+%-------------------------------------------------------------------------
+     [move_x,move_y] = find(move ~= 0);
+     perm_index2 = randperm(length(move_x));
+     move_x = move_x(perm_index2);
+     move_y = move_y(perm_index2);
+     n_move = length(move_x);
+     pruneflag = 0;
+%This loop generates all the game states from 1 piece
+     for j = 1:n_move
+         switch move(move_x(j),move_y(j))
+             case 1
+                 [pchessboard, ppiece_colour, pnum_moves,kingincheck]=ClickMovePiece(0,0,p_x(i),p_y(i),B,piece_colour,chessboard,...
+                     num_moves,0,move,0,1,move_x(j),move_y(j));
+             case 2
+                 [pchessboard, ppiece_colour, pnum_moves,kingincheck]=ClickCapturePiece(0,0,p_x(i),p_y(i),B,piece_colour,chessboard,...
+                     num_moves,0,move,0,1,move_x(j),move_y(j));
+             case 3
+                 [pchessboard, ppiece_colour, pnum_moves,kingincheck]=ClickEnpassant(0,0,p_x(i),p_y(i),B,piece_colour,chessboard,...
+                     num_moves,0,move, 0,1,move_x(j),move_y(j));
+             case 4
+                 [pchessboard, ppiece_colour, pnum_moves,kingincheck]=ClickCastling(0,0,p_x(i),p_y(i),B,piece_colour,chessboard,...
+                     num_moves,0,move,0,1,move_x(j),move_y(j));
+             case 5
+                 [pchessboard,ppiece_colour, pnum_moves,kingincheck]=ClickPawnPromo(0,0,p_x(i),p_y(i),B,piece_colour,chessboard,...
+                     num_moves,0,move,0,1,move_x(j),move_y(j),'queen');
+         end
+%--------A node has been generated, what do you want to do with it?--------
+         if kingincheck  
+             %ignore because move not valid
+             if ~exist('boardscore','var')
+             boardscore = -99999;
+             bchessboard = 0;
+             bpiece_colour =0;
+             bnum_moves =0;
+             end
+         else
+                 %Generate another layer with recursive parameters
+                 [boardscore,~,~,~,handles]=...
+            AI_GenerateAllMoves(TmpB,pchessboard,ppiece_colour,pnum_moves,depth-1,-maxormin,alpha,beta,handles);
+    
+                    if boardscore > previousboardscore
+                        previousboardscore = boardscore;
+                        bchessboard = pchessboard;
+                        bpiece_colour = ppiece_colour;
+                        bnum_moves = pnum_moves;
+                    end
+                    if boardscore>alpha
+                        alpha = boardscore;
+                    end
+%             disp([depth alpha beta boardscore previousboardscore i j n_remaining n_move])
+                    if alpha>beta
+                        pruneflag = 1;
+                        break
+                    end
+         end
+%--------------------------------------------------------------------------
+     end
+     if pruneflag
+         break
+     end
+end
+%=========================================================================
+
+
+elseif maxormin == -1 %Minimizing Player
+%===================== Generates Future Nodes or Leafs ====================
+%-------------------------------------------------------------------------
+%        Loop that generates all possible moves
+%-------------------------------------------------------------------------
+[p_x,p_y] = find(piece_colour == colour);
+perm_index = randperm(length(p_x));
+p_x = p_x(perm_index);
+p_y = p_y(perm_index);
+n_remaining = length(p_x);
+[potentialmoves] = analyseboard(chessboard, piece_colour,num_moves,oppcolour);
+previousboardscore = 99999;
+%In essence, we are going through each piece, looking at it's possible
+%moves, make those possible moves, evaluate, save bestboard.
+for i=1:n_remaining
+    p_type = chessboard(p_x(i),p_y(i));
+    switch p_type
+        case 1
+            [move] = MovementPawn(chessboard,piece_colour,num_moves,p_x(i),p_y(i));
+        case 5
+            [move] = MovementRook(chessboard,piece_colour,p_x(i),p_y(i)); 
+        case 4
+            [move] = MovementBishop(chessboard,piece_colour,p_x(i),p_y(i));
+        case 3
+            [move] = MovementKnight(chessboard,piece_colour,p_x(i),p_y(i));
+        case 9
+            [move] = MovementQueen(chessboard,piece_colour,p_x(i),p_y(i));
+        case 10
+            [move] = MovementKing(chessboard,piece_colour,num_moves,potentialmoves,p_x(i),p_y(i));
+    end
+
+%-------------------------------------------------------------------------
+%            Individual Piece Moves That Generate New Game States
+%                    Recursion is also added in each loop
+%-------------------------------------------------------------------------
+     [move_x,move_y] = find(move ~= 0);
+     perm_index2 = randperm(length(move_x));
+     move_x = move_x(perm_index2);
+     move_y = move_y(perm_index2);
+     n_move = length(move_x);
+     pruneflag = 0;
+%This loop generates all the game states from 1 piece
+     for j = 1:n_move
+         switch move(move_x(j),move_y(j))
+             case 1
+                 [pchessboard, ppiece_colour, pnum_moves,kingincheck]=ClickMovePiece(0,0,p_x(i),p_y(i),B,piece_colour,chessboard,...
+                     num_moves,0,move,0,1,move_x(j),move_y(j));
+             case 2
+                 [pchessboard, ppiece_colour, pnum_moves,kingincheck]=ClickCapturePiece(0,0,p_x(i),p_y(i),B,piece_colour,chessboard,...
+                     num_moves,0,move,0,1,move_x(j),move_y(j));
+             case 3
+                 [pchessboard, ppiece_colour, pnum_moves,kingincheck]=ClickEnpassant(0,0,p_x(i),p_y(i),B,piece_colour,chessboard,...
+                     num_moves,0,move, 0,1,move_x(j),move_y(j));
+             case 4
+                 [pchessboard, ppiece_colour, pnum_moves,kingincheck]=ClickCastling(0,0,p_x(i),p_y(i),B,piece_colour,chessboard,...
+                     num_moves,0,move,0,1,move_x(j),move_y(j));
+             case 5
+                 [pchessboard,ppiece_colour, pnum_moves,kingincheck]=ClickPawnPromo(0,0,p_x(i),p_y(i),B,piece_colour,chessboard,...
+                     num_moves,0,move,0,1,move_x(j),move_y(j),'queen');
+         end
+%--------A node has been generated, what do you want to do with it?--------
+         if kingincheck  
+             %ignore because move not valid
+             if ~exist('boardscore','var')
+             boardscore = 99999;
+             bchessboard = 0;
+             bpiece_colour =0;
+             bnum_moves =0;
+             end
+         else
+                 %Generate another layer with recursive parameters
+                 [boardscore,~,~,~,handles]=...
+            AI_GenerateAllMoves(TmpB,pchessboard,ppiece_colour,pnum_moves,depth-1,-maxormin,alpha,beta,handles);
+        
+                if boardscore < previousboardscore
+                    previousboardscore = boardscore;
+                    bchessboard = pchessboard;
+                    bpiece_colour = ppiece_colour;
+                    bnum_moves = pnum_moves;
+                end
+                if boardscore<beta
+                    beta = boardscore;
+                end
+                
+% disp([depth alpha beta boardscore previousboardscore i j n_remaining n_move])
+                if alpha>beta
+                    pruneflag = 1;
+                    break
+                end
+         end
+     end
+      if pruneflag
+         break
+     end
+%--------------------------------------------------------------------------
+end
+%=========================================================================
+end % For if maxormin
+end % For DEPTH if condition
+end %For Function
+\end{lstlisting}
+
+\subsubsection{heuristicanalysis.m}
+\begin{lstlisting}
+function [boardscore] = heuristicanalysis(B,chessboard, piece_colour,num_moves,currentcolour,handles)
+%Colour should be the side in which it is being analysed for
+
+%-------------------------------------------------------------------------
+%                        Init Values
+%-------------------------------------------------------------------------
+if currentcolour == 119
+    oppcolour = 98;
+else
+    oppcolour = 119;
+end
+%Generates potential moves of the currently investigated game state colour
+[potentialmoves,capt_index] = analyseboard(chessboard, piece_colour,num_moves,currentcolour);
+%Generates potential moves of the opponent
+[oppcolourpotentialmoves, oppcolourcapt_index] = analyseboard(chessboard, piece_colour,num_moves,oppcolour);
+
+%Finds the locations of own pieces and opponent's pieces
+piece_index = find(piece_colour==currentcolour);
+opp_piece_index = find(piece_colour==oppcolour);
+
+%-------------------------------------------------------------------------
+
+%-------------------Capture Analysis--------------------------------------
+%A move is good because it opens up capture possibilities
+num_pot_capture = length(capt_index); %Number of potential Captures
+capt_value_sum = sum(chessboard(capt_index)); %The total capture value
+
+%A move is good if it increases the number of capture 
+capt_value_diff = 51 - sum(chessboard(opp_piece_index));
+
+%------------------ Moves Analysis ---------------------------------------
+%A move is good because it opens up space for other pieces to move
+nocapture = potentialmoves;
+nocapture(capt_index) = 0;
+num_moves_available = sum(sum(nocapture));
+
+%------------------ Threats ----------------------------------------------
+%If the move causes other pieces to be under threat, the move is worse.
+opp_num_pot_capture = length(oppcolourcapt_index);
+opp_capt_value_sum = sum(chessboard(oppcolourcapt_index)); 
+
+%------------------ Number of own pieces ---------------------------------
+%A move is good if it prevents the number of own pieces from decreasing.
+own_piece_sum_diff = 51 - sum(chessboard(piece_index)); 
+
+
+%------------------- Control of centre space -----------------------------
+%A move is good if it increases control of the centre of the board
+centre_piece=zeros(8,8);
+centre_piece([28 29 36 37])=chessboard([28 29 36 37]);
+centre_piece = centre_piece~=0;
+centre_space_sum =  sum(centre_piece(piece_index));
+
+
+%------------------- Own King Checked? -----------------------------------
+%Checks if own king is in check. If in check, also checks if its a checkmate
+own_ischeck = KingCheck(chessboard,piece_colour,currentcolour,oppcolourcapt_index,oppcolourpotentialmoves);
+if own_ischeck==1
+    own_ischeckmate = checkmate(B,chessboard,piece_colour,num_moves);
+    else own_ischeckmate = 0;
+end
+
+%--------------------------- Castling? -----------------------------------
+%Checks if castling has taken place
+rook_pos = find(chessboard==5 & piece_colour==currentcolour);
+king_pos = find(chessboard==10 & piece_colour==currentcolour);
+castle = 0;
+
+if currentcolour == 98 %Black case
+    if (king_pos==49 && ismember(41,rook_pos) && num_moves(41)==1 && num_moves(49)==1)
+        castle = 1;
+    elseif (king_pos==17 && ismember(25,rook_pos) && num_moves(25)==1 && num_moves(17)==1)
+            castle = 1;
+    end
+    
+else %White case
+    if (king_pos==56 && ismember(48,rook_pos) && num_moves(48)==1 && num_moves(56)==1)
+        castle = 1;
+    elseif (king_pos==24 && ismember(32,rook_pos) && num_moves(32)==1 && num_moves(24)==1)
+            castle = 1;
+    end
+end
+
+%--------------------- Opponent Checkmate?--------------------------------
+%Checks if opponent king is in check. If in check, also checks if its a checkmate
+opp_ischeck = KingCheck(chessboard,piece_colour,oppcolour,capt_index,potentialmoves);
+if opp_ischeck==1
+    opp_ischeckmate = checkmate(B,chessboard,piece_colour,num_moves);
+else opp_ischeckmate = 0;
+end   
+
+%------------------- Possibility of opponenet's promotion? ---------------
+%A move is bad if it brings opponent's pawn closer to the end of the board for promotion.
+pawn_index = find(chessboard==1 & piece_colour==oppcolour);
+if oppcolour == 98 %Black case
+    end_dist = 8-rem(pawn_index,8);
+    sum_opp_pawn_dist = sum(end_dist==0) + 0.5*sum(end_dist==1);
+else %White case
+    end_dist = rem(pawn_index,8)-1; 
+    sum_opp_pawn_dist = sum(end_dist==0) + 0.5*sum(end_dist==1);
+end
+
+%--------------------- Possibility of own promotion? ---------------------
+%A move is good if it brings own pawn closer to the end of the board for promotion.
+pawn_index = find(chessboard==1 & piece_colour==currentcolour);
+if currentcolour == 98 %Black case
+    end_dist = 8-rem(pawn_index,8);
+    sum_own_pawn_dist = sum(end_dist==0) + 0.5*sum(end_dist==1);
+else %White case
+    end_dist = rem(pawn_index,8)-1; 
+    sum_own_pawn_dist = sum(end_dist==0) + 0.5*sum(end_dist==1);
+end
+
+%------------------ Gain Factor for Hard-------------------------------------
+if(get(handles.setHard,'Value')==1)
+gainCapture = 3;  %Encourages AI to position a piece such that it can capture more pieces in the next move
+gainMoves = 10; %Encourages AI to position such that it opens space for other pieces
+gainThreats = -4; %Discourages AI to make moves that will lead to threats
+gainOpppieces = 25; %Encourages to make moves that decrease opponents pieces
+gainOwnpieces = -5; %Discourages AI from making moves that decrease own pieces
+gainCentre = 1; %Encourages AI to increase control of centre space
+gainOwnprom = 1; %Encourages AI to promote own pawns close to the end of the board
+gainOppprom = -10; %Discourages AI to promote opponent's pawns
+end
+%--------------------Gain Factor for Easy ---------------------------------
+if(get(handles.setEasy,'Value')==1)
+gainCapture = 2;  %Encourages AI to position a piece such that it can capture more pieces in the next move
+gainMoves = 10; %Encourages AI to position such that it opens space for other pieces
+gainThreats = -2; %Discourages AI to make moves that will lead to threats
+gainOpppieces = 3.5; %Encourages to make moves that decrease opponents pieces
+gainOwnpieces = 1; %Discourages AI from making moves that decrease own pieces
+gainCentre = 10; %Encourages AI to increase control of centre space
+gainOwnprom = 10; %Encourages AI to promote own pawns close to the end of the board
+gainOppprom = -1; %Discourages AI to promote opponent's pawns
+end
+%--------------------- Gain Factor for Random -----------------------------
+if(get(handles.setRandom,'Value')==1)
+gainCapture = 0;  %Encourages AI to position a piece such that it can capture more pieces in the next move
+gainMoves = 0; %Encourages AI to position such that it opens space for other pieces
+gainThreats = 0; %Discourages AI to make moves that will lead to threats
+gainOpppieces = 0; %Encourages to make moves that decrease opponents pieces
+gainOwnpieces = 0; %Discourages AI from making moves that decrease own pieces
+gainCentre = 0; %Encourages AI to increase control of centre space
+gainOwnprom = 0; %Encourages AI to promote own pawns close to the end of the board
+gainOppprom = 0; %Discourages AI to promote opponent's pawns
+end
+%----------------- Final Score Calculation ------------------------------
+boardscore =  gainCapture * capt_value_sum... 
+         + gainMoves * num_moves_available... 
+         + gainThreats * opp_capt_value_sum...
+         + gainOpppieces * capt_value_diff...
+         + gainOwnpieces * own_piece_sum_diff...
+         + gainCentre * centre_space_sum...
+         + gainOwnprom * sum_own_pawn_dist...
+         + gainOppprom * sum_opp_pawn_dist;
+%Checks if castling has occured
+    if castle == 1
+        boardscore = boardscore + 250;
+    end
+%If a checkmate has occured, new boadscores are assigned
+if(get(handles.setHard,'Value')==1 || get(handles.setEasy,'Value')==1 )
+    if opp_ischeckmate == 1
+        boardscore = 99999;
+    end
+
+    if own_ischeckmate == 1
+        boardscore = -99999;
+    end
+end
+
+if(get(handles.setRandom,'Value')==1)
+    boardscore=rand* 2000;
+end
+end
+\end{lstlisting}
+
+\subsection{Board analysis}
+\subsubsection{analyseboard.m}
+\begin{lstlisting}
+%Analyseboard Looks at one colour, sees where each piece is able to
+%move. This is to allow for the Check function and castling.
+%Colour in this case can be either current one or opposing one
+%Use oppositecolour to generate threats and threat captures
+function [potentialmoves,capt_index] = analyseboard(chessboard, piece_colour,num_moves,colour)
+
+%Initialisation ----------------------------------------------------------
+[p_x, p_y] = find(piece_colour == colour);
+n_remaining = length(p_x);
+potentialmoves = zeros(8,8);
+
+%Loop to look at every piece's moves ------------------------------------
+for i=1:n_remaining
+    %Determines what piece is selected
+    p_type = chessboard(p_x(i),p_y(i)); 
+    
+    %Based on the type of piece, its movement is calculated
+    switch p_type
+        case 1
+            [move] = MovementPawn(chessboard,piece_colour,num_moves,p_x(i),p_y(i));
+            %disp('Pawn');
+        case 5
+            [move] = MovementRook(chessboard,piece_colour,p_x(i),p_y(i));
+            %disp('Rook');
+        case 4
+            [move] = MovementBishop(chessboard,piece_colour,p_x(i),p_y(i));
+            %disp('Bishop');
+        case 3
+            [move] = MovementKnight(chessboard,piece_colour,p_x(i),p_y(i));
+            %disp('Knight');
+        case 9
+            [move] = MovementQueen(chessboard,piece_colour,p_x(i),p_y(i));
+            %disp('Queen');
+        case 10
+            [move] = MovementKing(chessboard,piece_colour,num_moves,potentialmoves,p_x(i),p_y(i));
+            %disp('King');
+    end
+    
+    %Sums up all possible moves of 1 colour.
+    potentialmoves = potentialmoves+move;
+end
+%-------------------------------------------------------------------------
+%                     Analysis of potentialmoves
+%-------------------------------------------------------------------------
+%-------------------Capture Analysis--------------------------------------
+potentialcaptures = potentialmoves ~= 0 & chessboard~= 0;
+capt_index = find(potentialcaptures==1);
+%num_pot_capture = length(capt_index);
+%capt_value_sum = sum(chessboard(capt_index));
+
+%------------------ Moves Analysis ---------------------------------------
+%nocapture = potentialmoves;
+%nocapture(capt_index) = 0;
+%num_moves_available = sum(sum(nocapture));
+
+end
+\end{lstlisting}
+
+\subsubsection{KingCheck.m}
+\begin{lstlisting}
+%KingCheck Checks if the king is in check, checkmate or stalemate
+%Colour in this case must be the current colour
+%King Colour must be contrary to CAPT_INDEX & POTENTIAL MOVES
+function [value]=KingCheck(chessboard,piece_colour,ownkingcolour, oppcolourcapt_index,oppcolourpotentialmoves)
+
+%-------------------- King In Check --------------------------------------
+king_index = find(chessboard == 10 & piece_colour == ownkingcolour);
+kingincheck = ismember(king_index,oppcolourcapt_index);
+if(kingincheck)
+    value = 1;
+%Otherwise not in check
+else
+    value = 0;
+end
+end
+
+\end{lstlisting}
+
+\subsubsection{checkmate.m}
+\begin{lstlisting}
+%Checkmate Determines if the currentboard is a checkmate state for
+%specified colour
+%Gives 1 for Checkmate, 0 for not checkmate
+function [result]=checkmate(B,chessboard,piece_colour, num_moves)
+
+if(mod(B.info.turn,2)==1)
+    colour = 119;
+    oppcolour = 98;
+else
+    colour = 98;
+    oppcolour = 119;
+end
+result = 1;
+%-------------------------------------------------------------------------
+%        Loop that generates all possible moves
+%-------------------------------------------------------------------------
+[p_x,p_y] = find(piece_colour == colour);
+n_remaining = length(p_x);
+[potentialmoves] = analyseboard(chessboard, piece_colour,num_moves,oppcolour);
+
+%In essence, we are going through each piece, looking at it's possible
+%moves, make those possible moves, evaluate, save bestboard.
+for i=1:n_remaining
+    p_type = chessboard(p_x(i),p_y(i));
+    switch p_type
+        case 1
+            [move] = MovementPawn(chessboard,piece_colour,num_moves,p_x(i),p_y(i));
+        case 5
+            [move] = MovementRook(chessboard,piece_colour,p_x(i),p_y(i)); 
+        case 4
+            [move] = MovementBishop(chessboard,piece_colour,p_x(i),p_y(i));
+        case 3
+            [move] = MovementKnight(chessboard,piece_colour,p_x(i),p_y(i));
+        case 9
+            [move] = MovementQueen(chessboard,piece_colour,p_x(i),p_y(i));
+        case 10
+            [move] = MovementKing(chessboard,piece_colour,num_moves,potentialmoves,p_x(i),p_y(i));
+    end
+
+%-------------------------------------------------------------------------
+%            Individual Piece Moves That Generate New Game States
+%                    Recursion is also added in each loop
+%-------------------------------------------------------------------------
+     [move_x,move_y] = find(move ~= 0);
+     n_move = length(move_x);
+%This loop generates all the game states from 1 piece
+     for j = 1:n_move
+         switch move(move_x(j),move_y(j))
+             case 1
+                 [pchessboard, ppiece_colour, pnum_moves,kingincheck]=ClickMovePiece(0,0,p_x(i),p_y(i),B,piece_colour,chessboard,...
+                     num_moves,0,move,0,1,move_x(j),move_y(j));
+             case 2
+                 [pchessboard, ppiece_colour, pnum_moves,kingincheck]=ClickCapturePiece(0,0,p_x(i),p_y(i),B,piece_colour,chessboard,...
+                     num_moves,0,move,0,1,move_x(j),move_y(j));
+             case 3
+                 [pchessboard, ppiece_colour, pnum_moves,kingincheck]=ClickEnpassant(0,0,p_x(i),p_y(i),B,piece_colour,chessboard,...
+                     num_moves,0,move, 0,1,move_x(j),move_y(j));
+             case 4
+                 [pchessboard, ppiece_colour, pnum_moves,kingincheck]=ClickCastling(0,0,p_x(i),p_y(i),B,piece_colour,chessboard,...
+                     num_moves,0,move,0,1,move_x(j),move_y(j));
+             case 5
+                 [pchessboard,ppiece_colour, pnum_moves,kingincheck]=ClickPawnPromo(0,0,p_x(i),p_y(i),B,piece_colour,chessboard,...
+                     num_moves,0,move,0,1,move_x(j),move_y(j),'queen');
+         end
+         
+         result = min(kingincheck, result);
+         if result == 0
+             break
+         end
+         
+     end
+     if result == 0
+         break
+     end
+end
+\end{lstlisting}
+
+\subsubsection{readchessboard.m}
+\begin{lstlisting}
+%readchessboard takes in chessboard and creates B
+function [B] = readchessboard(B,chessboard,piece_colour)
+
+X = struct(NewPiece([]));
+% build the initial board with everything non-playable at first
+% add paddings to the non-playable areas of 4 squares and place pieces
+for i=1:size(chessboard,1)+B.info.pad
+    for j=1:size(chessboard,2)+B.info.pad
+        X(i,j) = NewPiece([]);
+    end
+end
+
+
+% now place pieces and playable areas
+for i=1:size(chessboard,1)
+    for j=1:size(chessboard,2)
+        if chessboard(i,j) == 0
+            pName = []; pColour = 0;
+        else
+            switch chessboard(i,j)
+                case 1
+                    pName = 'pawn';
+                case 3
+                    pName = 'knight';
+                case 4
+                    pName = 'bishop';
+                case 5
+                    pName = 'rook';
+                case 9
+                    pName = 'queen';
+                case 10
+                    pName = 'king';
+            end
+            
+            switch piece_colour(i,j)
+                case 119
+                    pColour = 1;
+                case 98
+                    pColour = -1;
+        end
+        X(i+B.info.pad/2,j+B.info.pad/2) = NewPiece(pName,pColour);
+    end
+end
+end
+
+B.top = X;
+end
+\end{lstlisting}
+
+\end{document}
