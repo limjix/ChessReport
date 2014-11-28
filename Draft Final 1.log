@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.29)  28 NOV 2014 14:11
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.3)  28 NOV 2014 13:54
+>>>>>>> origin/master
 entering extended mode
 **C:/Users/Joel-pc/Desktop/Chess*Report/ChessReport/Draft*Final*1.tex
 ("C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Draft Final 1.tex"
@@ -1079,6 +1083,9 @@ LaTeX Warning: Label `fig:chess1' multiply defined.
 
 LaTeX Warning: Label `fig:chess1' multiply defined.
 
+
+LaTeX Warning: Label `fig:chess1' multiply defined.
+
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
@@ -1194,6 +1201,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4]
+<<<<<<< HEAD
+=======
+Overfull \hbox (1.16519pt too wide) in paragraph at lines 75--76
+\OT1/cmr/m/n/10.95 tie to-gether a broad range of top-ics, such as tree search-
+ing al-go-rithms and its op-ti-mi-sa-tions,
+ []
+
+
+Overfull \hbox (12.57144pt too wide) in paragraph at lines 75--76
+\OT1/cmr/m/n/10.95 log-i-cal thought pro-cesses be-hind the game as well as a d
+eeper un-der-stand-ing of com-pu-ta-tional
+ []
+
+>>>>>>> origin/master
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1681,16 +1702,30 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+<<<<<<< HEAD
 [20 <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/Queen.png> <C:/
 Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/black_checkmate.png>]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 459.
+=======
+[20 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
+Pictures/Queen.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Rep
+ort/ChessReport/Pictures/black_checkmate.png>]
+<./Pictures/HeuristicProblem.png, id=113, 912.40875pt x 465.23813pt>
+File: ./Pictures/HeuristicProblem.png Graphic file (type png)
+
+<use ./Pictures/HeuristicProblem.png>
+Package pdftex.def Info: ./Pictures/HeuristicProblem.png used on input line 451
+.
+(pdftex.def)             Requested size: 424.06033pt x 216.227pt.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 466.
+>>>>>>> origin/master
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 459.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 466.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1698,8 +1733,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+<<<<<<< HEAD
 [21 <C:/Users/Joel-pc/Desktop/Chess Report/ChessReport/Pictures/AI_castling.png
 >]
+=======
+[21 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
+Pictures/AI_castling.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Fin
+al Report/ChessReport/Pictures/HeuristicProblem.png>]
+>>>>>>> origin/master
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1707,14 +1748,36 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [22]
+<<<<<<< HEAD
+=======
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+[23]
+Overfull \hbox (14.37987pt too wide) in paragraph at lines 496--497
+[]\OT1/cmr/m/n/10.95 The FOVEROS En-gine which means \Awe-some" in Greek em-plo
+ys ba-sic un-der-stand-ing
+ []
+
+>>>>>>> origin/master
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+<<<<<<< HEAD
 [23] ("C:\Users\Joel-pc\Desktop\Chess Report\ChessReport\Draft Final 1.bbl"
 Underfull \hbox (badness 4403) in paragraph at lines 9--13
+=======
+[24]
+("D:\Mechanical Engineering (Non-Cloud)\Year 2\CBM\Final Report\ChessReport\Dra
+ft Final 1.bbl"
+Underfull \hbox (badness 4403) in paragraph at lines 4--8
+>>>>>>> origin/master
 []\OT1/cmr/m/it/10.95 Chess Pro-gram-ming\OT1/cmr/m/n/10.95 .  2014.  $\OT1/cmt
 t/m/n/10.95 https : / / chessprogramming . wikispaces . com /$
  []
@@ -1739,29 +1802,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+<<<<<<< HEAD
 [24]
 LaTeX Font Info:    Try loading font information for OML+pcr on input line 516.
+=======
+[25]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 515.
+
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+LaTeX Font Info:    Try loading font information for OML+pcr on input line 525.
+>>>>>>> origin/master
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlpcr.fd"
 File: omlpcr.fd 
 )
 LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <9> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 516.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[25]
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 608.
-
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspcr.fd"
-File: omspcr.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 608.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 525.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1770,14 +1828,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [26]
-Overfull \hbox (30.41576pt too wide) in paragraph at lines 635--636
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 617.
+
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspcr.fd"
+File: omspcr.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 617.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27]
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 644--645
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][]  
  []
 
 
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 662--663
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 671--672
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][]  
@@ -1789,14 +1862,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27]
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 695--697
+[28]
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 704--706
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (138.41685pt too wide) in paragraph at lines 701--702
+Overfull \hbox (138.41685pt too wide) in paragraph at lines 710--711
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -1804,21 +1877,33 @@ Overfull \hbox (138.41685pt too wide) in paragraph at lines 701--702
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (170.81718pt too wide) in paragraph at lines 708--709
+=======
+Overfull \hbox (176.21724pt too wide) in paragraph at lines 717--718
+>>>>>>> origin/master
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][]  
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (170.81718pt too wide) in paragraph at lines 714--715
+=======
+Overfull \hbox (176.21724pt too wide) in paragraph at lines 723--724
+>>>>>>> origin/master
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][]  
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (19.61565pt too wide) in paragraph at lines 733--734
+=======
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 742--743
+>>>>>>> origin/master
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
@@ -1829,45 +1914,59 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+<<<<<<< HEAD
 [28]
 Overfull \hbox (19.61565pt too wide) in paragraph at lines 742--743
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (170.81718pt too wide) in paragraph at lines 763--764
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (170.81718pt too wide) in paragraph at lines 769--770
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (19.61565pt too wide) in paragraph at lines 788--789
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (19.61565pt too wide) in paragraph at lines 797--798
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
+=======
 [29]
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 751--752
+>>>>>>> origin/master
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (170.81718pt too wide) in paragraph at lines 763--764
+=======
+Overfull \hbox (176.21724pt too wide) in paragraph at lines 772--773
+>>>>>>> origin/master
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (170.81718pt too wide) in paragraph at lines 769--770
+=======
+Overfull \hbox (176.21724pt too wide) in paragraph at lines 778--779
+>>>>>>> origin/master
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 788--789
+=======
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 797--798
+>>>>>>> origin/master
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 797--798
+=======
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 806--807
+>>>>>>> origin/master
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1875,13 +1974,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [30]
-Overfull \hbox (122.21669pt too wide) in paragraph at lines 914--916
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31]
+Overfull \hbox (122.21669pt too wide) in paragraph at lines 923--925
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (52.01598pt too wide) in paragraph at lines 920--921
+Overfull \hbox (52.01598pt too wide) in paragraph at lines 929--930
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -1894,8 +2000,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31]
-Overfull \hbox (52.01598pt too wide) in paragraph at lines 921--923
+[32]
+Overfull \hbox (52.01598pt too wide) in paragraph at lines 930--932
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -1903,13 +2009,21 @@ Overfull \hbox (52.01598pt too wide) in paragraph at lines 921--923
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (8.81554pt too wide) in paragraph at lines 940--941
+=======
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 949--950
+>>>>>>> origin/master
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (8.81554pt too wide) in paragraph at lines 951--952
+=======
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 960--961
+>>>>>>> origin/master
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
@@ -1920,14 +2034,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+<<<<<<< HEAD
 [32]
 Overfull \hbox (8.81554pt too wide) in paragraph at lines 995--996
+=======
+[33]
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 1004--1005
+>>>>>>> origin/master
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (8.81554pt too wide) in paragraph at lines 1006--1007
+=======
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 1015--1016
+>>>>>>> origin/master
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
@@ -1938,8 +2061,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33]
-LaTeX Font Info:    Try loading font information for TS1+pcr on input line 1097
+[34]
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 1106
 .
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd"
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
@@ -1950,185 +2073,33 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34]
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 1134--1135
+[35]
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 1143--1144
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (3.41548pt too wide) in paragraph at lines 1144--1145
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][]  
+=======
+Overfull \hbox (3.41548pt too wide) in paragraph at lines 1153--1154
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
  []
 
 
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 1156--1157
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 1165--1166
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (30.41576pt too wide) in paragraph at lines 1160--1161
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 1169--1170
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[35]
-Overfull \hbox (25.0157pt too wide) in paragraph at lines 1172--1173
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (46.61592pt too wide) in paragraph at lines 1173--1174
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
-
- []
-
-
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 1174--1175
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (19.61565pt too wide) in paragraph at lines 1175--1176
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (25.0157pt too wide) in paragraph at lines 1178--1179
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (30.41576pt too wide) in paragraph at lines 1179--1180
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (25.0157pt too wide) in paragraph at lines 1182--1183
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (46.61592pt too wide) in paragraph at lines 1183--1184
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
-
- []
-
-
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 1184--1185
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (19.61565pt too wide) in paragraph at lines 1185--1186
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (25.0157pt too wide) in paragraph at lines 1188--1189
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (46.61592pt too wide) in paragraph at lines 1189--1190
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
-
- []
-
-
-Overfull \hbox (30.41576pt too wide) in paragraph at lines 1190--1191
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (19.61565pt too wide) in paragraph at lines 1191--1192
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (25.0157pt too wide) in paragraph at lines 1194--1195
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (46.61592pt too wide) in paragraph at lines 1195--1196
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
-
- []
-
-
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 1196--1197
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (30.41576pt too wide) in paragraph at lines 1197--1198
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 1208--1209
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][]  
- []
-
-
-Overfull \hbox (73.6162pt too wide) in paragraph at lines 1212--1213
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (46.61592pt too wide) in paragraph at lines 1214--1215
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (25.0157pt too wide) in paragraph at lines 1215--1216
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-]  
- []
-
-
-Overfull \hbox (73.6162pt too wide) in paragraph at lines 1218--1219
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (30.41576pt too wide) in paragraph at lines 1220--1221
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (25.0157pt too wide) in paragraph at lines 1221--1222
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-]  
  []
 
 
@@ -2138,29 +2109,184 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [36]
-Overfull \hbox (52.01598pt too wide) in paragraph at lines 1224--1225
+Overfull \hbox (25.0157pt too wide) in paragraph at lines 1181--1182
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (19.61565pt too wide) in paragraph at lines 1227--1228
+Overfull \hbox (46.61592pt too wide) in paragraph at lines 1182--1183
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+
+ []
+
+
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 1183--1184
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 1175--1176
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+=======
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 1184--1185
+[][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
  []
 
 
-Overfull \hbox (257.21806pt too wide) in paragraph at lines 1243--1244
+Overfull \hbox (25.0157pt too wide) in paragraph at lines 1187--1188
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (19.61565pt too wide) in paragraph at lines 1265--1266
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 1188--1189
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (25.0157pt too wide) in paragraph at lines 1191--1192
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (46.61592pt too wide) in paragraph at lines 1192--1193
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+
+ []
+
+
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 1193--1194
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 1185--1186
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+=======
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 1194--1195
+[][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
+ []
+
+
+Overfull \hbox (25.0157pt too wide) in paragraph at lines 1197--1198
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (46.61592pt too wide) in paragraph at lines 1198--1199
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+
+ []
+
+
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 1199--1200
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 1191--1192
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+=======
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 1200--1201
+[][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
+ []
+
+
+Overfull \hbox (25.0157pt too wide) in paragraph at lines 1203--1204
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (46.61592pt too wide) in paragraph at lines 1204--1205
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+
+ []
+
+
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 1205--1206
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 1197--1198
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+=======
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 1206--1207
+[][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
+ []
+
+
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 1217--1218
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][]  
+ []
+
+
+Overfull \hbox (73.6162pt too wide) in paragraph at lines 1221--1222
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (46.61592pt too wide) in paragraph at lines 1223--1224
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (25.0157pt too wide) in paragraph at lines 1215--1216
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+]  
+=======
+Overfull \hbox (25.0157pt too wide) in paragraph at lines 1224--1225
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
+ []
+
+
+Overfull \hbox (73.6162pt too wide) in paragraph at lines 1227--1228
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 1229--1230
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (25.0157pt too wide) in paragraph at lines 1221--1222
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+]  
+=======
+Overfull \hbox (25.0157pt too wide) in paragraph at lines 1230--1231
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
  []
 
 
@@ -2170,29 +2296,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [37]
-Overfull \hbox (25.0157pt too wide) in paragraph at lines 1300--1301
+Overfull \hbox (52.01598pt too wide) in paragraph at lines 1233--1234
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 1227--1228
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+=======
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 1236--1237
+[][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
+ []
+
+
+Overfull \hbox (257.21806pt too wide) in paragraph at lines 1252--1253
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 1274--1275
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][]  
- []
-
-
-Overfull \hbox (73.6162pt too wide) in paragraph at lines 1317--1318
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (62.81609pt too wide) in paragraph at lines 1318--1319
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 1343--1344
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2202,40 +2333,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [38]
-Overfull \hbox (30.41576pt too wide) in paragraph at lines 1347--1348
+Overfull \hbox (25.0157pt too wide) in paragraph at lines 1309--1310
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][]  
+ []
+
+
+Overfull \hbox (73.6162pt too wide) in paragraph at lines 1326--1327
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (62.81609pt too wide) in paragraph at lines 1318--1319
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][]  
+=======
+Overfull \hbox (62.81609pt too wide) in paragraph at lines 1327--1328
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
+ []
+
+
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 1352--1353
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 1357--1358
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][]  
- []
-
-
-Overfull \hbox (52.01598pt too wide) in paragraph at lines 1359--1360
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (8.81554pt too wide) in paragraph at lines 1374--1375
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (68.21614pt too wide) in paragraph at lines 1377--1378
-[][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (235.61784pt too wide) in paragraph at lines 1386--1387
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][]  
  []
 
 
@@ -2245,19 +2370,50 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [39]
-Overfull \hbox (19.61565pt too wide) in paragraph at lines 1408--1409
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 1356--1357
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 1366--1367
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][]  
+ []
+
+
+Overfull \hbox (52.01598pt too wide) in paragraph at lines 1368--1369
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (8.81554pt too wide) in paragraph at lines 1374--1375
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (25.0157pt too wide) in paragraph at lines 1443--1444
+Overfull \hbox (68.21614pt too wide) in paragraph at lines 1377--1378
+[][][][][][][][][][][][][]  
+=======
+Overfull \hbox (8.81554pt too wide) in paragraph at lines 1383--1384
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (68.21614pt too wide) in paragraph at lines 1386--1387
+[][][][][][][][][][][]  
+>>>>>>> origin/master
+ []
+
+
+Overfull \hbox (235.61784pt too wide) in paragraph at lines 1395--1396
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][]  
+[][][][][][][][][][][][][][][]  
  []
 
 
@@ -2267,21 +2423,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [40]
-Overfull \hbox (73.6162pt too wide) in paragraph at lines 1502--1503
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 1417--1418
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (62.81609pt too wide) in paragraph at lines 1503--1504
+Overfull \hbox (25.0157pt too wide) in paragraph at lines 1452--1453
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 1528--1529
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][]  
  []
 
 
@@ -2291,40 +2445,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [41]
-Overfull \hbox (30.41576pt too wide) in paragraph at lines 1532--1533
+Overfull \hbox (73.6162pt too wide) in paragraph at lines 1511--1512
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (62.81609pt too wide) in paragraph at lines 1503--1504
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][]  
+=======
+Overfull \hbox (62.81609pt too wide) in paragraph at lines 1512--1513
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
+ []
+
+
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 1537--1538
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 1542--1543
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][]  
- []
-
-
-Overfull \hbox (52.01598pt too wide) in paragraph at lines 1544--1545
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (8.81554pt too wide) in paragraph at lines 1559--1560
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (68.21614pt too wide) in paragraph at lines 1562--1563
-[][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (241.0179pt too wide) in paragraph at lines 1570--1571
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][]  
  []
 
 
@@ -2334,19 +2474,50 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [42]
-Overfull \hbox (19.61565pt too wide) in paragraph at lines 1592--1593
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 1541--1542
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 1551--1552
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][]  
+ []
+
+
+Overfull \hbox (52.01598pt too wide) in paragraph at lines 1553--1554
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (8.81554pt too wide) in paragraph at lines 1559--1560
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (25.0157pt too wide) in paragraph at lines 1627--1628
+Overfull \hbox (68.21614pt too wide) in paragraph at lines 1562--1563
+[][][][][][][][][][][][][]  
+=======
+Overfull \hbox (8.81554pt too wide) in paragraph at lines 1568--1569
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (68.21614pt too wide) in paragraph at lines 1571--1572
+[][][][][][][][][][][]  
+>>>>>>> origin/master
+ []
+
+
+Overfull \hbox (241.0179pt too wide) in paragraph at lines 1579--1580
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][]  
+[][][][][][][][][][][][][][][]  
  []
 
 
@@ -2356,27 +2527,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [43]
-Overfull \hbox (73.6162pt too wide) in paragraph at lines 1667--1668
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 1601--1602
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (62.81609pt too wide) in paragraph at lines 1668--1669
+Overfull \hbox (25.0157pt too wide) in paragraph at lines 1636--1637
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 1693--1694
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (30.41576pt too wide) in paragraph at lines 1697--1698
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][]  
  []
 
 
@@ -2386,32 +2549,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [44]
-Overfull \hbox (241.0179pt too wide) in paragraph at lines 1709--1710
+Overfull \hbox (73.6162pt too wide) in paragraph at lines 1676--1677
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (14.21559pt too wide) in paragraph at lines 1710--1712
+<<<<<<< HEAD
+Overfull \hbox (62.81609pt too wide) in paragraph at lines 1668--1669
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][]  
+=======
+Overfull \hbox (62.81609pt too wide) in paragraph at lines 1677--1678
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
  []
 
 
-Overfull \hbox (19.61565pt too wide) in paragraph at lines 1731--1732
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 1702--1703
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (25.0157pt too wide) in paragraph at lines 1766--1767
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 1706--1707
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
@@ -2421,15 +2584,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [45]
-Overfull \hbox (73.6162pt too wide) in paragraph at lines 1828--1829
+Overfull \hbox (241.0179pt too wide) in paragraph at lines 1718--1719
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (62.81609pt too wide) in paragraph at lines 1829--1830
+Overfull \hbox (14.21559pt too wide) in paragraph at lines 1719--1721
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 1740--1741
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (25.0157pt too wide) in paragraph at lines 1775--1776
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][]  
  []
 
 
@@ -2439,26 +2619,49 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [46]
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 1854--1855
+Overfull \hbox (73.6162pt too wide) in paragraph at lines 1837--1838
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (62.81609pt too wide) in paragraph at lines 1829--1830
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][]  
+=======
+Overfull \hbox (62.81609pt too wide) in paragraph at lines 1838--1839
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47]
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 1863--1864
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (30.41576pt too wide) in paragraph at lines 1858--1859
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 1867--1868
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 1868--1869
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 1877--1878
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][]  
  []
 
 
-Overfull \hbox (241.0179pt too wide) in paragraph at lines 1877--1878
+Overfull \hbox (241.0179pt too wide) in paragraph at lines 1886--1887
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][]  
@@ -2470,8 +2673,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[47]
-Overfull \hbox (19.61565pt too wide) in paragraph at lines 1899--1900
+[48]
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 1908--1909
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -2479,7 +2682,7 @@ Overfull \hbox (19.61565pt too wide) in paragraph at lines 1899--1900
  []
 
 
-Overfull \hbox (25.0157pt too wide) in paragraph at lines 1934--1935
+Overfull \hbox (25.0157pt too wide) in paragraph at lines 1943--1944
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -2487,52 +2690,20 @@ Overfull \hbox (25.0157pt too wide) in paragraph at lines 1934--1935
  []
 
 
-Overfull \hbox (73.6162pt too wide) in paragraph at lines 1953--1954
+Overfull \hbox (73.6162pt too wide) in paragraph at lines 1962--1963
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (62.81609pt too wide) in paragraph at lines 1954--1956
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][]  
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[48]
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 1981--1982
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (30.41576pt too wide) in paragraph at lines 1985--1986
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 1996--1997
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][]  
- []
-
-
-Overfull \hbox (52.01598pt too wide) in paragraph at lines 1998--1999
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (8.81554pt too wide) in paragraph at lines 2013--2014
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][]  
+=======
+Overfull \hbox (62.81609pt too wide) in paragraph at lines 1963--1965
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
  []
 
 
@@ -2542,28 +2713,39 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [49]
-Overfull \hbox (165.41713pt too wide) in paragraph at lines 2024--2025
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 1990--1991
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 1994--1995
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 2005--2006
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][]  
+[][][][][][][][][]  
  []
 
 
-Overfull \hbox (62.81609pt too wide) in paragraph at lines 2039--2040
+Overfull \hbox (52.01598pt too wide) in paragraph at lines 2007--2008
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (176.21724pt too wide) in paragraph at lines 2051--2053
+<<<<<<< HEAD
+Overfull \hbox (8.81554pt too wide) in paragraph at lines 2013--2014
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (160.01707pt too wide) in paragraph at lines 2053--2054
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][]  
+=======
+Overfull \hbox (8.81554pt too wide) in paragraph at lines 2022--2023
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
  []
 
 
@@ -2573,13 +2755,55 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [50]
-Overfull \hbox (79.01625pt too wide) in paragraph at lines 2083--2084
+Overfull \hbox (165.41713pt too wide) in paragraph at lines 2033--2034
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][]  
  []
 
 
-Overfull \hbox (41.21587pt too wide) in paragraph at lines 2086--2088
+Overfull \hbox (62.81609pt too wide) in paragraph at lines 2048--2049
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (176.21724pt too wide) in paragraph at lines 2060--2062
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (160.01707pt too wide) in paragraph at lines 2053--2054
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][]  
+=======
+Overfull \hbox (160.01707pt too wide) in paragraph at lines 2062--2063
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+<<<<<<< HEAD
+[50]
+Overfull \hbox (79.01625pt too wide) in paragraph at lines 2083--2084
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][]  
+=======
+[51]
+Overfull \hbox (79.01625pt too wide) in paragraph at lines 2092--2093
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
+ []
+
+
+Overfull \hbox (41.21587pt too wide) in paragraph at lines 2095--2097
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -2587,25 +2811,30 @@ Overfull \hbox (41.21587pt too wide) in paragraph at lines 2086--2088
  []
 
 
-Overfull \hbox (46.61592pt too wide) in paragraph at lines 2094--2095
+Overfull \hbox (46.61592pt too wide) in paragraph at lines 2103--2104
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (197.81746pt too wide) in paragraph at lines 2108--2110
+Overfull \hbox (197.81746pt too wide) in paragraph at lines 2117--2119
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (138.41685pt too wide) in paragraph at lines 2110--2111
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][]  
+=======
+Overfull \hbox (138.41685pt too wide) in paragraph at lines 2119--2120
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
  []
 
 
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 2134--2135
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 2143--2144
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][]  
  []
@@ -2616,33 +2845,33 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51]
-Overfull \hbox (30.41576pt too wide) in paragraph at lines 2138--2139
+[52]
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 2147--2148
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 2149--2150
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 2158--2159
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][]  
  []
 
 
-Overfull \hbox (52.01598pt too wide) in paragraph at lines 2151--2152
+Overfull \hbox (52.01598pt too wide) in paragraph at lines 2160--2161
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (100.61647pt too wide) in paragraph at lines 2167--2168
+Overfull \hbox (100.61647pt too wide) in paragraph at lines 2176--2177
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (84.4163pt too wide) in paragraph at lines 2186--2187
+Overfull \hbox (84.4163pt too wide) in paragraph at lines 2195--2196
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
@@ -2653,98 +2882,66 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+<<<<<<< HEAD
 [52]
 Overfull \hbox (14.21559pt too wide) in paragraph at lines 2202--2203
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][]  
+=======
+[53]
+Overfull \hbox (14.21559pt too wide) in paragraph at lines 2211--2212
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ 
+>>>>>>> origin/master
  []
 
 
-Overfull \hbox (41.21587pt too wide) in paragraph at lines 2210--2211
+Overfull \hbox (41.21587pt too wide) in paragraph at lines 2219--2220
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
   
  []
 
 
-Overfull \hbox (122.21669pt too wide) in paragraph at lines 2220--2221
+Overfull \hbox (122.21669pt too wide) in paragraph at lines 2229--2230
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][]  
  []
 
 
-Overfull \hbox (305.81856pt too wide) in paragraph at lines 2237--2238
+Overfull \hbox (305.81856pt too wide) in paragraph at lines 2246--2247
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (322.01872pt too wide) in paragraph at lines 2240--2241
+Overfull \hbox (322.01872pt too wide) in paragraph at lines 2249--2250
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (305.81856pt too wide) in paragraph at lines 2243--2244
+Overfull \hbox (305.81856pt too wide) in paragraph at lines 2252--2253
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (300.4185pt too wide) in paragraph at lines 2246--2247
+Overfull \hbox (300.4185pt too wide) in paragraph at lines 2255--2256
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (300.4185pt too wide) in paragraph at lines 2249--2250
+Overfull \hbox (300.4185pt too wide) in paragraph at lines 2258--2259
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][]  
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[53]
-Overfull \hbox (197.81746pt too wide) in paragraph at lines 2264--2266
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (84.4163pt too wide) in paragraph at lines 2275--2276
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (14.21559pt too wide) in paragraph at lines 2300--2301
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (41.21587pt too wide) in paragraph at lines 2308--2309
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-  
- []
-
-
-Overfull \hbox (122.21669pt too wide) in paragraph at lines 2318--2319
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][]  
  []
 
 
@@ -2754,48 +2951,93 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [54]
-Overfull \hbox (305.81856pt too wide) in paragraph at lines 2335--2336
+Overfull \hbox (197.81746pt too wide) in paragraph at lines 2273--2275
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (84.4163pt too wide) in paragraph at lines 2284--2285
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (14.21559pt too wide) in paragraph at lines 2300--2301
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][]  
+=======
+Overfull \hbox (14.21559pt too wide) in paragraph at lines 2309--2310
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ 
+>>>>>>> origin/master
+ []
+
+
+Overfull \hbox (41.21587pt too wide) in paragraph at lines 2317--2318
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+  
+ []
+
+
+Overfull \hbox (122.21669pt too wide) in paragraph at lines 2327--2328
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][]  
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[55]
+Overfull \hbox (305.81856pt too wide) in paragraph at lines 2344--2345
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (322.01872pt too wide) in paragraph at lines 2338--2339
+Overfull \hbox (322.01872pt too wide) in paragraph at lines 2347--2348
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (305.81856pt too wide) in paragraph at lines 2341--2342
+Overfull \hbox (305.81856pt too wide) in paragraph at lines 2350--2351
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (300.4185pt too wide) in paragraph at lines 2344--2345
+Overfull \hbox (300.4185pt too wide) in paragraph at lines 2353--2354
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (300.4185pt too wide) in paragraph at lines 2347--2348
+Overfull \hbox (300.4185pt too wide) in paragraph at lines 2356--2357
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (197.81746pt too wide) in paragraph at lines 2362--2364
+Overfull \hbox (197.81746pt too wide) in paragraph at lines 2371--2373
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (19.61565pt too wide) in paragraph at lines 2374--2375
+Overfull \hbox (19.61565pt too wide) in paragraph at lines 2383--2384
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
@@ -2807,20 +3049,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55]
-Overfull \hbox (138.41685pt too wide) in paragraph at lines 2394--2395
+[56]
+Overfull \hbox (138.41685pt too wide) in paragraph at lines 2403--2404
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (95.21642pt too wide) in paragraph at lines 2406--2407
+Overfull \hbox (95.21642pt too wide) in paragraph at lines 2415--2416
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (176.21724pt too wide) in paragraph at lines 2408--2410
+Overfull \hbox (176.21724pt too wide) in paragraph at lines 2417--2419
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
@@ -2831,8 +3073,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56]
-Overfull \hbox (3.41548pt too wide) in paragraph at lines 2449--2450
+[57]
+Overfull \hbox (3.41548pt too wide) in paragraph at lines 2458--2459
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -2841,41 +3083,46 @@ Overfull \hbox (3.41548pt too wide) in paragraph at lines 2449--2450
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (170.81718pt too wide) in paragraph at lines 2450--2451
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][]  
+=======
+Overfull \hbox (170.81718pt too wide) in paragraph at lines 2459--2460
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
  []
 
 
-Overfull \hbox (57.41603pt too wide) in paragraph at lines 2463--2464
+Overfull \hbox (57.41603pt too wide) in paragraph at lines 2472--2473
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
 
  []
 
 
-Overfull \hbox (79.01625pt too wide) in paragraph at lines 2465--2466
+Overfull \hbox (79.01625pt too wide) in paragraph at lines 2474--2475
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
 
  []
 
 
-Overfull \hbox (57.41603pt too wide) in paragraph at lines 2470--2471
+Overfull \hbox (57.41603pt too wide) in paragraph at lines 2479--2480
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
 
  []
 
 
-Overfull \hbox (79.01625pt too wide) in paragraph at lines 2472--2473
+Overfull \hbox (79.01625pt too wide) in paragraph at lines 2481--2482
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
 
  []
 
 
-Overfull \hbox (30.41576pt too wide) in paragraph at lines 2478--2479
+Overfull \hbox (30.41576pt too wide) in paragraph at lines 2487--2488
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -2884,13 +3131,18 @@ Overfull \hbox (30.41576pt too wide) in paragraph at lines 2478--2479
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (52.01598pt too wide) in paragraph at lines 2479--2480
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][]  
+=======
+Overfull \hbox (52.01598pt too wide) in paragraph at lines 2488--2489
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+>>>>>>> origin/master
  []
 
 
-Overfull \hbox (73.6162pt too wide) in paragraph at lines 2486--2487
+Overfull \hbox (73.6162pt too wide) in paragraph at lines 2495--2496
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -2899,7 +3151,7 @@ Overfull \hbox (73.6162pt too wide) in paragraph at lines 2486--2487
  []
 
 
-Overfull \hbox (41.21587pt too wide) in paragraph at lines 2497--2498
+Overfull \hbox (41.21587pt too wide) in paragraph at lines 2506--2507
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -2913,14 +3165,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[57]
-Overfull \hbox (8.81554pt too wide) in paragraph at lines 2507--2508
+[58]
+Overfull \hbox (8.81554pt too wide) in paragraph at lines 2516--2517
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (165.41713pt too wide) in paragraph at lines 2509--2510
+Overfull \hbox (165.41713pt too wide) in paragraph at lines 2518--2519
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -2929,7 +3181,7 @@ Overfull \hbox (165.41713pt too wide) in paragraph at lines 2509--2510
  []
 
 
-Overfull \hbox (46.61592pt too wide) in paragraph at lines 2510--2511
+Overfull \hbox (46.61592pt too wide) in paragraph at lines 2519--2520
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -2937,21 +3189,21 @@ Overfull \hbox (46.61592pt too wide) in paragraph at lines 2510--2511
  []
 
 
-Overfull \hbox (3.41548pt too wide) in paragraph at lines 2512--2513
+Overfull \hbox (3.41548pt too wide) in paragraph at lines 2521--2522
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (14.21559pt too wide) in paragraph at lines 2513--2514
+Overfull \hbox (14.21559pt too wide) in paragraph at lines 2522--2523
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 2515--2516
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 2524--2525
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -2959,7 +3211,7 @@ Overfull \hbox (35.81581pt too wide) in paragraph at lines 2515--2516
  []
 
 
-Overfull \hbox (165.41713pt too wide) in paragraph at lines 2520--2521
+Overfull \hbox (165.41713pt too wide) in paragraph at lines 2529--2530
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -2968,7 +3220,7 @@ Overfull \hbox (165.41713pt too wide) in paragraph at lines 2520--2521
  []
 
 
-Overfull \hbox (46.61592pt too wide) in paragraph at lines 2521--2522
+Overfull \hbox (46.61592pt too wide) in paragraph at lines 2530--2531
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -2976,21 +3228,21 @@ Overfull \hbox (46.61592pt too wide) in paragraph at lines 2521--2522
  []
 
 
-Overfull \hbox (8.81554pt too wide) in paragraph at lines 2523--2524
+Overfull \hbox (8.81554pt too wide) in paragraph at lines 2532--2533
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (8.81554pt too wide) in paragraph at lines 2524--2525
+Overfull \hbox (8.81554pt too wide) in paragraph at lines 2533--2534
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (41.21587pt too wide) in paragraph at lines 2526--2527
+Overfull \hbox (41.21587pt too wide) in paragraph at lines 2535--2536
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -2998,7 +3250,7 @@ Overfull \hbox (41.21587pt too wide) in paragraph at lines 2526--2527
  []
 
 
-Overfull \hbox (165.41713pt too wide) in paragraph at lines 2531--2532
+Overfull \hbox (165.41713pt too wide) in paragraph at lines 2540--2541
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -3007,7 +3259,7 @@ Overfull \hbox (165.41713pt too wide) in paragraph at lines 2531--2532
  []
 
 
-Overfull \hbox (41.21587pt too wide) in paragraph at lines 2532--2533
+Overfull \hbox (41.21587pt too wide) in paragraph at lines 2541--2542
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -3015,44 +3267,18 @@ Overfull \hbox (41.21587pt too wide) in paragraph at lines 2532--2533
  []
 
 
-Overfull \hbox (8.81554pt too wide) in paragraph at lines 2535--2536
+Overfull \hbox (8.81554pt too wide) in paragraph at lines 2544--2545
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (35.81581pt too wide) in paragraph at lines 2537--2538
+Overfull \hbox (35.81581pt too wide) in paragraph at lines 2546--2547
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[58]
-Overfull \hbox (100.61647pt too wide) in paragraph at lines 2577--2579
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (41.21587pt too wide) in paragraph at lines 2592--2593
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-  
- []
-
-
-Overfull \hbox (122.21669pt too wide) in paragraph at lines 2607--2608
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][]  
  []
 
 
@@ -3062,15 +3288,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [59]
-Overfull \hbox (187.01735pt too wide) in paragraph at lines 2636--2638
+Overfull \hbox (100.61647pt too wide) in paragraph at lines 2586--2588
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (14.21559pt too wide) in paragraph at lines 2671--2673
+Overfull \hbox (41.21587pt too wide) in paragraph at lines 2601--2602
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][]  
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+  
+ []
+
+
+Overfull \hbox (122.21669pt too wide) in paragraph at lines 2616--2617
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][]  
  []
 
 
@@ -3080,49 +3314,73 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [60]
-Overfull \hbox (41.21587pt too wide) in paragraph at lines 2679--2680
+Overfull \hbox (187.01735pt too wide) in paragraph at lines 2645--2647
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+<<<<<<< HEAD
+Overfull \hbox (14.21559pt too wide) in paragraph at lines 2671--2673
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][]  
+=======
+Overfull \hbox (14.21559pt too wide) in paragraph at lines 2680--2682
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ 
+>>>>>>> origin/master
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[61]
+Overfull \hbox (41.21587pt too wide) in paragraph at lines 2688--2689
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
   
  []
 
 
-Overfull \hbox (122.21669pt too wide) in paragraph at lines 2689--2690
+Overfull \hbox (122.21669pt too wide) in paragraph at lines 2698--2699
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][]  
  []
 
 
-Overfull \hbox (305.81856pt too wide) in paragraph at lines 2702--2703
+Overfull \hbox (305.81856pt too wide) in paragraph at lines 2711--2712
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (322.01872pt too wide) in paragraph at lines 2705--2706
+Overfull \hbox (322.01872pt too wide) in paragraph at lines 2714--2715
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (305.81856pt too wide) in paragraph at lines 2708--2709
+Overfull \hbox (305.81856pt too wide) in paragraph at lines 2717--2718
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (300.4185pt too wide) in paragraph at lines 2711--2712
+Overfull \hbox (300.4185pt too wide) in paragraph at lines 2720--2721
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][]  
  []
 
 
-Overfull \hbox (300.4185pt too wide) in paragraph at lines 2714--2715
+Overfull \hbox (300.4185pt too wide) in paragraph at lines 2723--2724
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][]  
@@ -3134,19 +3392,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[61]
+[62]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+<<<<<<< HEAD
 [62] ("C:\Users\Joel-pc\Desktop\Chess Report\ChessReport\Draft Final 1.aux")
+=======
+[63]
+("D:\Mechanical Engineering (Non-Cloud)\Year 2\CBM\Final Report\ChessReport\Dra
+ft Final 1.aux")
+>>>>>>> origin/master
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  17396 strings out of 493921
  321574 string characters out of 3144870
  795748 words of memory out of 3000000
@@ -3154,6 +3419,15 @@ Here is how much of TeX's memory you used:
  13775 words of font info for 50 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  62i,14n,92p,739b,1784s stack positions out of 5000i,500n,10000p,200000b,50000s
+=======
+ 17394 strings out of 493921
+ 320158 string characters out of 3144880
+ 789485 words of memory out of 3000000
+ 20315 multiletter control sequences out of 15000+200000
+ 13559 words of font info for 49 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 62i,14n,92p,953b,1750s stack positions out of 5000i,500n,10000p,200000b,50000s
+>>>>>>> origin/master
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users
 \Joel-pc\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.p
 k><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
@@ -3171,9 +3445,15 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX
 9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/urw/courier/ucrr8a.pfb>
+<<<<<<< HEAD
 Output written on "Draft Final 1.pdf" (62 pages, 3959317 bytes).
 PDF statistics:
  308 PDF objects out of 1000 (max. 8388607)
+=======
+Output written on "Draft Final 1.pdf" (63 pages, 4701966 bytes).
+PDF statistics:
+ 309 PDF objects out of 1000 (max. 8388607)
+>>>>>>> origin/master
  0 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
