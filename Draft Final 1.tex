@@ -72,7 +72,7 @@ Chess has fascinated game theorists because it is deterministic which means that
  
 With the development of early computers in 1950’s, the race was on to develop the ultimate chess engine that would never be beaten by a human player. Alan Turing wrote the first ever computer chess game in 1950. In 1996, Deep Blue won a match against Garry Kasparov. It was the first time a chess engine had beaten a reigning world champion.
  
-Chess engines adopt a brute for approach. Therefore, development of chess engines tie together a broad range of topics, improve the understanding of tree searching algorithms and its optimisations, logical thought processes behind the game as well as a deeper understanding of computational thought and Artificial Intelligence(AI).
+Chess engines adopt a brute for approach. Therefore, development of chess engines tie together a broad range of topics, such as tree searching algorithms and its optimisations, logical thought processes behind the game as well as a deeper understanding of computational thought and Artificial Intelligence(AI).
 
 
 
@@ -446,6 +446,13 @@ The values of the Gain factors depend on the level of difficulty the player has 
 \label{fig:chess1}
 \end{figure}
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{HeuristicProblem}
+\caption{Rook Does Not Seperate From King}
+\label{fig:chess1}
+\end{figure}
+
 \begin{table}[h]
 \centering
 \begin{tabular}{|l|l|l|l|l|l|l|}
@@ -466,7 +473,7 @@ The values of the Gain factors depend on the level of difficulty the player has 
 \newpage
 \section{Discussions}
 
-\subsection{Tuning}
+\subsection{Tuning \& Resulting AI Behaviour}
 \indent\indent Tuning is the process of finding the optimum gains for the different scores in the Heuristics Analysis function. The different gains increase or decrease the effect of different parameters on the board score. Tuning is a difficult process because the values are relative and therefore trial and error is to be used to determine the optimum value. By comparison, the programmers of the legendary Deep Blue machine had made plausible initial guesses for values and there was a lot of uncertainty to what the correct values should be.\cite{chess5}
 
 	The first objective for optimum tuning was to reach a high level of aggressiveness for the AI as that is most noticeable feature. This would be demonstrated by making captures when the opportunity presents itself.  The second objective was to prevent moves that would jeopardise its own pieces and that also includes encouraging castling to shield the King. The third objective was to increase likelihood of check and checkmate.
@@ -476,6 +483,8 @@ The values of the Gain factors depend on the level of difficulty the player has 
 	$Fig.$ 20 also shows the AI using Castling it its advantage in the late game by allowing the rook to come out and the King to seek shelter behind the pawns thus increasing its boardscore as a result of the move. 
 
 	A deficiency that is quite common in the AI was that the AI tended to make captures that would lead to its own piece being captured. The pay off would sometimes be less than the value of the piece being sacrificed. The AI would also pass off captures sometimes but it is rare.
+
+	$Fig.$ 21 shows an interesting scenario in the situation of AI vs AI. This is where castling for Black has taken place in the late game and White has only 2 pieces left. Black makes repetitive moves for the Bishop and does not choose to seperate the Rook and King. As seen on the graph, Black's score stagnates as a result. This problem is a result of the Heuristics function where pieces in the castling position are given a higher score and because the board score is a linear calculation of summing up different contributions, any other contribution will not be as high as the castling position. This is the weakness of the linear scoring function. A simple mitigation to this problem is to add a random gain to the castling score. A more complex mitigation will be to look into dynamic scoring functions that take into account game stage and situations.
 
 \subsection{Alpha Beta Pruning Efficiency}
 \indent\indent $Table$ 1 shows the various timings and number of nodes at a certain depth. The results is as expected, the number of nodes that need to be evaluated at a certain depth have an exponential relationship with the depth itself. The Alpha Beta Pruning implementation cuts down the time taken by a very substantial amount. This is also as expected as discussed in the Artificial Intelligence section. It should enable the system to go 1 depth deeper with Alpha Beta Pruning at the same speed as without the Alpha Beta Pruning.
@@ -492,7 +501,7 @@ The values of the Gain factors depend on the level of difficulty the player has 
 
 	FOVEROS employs random move ordering in the algorithm and so dynamic move ordering techniques should be looked into. The benefits of Alpha Beta pruning are only tangible if the best move is presented as soon as possible so that pruning can take place immediately.\cite{chess8}
  
-
+	The Heuristic Analysis function is proven to be simple and has more room for improvement. Dynamic scoring can be introduced to take into account more factors such as game stage and situations as well as decrease the impact of having pieces that are less valuable in the late game.
 
 \newpage
 \bibliographystyle{plain}
