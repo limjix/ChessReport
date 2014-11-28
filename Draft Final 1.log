@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.3)  28 NOV 2014 12:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.3)  28 NOV 2014 12:52
 entering extended mode
-**D:/Mechanical*Engineering*(Non-Cloud)/Year*2/CBM/Report/Draft*Final*1/Draft*F
-inal*1.tex
+**D:/Mechanical*Engineering*(Non-Cloud)/Year*2/CBM/Final*Report/ChessReport/Dra
+ft*Final*1.tex
 
-("D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Report/Draft Final 1/Draft F
-inal 1.tex"
+("D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/Dra
+ft Final 1.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -978,8 +978,8 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 ))
-("D:\Mechanical Engineering (Non-Cloud)\Year 2\CBM\Report\Draft Final 1\Draft F
-inal 1.aux"
+("D:\Mechanical Engineering (Non-Cloud)\Year 2\CBM\Final Report\ChessReport\Dra
+ft Final 1.aux"
 
 LaTeX Warning: Label `fig:chess1' multiply defined.
 
@@ -1149,8 +1149,8 @@ Overfull \hbox (11.35704pt too wide) in paragraph at lines 50--54
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-("D:\Mechanical Engineering (Non-Cloud)\Year 2\CBM\Report\Draft Final 1\Draft F
-inal 1.toc"
+("D:\Mechanical Engineering (Non-Cloud)\Year 2\CBM\Final Report\ChessReport\Dra
+ft Final 1.toc"
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1302,10 +1302,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Report/Draft Final 1/Pictu
-res/piece_value.jpg> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Report/D
-raft Final 1/Pictures/chessboardmatrix.jpg> <D:/Mechanical Engineering (Non-Clo
-ud)/Year 2/CBM/Report/Draft Final 1/Pictures/piece_colour.jpg>]
+[8 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/P
+ictures/piece_value.jpg> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Fina
+l Report/ChessReport/Pictures/chessboardmatrix.jpg> <D:/Mechanical Engineering 
+(Non-Cloud)/Year 2/CBM/Final Report/ChessReport/Pictures/piece_colour.jpg>]
 <./Pictures/queen_capture.png, id=44, 268.00125pt x 110.66344pt>
 File: ./Pictures/queen_capture.png Graphic file (type png)
 
@@ -1334,10 +1334,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Report/Draft Final 1/Pictu
-res/random_board.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Report/
-Draft Final 1/Pictures/queen_capture.png> <D:/Mechanical Engineering (Non-Cloud
-)/Year 2/CBM/Report/Draft Final 1/Pictures/pawn_movement.png>]
+[9 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/P
+ictures/random_board.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Fin
+al Report/ChessReport/Pictures/queen_capture.png> <D:/Mechanical Engineering (N
+on-Cloud)/Year 2/CBM/Final Report/ChessReport/Pictures/pawn_movement.png>]
 <./Pictures/bishop_movement.png, id=50, 270.25969pt x 113.67468pt>
 File: ./Pictures/bishop_movement.png Graphic file (type png)
 
@@ -1366,11 +1366,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Report/Draft Final 1/Pict
-ures/knight_movement.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Rep
-ort/Draft Final 1/Pictures/bishop_movement.png> <D:/Mechanical Engineering (Non
--Cloud)/Year 2/CBM/Report/Draft Final 1/Pictures/rook_movement.png>]
-<./Pictures/king_movement.png, id=56, 269.50688pt x 111.41624pt>
+[10 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
+Pictures/knight_movement.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM
+/Final Report/ChessReport/Pictures/bishop_movement.png> <D:/Mechanical Engineer
+ing (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/Pictures/rook_movement.png>
+] <./Pictures/king_movement.png, id=56, 269.50688pt x 111.41624pt>
 File: ./Pictures/king_movement.png Graphic file (type png)
 
 <use ./Pictures/king_movement.png>
@@ -1397,9 +1397,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Report/Draft Final 1/Pict
-ures/queen_movement.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Repo
-rt/Draft Final 1/Pictures/king_movement.png>]
+[11 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
+Pictures/queen_movement.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/
+Final Report/ChessReport/Pictures/king_movement.png>]
 <./Pictures/Enpassant1.png, id=62, 435.12563pt x 444.15938pt>
 File: ./Pictures/Enpassant1.png Graphic file (type png)
 
@@ -1414,19 +1414,19 @@ File: ./Pictures/Enpassant2.png Graphic file (type png)
 Package pdftex.def Info: ./Pictures/Enpassant2.png used on input line 243.
 (pdftex.def)             Requested size: 190.82585pt x 195.47745pt.
 
-<./Pictures/Pawnpromo1.png, id=64, 432.11438pt x 442.65375pt>
+<./Pictures/Pawnpromo1.png, id=64, 430.60875pt x 441.14813pt>
 File: ./Pictures/Pawnpromo1.png Graphic file (type png)
 
 <use ./Pictures/Pawnpromo1.png>
 Package pdftex.def Info: ./Pictures/Pawnpromo1.png used on input line 256.
-(pdftex.def)             Requested size: 192.94823pt x 197.65234pt.
+(pdftex.def)             Requested size: 192.94823pt x 197.6734pt.
 
-<./Pictures/Pawnpromo2.png, id=65, 429.10312pt x 442.65375pt>
+<./Pictures/Pawnpromo2.png, id=65, 432.86719pt x 441.90094pt>
 File: ./Pictures/Pawnpromo2.png Graphic file (type png)
 
 <use ./Pictures/Pawnpromo2.png>
 Package pdftex.def Info: ./Pictures/Pawnpromo2.png used on input line 262.
-(pdftex.def)             Requested size: 190.82585pt x 196.85533pt.
+(pdftex.def)             Requested size: 190.82585pt x 194.80786pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1434,20 +1434,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Report/Draft Final 1/Pict
-ures/Castling1.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Report/Dr
-aft Final 1/Pictures/Castling2.png> <D:/Mechanical Engineering (Non-Cloud)/Year
- 2/CBM/Report/Draft Final 1/Pictures/Enpassant1.png> <D:/Mechanical Engineering
- (Non-Cloud)/Year 2/CBM/Report/Draft Final 1/Pictures/Enpassant2.png>]
+[12 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
+Pictures/Castling1.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final
+ Report/ChessReport/Pictures/Castling2.png> <D:/Mechanical Engineering (Non-Clo
+ud)/Year 2/CBM/Final Report/ChessReport/Pictures/Enpassant1.png> <D:/Mechanical
+ Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/Pictures/Enpassant
+2.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Report/Draft Final 1/Pict
-ures/Pawnpromo1.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Report/D
-raft Final 1/Pictures/Pawnpromo2.png>]
+[13 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
+Pictures/Pawnpromo1.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Fina
+l Report/ChessReport/Pictures/Pawnpromo2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 300--311
 
  []
@@ -1538,16 +1539,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Report/Draft Final 1/Pict
-ures/flow_chart.jpg>]
+[15 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
+Pictures/flow_chart.jpg>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Report/Draft Final 1/Pict
-ures/GUI.png>]
+[16 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
+Pictures/GUI.png>]
 Overfull \hbox (0.52634pt too wide) in paragraph at lines 349--350
 []\OT1/cmr/m/n/10.95 The ap-proach to im-ple-ment-ing com-puter thought is thro
 ugh brute force cal-cu-la-tions.
@@ -1575,8 +1576,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Report/Draft Final 1/Pict
-ures/alphabeta.png>]
+[17 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
+Pictures/alphabeta.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 371--392
 
  []
@@ -1667,9 +1668,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Report/Draft Final 1/Pict
-ures/Queen.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Report/Draft 
-Final 1/Pictures/black_checkmate.png>]
+[20 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
+Pictures/Queen.png> <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Rep
+ort/ChessReport/Pictures/black_checkmate.png>]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 459.
 
 
@@ -1685,8 +1686,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Report/Draft Final 1/Pict
-ures/AI_castling.png>]
+[21 <D:/Mechanical Engineering (Non-Cloud)/Year 2/CBM/Final Report/ChessReport/
+Pictures/AI_castling.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1706,8 +1707,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23]
-("D:\Mechanical Engineering (Non-Cloud)\Year 2\CBM\Report\Draft Final 1\Draft F
-inal 1.bbl"
+("D:\Mechanical Engineering (Non-Cloud)\Year 2\CBM\Final Report\ChessReport\Dra
+ft Final 1.bbl"
 Underfull \hbox (badness 4403) in paragraph at lines 4--8
 []\OT1/cmr/m/it/10.95 Chess Pro-gram-ming\OT1/cmr/m/n/10.95 .  2014.  $\OT1/cmt
 t/m/n/10.95 https : / / chessprogramming . wikispaces . com /$
@@ -3048,20 +3049,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [62]
-("D:\Mechanical Engineering (Non-Cloud)\Year 2\CBM\Report\Draft Final 1\Draft F
-inal 1.aux")
+("D:\Mechanical Engineering (Non-Cloud)\Year 2\CBM\Final Report\ChessReport\Dra
+ft Final 1.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  17389 strings out of 493921
- 319951 string characters out of 3144880
+ 319995 string characters out of 3144880
  789428 words of memory out of 3000000
  20311 multiletter control sequences out of 15000+200000
  13559 words of font info for 49 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,14n,92p,767b,1750s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,14n,92p,773b,1750s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users
 \User\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:
@@ -3078,7 +3079,7 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX
 9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/urw/courier/ucrr8a.pfb>
-Output written on "Draft Final 1.pdf" (62 pages, 3960833 bytes).
+Output written on "Draft Final 1.pdf" (62 pages, 3957177 bytes).
 PDF statistics:
  304 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
